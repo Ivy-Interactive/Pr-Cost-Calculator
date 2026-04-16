@@ -101,6 +101,7 @@ export function getRollingAverages(
     dataPoints.push({
       date: format(day, "MMM dd"),
       prsCreated: total,
+      prsMerged: merged,
       denialRate,
       costPerPR: totalCostPerPR,
     });

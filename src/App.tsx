@@ -1,5 +1,6 @@
 import { useState, useMemo } from "react";
 import { QuickCalculator } from "./components/QuickCalculator";
+import { ComparisonChart } from "./components/ComparisonChart";
 import { RepoForm } from "./components/RepoForm";
 import { ContributorSelect } from "./components/ContributorSelect";
 import { CostInputs } from "./components/CostInputs";
@@ -60,27 +61,29 @@ function App() {
 
       <div className="landing-grid">
         <QuickCalculator />
-        <section className="controls">
-          <RepoForm onSubmit={handleFetch} loading={loading} />
-          {error && <div className="error">{error}</div>}
-
-          {contributors.length > 0 && (
-            <div className="filters">
-              <ContributorSelect
-                contributors={contributors}
-                selected={selectedContributor}
-                onChange={setSelectedContributor}
-              />
-              <CostInputs
-                monthlySalary={monthlySalary}
-                dailyTokenSpend={dailyTokenSpend}
-                onSalaryChange={setMonthlySalary}
-                onTokenSpendChange={setDailyTokenSpend}
-              />
-            </div>
-          )}
-        </section>
+        <ComparisonChart />
       </div>
+
+      <section className="controls">
+        <RepoForm onSubmit={handleFetch} loading={loading} />
+        {error && <div className="error">{error}</div>}
+
+        {contributors.length > 0 && (
+          <div className="filters">
+            <ContributorSelect
+              contributors={contributors}
+              selected={selectedContributor}
+              onChange={setSelectedContributor}
+            />
+            <CostInputs
+              monthlySalary={monthlySalary}
+              dailyTokenSpend={dailyTokenSpend}
+              onSalaryChange={setMonthlySalary}
+              onTokenSpendChange={setDailyTokenSpend}
+            />
+          </div>
+        )}
+      </section>
 
       {filteredPRs.length > 0 && (
         <>
