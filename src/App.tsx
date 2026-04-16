@@ -23,11 +23,11 @@ function App() {
   const [error, setError] = useState<string | null>(null);
   const [repoName, setRepoName] = useState("");
 
-  const handleFetch = async (owner: string, repo: string, token?: string) => {
+  const handleFetch = async (owner: string, repo: string) => {
     setLoading(true);
     setError(null);
     try {
-      const allPRs = await fetchAllPRs(owner, repo, token);
+      const allPRs = await fetchAllPRs(owner, repo);
       setPrs(allPRs);
       setContributors(getUniqueContributors(allPRs));
       setSelectedContributor("");
