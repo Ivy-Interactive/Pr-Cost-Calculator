@@ -1,15 +1,9 @@
 import { describe, it, expect } from "vitest";
-import {
-  filterByContributor,
-  getMonthlyStats,
-  getRollingAverages,
-} from "./calculations";
+import { filterByContributor, getMonthlyStats, getRollingAverages } from "./calculations";
 import type { PullRequest } from "./types";
 import { format } from "date-fns";
 
-function makePR(
-  overrides: Partial<PullRequest> & { user: { login: string } },
-): PullRequest {
+function makePR(overrides: Partial<PullRequest> & { user: { login: string } }): PullRequest {
   return {
     number: 1,
     title: "Test PR",

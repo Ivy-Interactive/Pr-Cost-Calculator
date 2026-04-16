@@ -5,11 +5,7 @@ import { CostInputs } from "./components/CostInputs";
 import { CostChart } from "./components/CostChart";
 import { StatsTable } from "./components/StatsTable";
 import { fetchAllPRs, getUniqueContributors } from "./lib/github";
-import {
-  filterByContributor,
-  getMonthlyStats,
-  getRollingAverages,
-} from "./lib/calculations";
+import { filterByContributor, getMonthlyStats, getRollingAverages } from "./lib/calculations";
 import type { PullRequest } from "./lib/types";
 import "./styles/index.css";
 
@@ -40,8 +36,7 @@ function App() {
   };
 
   const filteredPRs = useMemo(
-    () =>
-      selectedContributor ? filterByContributor(prs, selectedContributor) : prs,
+    () => (selectedContributor ? filterByContributor(prs, selectedContributor) : prs),
     [prs, selectedContributor],
   );
 
@@ -92,8 +87,7 @@ function App() {
             </h2>
             <p>
               {filteredPRs.length} PRs analyzed (last 5 months) &middot; $
-              {monthlySalary.toLocaleString()}/mo salary &middot; $
-              {dailyTokenSpend}/day tokens
+              {monthlySalary.toLocaleString()}/mo salary &middot; ${dailyTokenSpend}/day tokens
             </p>
           </section>
 
