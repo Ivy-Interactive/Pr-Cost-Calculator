@@ -5,7 +5,7 @@ import {
   getRollingAverages,
 } from "./calculations";
 import type { PullRequest } from "./types";
-import { subMonths, format } from "date-fns";
+import { format } from "date-fns";
 
 function makePR(
   overrides: Partial<PullRequest> & { user: { login: string } },
