@@ -1,0 +1,1102 @@
+[
+  {
+    "number": 310711,
+    "title": "Agents: Refactor AI customization welcome prompts styles",
+    "state": "open",
+    "created_at": "2026-04-16T11:20:24Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "mrleemurray"
+    }
+  },
+  {
+    "number": 310741,
+    "title": "fix: use backtick template literal in NoChangeError message",
+    "state": "open",
+    "created_at": "2026-04-16T14:11:40Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Jah-yee"
+    }
+  },
+  {
+    "number": 310740,
+    "title": "fix(terminal-chat): dedupe terminal tool-session registrations to prevent listener leak (#309906)",
+    "state": "open",
+    "created_at": "2026-04-16T14:05:20Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "maruthang"
+    }
+  },
+  {
+    "number": 310719,
+    "title": "Agents: Update spacing and padding in welcome prompts card styles",
+    "state": "closed",
+    "created_at": "2026-04-16T12:00:18Z",
+    "closed_at": "2026-04-16T13:58:35Z",
+    "merged_at": "2026-04-16T13:58:35Z",
+    "user": {
+      "login": "mrleemurray"
+    }
+  },
+  {
+    "number": 310729,
+    "title": "Agents - enable editors in the workbench",
+    "state": "closed",
+    "created_at": "2026-04-16T12:49:39Z",
+    "closed_at": "2026-04-16T13:59:16Z",
+    "merged_at": "2026-04-16T13:59:16Z",
+    "user": {
+      "login": "lszomoru"
+    }
+  },
+  {
+    "number": 310699,
+    "title": "Agents: Refactor selected section styles in AI Customization Management",
+    "state": "closed",
+    "created_at": "2026-04-16T10:38:26Z",
+    "closed_at": "2026-04-16T13:58:13Z",
+    "merged_at": "2026-04-16T13:58:13Z",
+    "user": {
+      "login": "mrleemurray"
+    }
+  },
+  {
+    "number": 310724,
+    "title": "Agents - persist working sets in storage",
+    "state": "open",
+    "created_at": "2026-04-16T12:39:15Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "lszomoru"
+    }
+  },
+  {
+    "number": 310195,
+    "title": "fix: make protected members public to resolve mangler build errors",
+    "state": "open",
+    "created_at": "2026-04-15T17:28:35Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "NikolaRHristov"
+    }
+  },
+  {
+    "number": 310383,
+    "title": "Fix linked editing deleting closing tag when opening tag has attributes",
+    "state": "open",
+    "created_at": "2026-04-16T02:03:55Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "yogeshwaran-c"
+    }
+  },
+  {
+    "number": 310721,
+    "title": "fix(chat): cache language selection to prevent listener leak in chat editing snapshots (#309905)",
+    "state": "open",
+    "created_at": "2026-04-16T12:18:30Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "maruthang"
+    }
+  },
+  {
+    "number": 300040,
+    "title": "Skip generic clipboard commands in terminal on macOS",
+    "state": "closed",
+    "created_at": "2026-03-08T08:33:36Z",
+    "closed_at": "2026-04-16T13:45:02Z",
+    "merged_at": null,
+    "user": {
+      "login": "ff1451"
+    }
+  },
+  {
+    "number": 310733,
+    "title": "fix: handle quoted ID values in check-requirements-linux.sh",
+    "state": "open",
+    "created_at": "2026-04-16T12:59:15Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Jah-yee"
+    }
+  },
+  {
+    "number": 301029,
+    "title": "fix: persist SCM repository visibility state across restarts",
+    "state": "open",
+    "created_at": "2026-03-12T06:21:52Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "kno"
+    }
+  },
+  {
+    "number": 309018,
+    "title": "Update chat-lib pipeline",
+    "state": "open",
+    "created_at": "2026-04-10T14:13:14Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "chrmarti"
+    }
+  },
+  {
+    "number": 310700,
+    "title": "Revert \"Fix terminal command edits ignored in two-step confirmation flow\"",
+    "state": "open",
+    "created_at": "2026-04-16T10:38:51Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "bpasero"
+    }
+  },
+  {
+    "number": 310698,
+    "title": "Fix spelling typos in comments, JSDoc, and local variables (batch 21)",
+    "state": "closed",
+    "created_at": "2026-04-16T10:32:55Z",
+    "closed_at": "2026-04-16T12:33:22Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310694,
+    "title": "Fix spelling typos in comments, JSDoc, and local variables (batch 20)",
+    "state": "closed",
+    "created_at": "2026-04-16T10:25:38Z",
+    "closed_at": "2026-04-16T12:33:21Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310693,
+    "title": "Fix spelling typos and doubled words in JSDoc and comments (batch 19)",
+    "state": "closed",
+    "created_at": "2026-04-16T10:16:15Z",
+    "closed_at": "2026-04-16T12:33:21Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310716,
+    "title": "Bump actions/github-script from 8 to 9",
+    "state": "open",
+    "created_at": "2026-04-16T11:42:58Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 287965,
+    "title": "git: fix blame decorations for third-party extension diff editors",
+    "state": "open",
+    "created_at": "2026-01-15T05:09:41Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "AndyBodnar"
+    }
+  },
+  {
+    "number": 288597,
+    "title": "⛔ Support maximizing the panel when justified (fix #271356)",
+    "state": "open",
+    "created_at": "2026-01-17T12:41:49Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "bpasero"
+    }
+  },
+  {
+    "number": 288043,
+    "title": "Auto-switch to newly created profile",
+    "state": "open",
+    "created_at": "2026-01-15T11:34:33Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Copilot"
+    }
+  },
+  {
+    "number": 288817,
+    "title": "Fix: Transform to Snake Case now handles kebab-case input",
+    "state": "open",
+    "created_at": "2026-01-19T08:11:00Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Milad93R"
+    }
+  },
+  {
+    "number": 282558,
+    "title": "Adding needsinput state",
+    "state": "open",
+    "created_at": "2025-12-10T19:48:35Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "osortega"
+    }
+  },
+  {
+    "number": 275198,
+    "title": "Remove layout control toggles from titlebar",
+    "state": "open",
+    "created_at": "2025-11-04T17:25:38Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Copilot"
+    }
+  },
+  {
+    "number": 310696,
+    "title": "agents - hide accounts menu from floating windows",
+    "state": "closed",
+    "created_at": "2026-04-16T10:31:20Z",
+    "closed_at": "2026-04-16T10:51:31Z",
+    "merged_at": "2026-04-16T10:51:31Z",
+    "user": {
+      "login": "bpasero"
+    }
+  },
+  {
+    "number": 310695,
+    "title": "Fix inline chat Fix action not triggering in hover mode",
+    "state": "open",
+    "created_at": "2026-04-16T10:25:46Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Copilot"
+    }
+  },
+  {
+    "number": 310114,
+    "title": "Agents: Update sessions and chat UI theme variables for consistency",
+    "state": "closed",
+    "created_at": "2026-04-15T11:08:06Z",
+    "closed_at": "2026-04-16T10:44:50Z",
+    "merged_at": "2026-04-16T10:44:50Z",
+    "user": {
+      "login": "mrleemurray"
+    }
+  },
+  {
+    "number": 310690,
+    "title": "Agents: Refactor AI Customization Management CSS for improved styling consistency",
+    "state": "closed",
+    "created_at": "2026-04-16T10:07:38Z",
+    "closed_at": "2026-04-16T10:42:16Z",
+    "merged_at": "2026-04-16T10:42:16Z",
+    "user": {
+      "login": "mrleemurray"
+    }
+  },
+  {
+    "number": 310261,
+    "title": "feat: add useful HTML snippets for common elements",
+    "state": "closed",
+    "created_at": "2026-04-15T22:05:41Z",
+    "closed_at": "2026-04-16T00:12:38Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 309908,
+    "title": "Fix terminal command edits ignored in two-step confirmation flow",
+    "state": "closed",
+    "created_at": "2026-04-14T17:09:15Z",
+    "closed_at": "2026-04-14T18:43:37Z",
+    "merged_at": "2026-04-14T18:43:37Z",
+    "user": {
+      "login": "Copilot"
+    }
+  },
+  {
+    "number": 309942,
+    "title": "Implementing user-scoped memory",
+    "state": "open",
+    "created_at": "2026-04-14T19:02:11Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "sneefyyy"
+    }
+  },
+  {
+    "number": 310262,
+    "title": "Fix an issue with updateReadonly perf",
+    "state": "open",
+    "created_at": "2026-04-15T22:06:21Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "pwang347"
+    }
+  },
+  {
+    "number": 310692,
+    "title": "Fix spelling typos in comments and test names (batch 18)",
+    "state": "closed",
+    "created_at": "2026-04-16T10:12:27Z",
+    "closed_at": "2026-04-16T10:13:25Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310691,
+    "title": "Fix doubled words and spelling typos in comments (batch 17)",
+    "state": "closed",
+    "created_at": "2026-04-16T10:09:15Z",
+    "closed_at": "2026-04-16T10:13:25Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310689,
+    "title": "Fix spelling typos and doubled words in comments (batch 16)",
+    "state": "closed",
+    "created_at": "2026-04-16T10:06:23Z",
+    "closed_at": "2026-04-16T10:13:24Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310688,
+    "title": "Fix spelling typos in comments and strings (batch 15)",
+    "state": "closed",
+    "created_at": "2026-04-16T10:01:45Z",
+    "closed_at": "2026-04-16T10:13:24Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310687,
+    "title": "Fix typos in comments, JSDoc, test names, and UI strings (batch 14)",
+    "state": "closed",
+    "created_at": "2026-04-16T09:56:22Z",
+    "closed_at": "2026-04-16T10:13:23Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310207,
+    "title": "fix(server): propagate --enable-proposed-api in serve-web",
+    "state": "open",
+    "created_at": "2026-04-15T18:18:58Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "yogeshwaran-c"
+    }
+  },
+  {
+    "number": 307557,
+    "title": "fix: prevent surrogate pair splitting in computeMoreMinimalEdits",
+    "state": "open",
+    "created_at": "2026-04-03T02:02:31Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "yogeshwaran-c"
+    }
+  },
+  {
+    "number": 310686,
+    "title": "Fix typos in comments, JSDoc, error messages, and test names (batch 13)",
+    "state": "closed",
+    "created_at": "2026-04-16T09:51:39Z",
+    "closed_at": "2026-04-16T10:02:09Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310684,
+    "title": "Fix spelling typos in comments and JSDoc (batch 12)",
+    "state": "closed",
+    "created_at": "2026-04-16T09:46:18Z",
+    "closed_at": "2026-04-16T10:02:08Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310683,
+    "title": "Fix spelling typos in comments and localized strings (batch 11)",
+    "state": "closed",
+    "created_at": "2026-04-16T09:42:50Z",
+    "closed_at": "2026-04-16T10:02:07Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310681,
+    "title": "Fix spelling typos in comments and test strings (batch 10)",
+    "state": "closed",
+    "created_at": "2026-04-16T09:39:11Z",
+    "closed_at": "2026-04-16T10:02:07Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310680,
+    "title": "Fix various spelling typos across source files",
+    "state": "closed",
+    "created_at": "2026-04-16T09:34:25Z",
+    "closed_at": "2026-04-16T10:02:06Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310679,
+    "title": "Fix British spelling: -ise/-ised → -ize/-ized in comments and JSDoc",
+    "state": "closed",
+    "created_at": "2026-04-16T09:27:27Z",
+    "closed_at": "2026-04-16T10:02:06Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310678,
+    "title": "Fix British spelling: replace 'behaviour' with 'behavior' in comments and strings",
+    "state": "closed",
+    "created_at": "2026-04-16T09:24:26Z",
+    "closed_at": "2026-04-16T10:02:05Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310677,
+    "title": "Fix grammar and British spelling in editor option descriptions and comments",
+    "state": "closed",
+    "created_at": "2026-04-16T09:22:27Z",
+    "closed_at": "2026-04-16T10:02:04Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310676,
+    "title": "Fix grammar: replace 'Controls if' with 'Controls whether' in setting descriptions",
+    "state": "closed",
+    "created_at": "2026-04-16T09:19:00Z",
+    "closed_at": "2026-04-16T10:02:04Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 307902,
+    "title": "Fix #297799: color picker in private fields",
+    "state": "open",
+    "created_at": "2026-04-05T15:05:37Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "martacbraga"
+    }
+  },
+  {
+    "number": 310210,
+    "title": "Fix router model selection: filter available_models, remove same-provider override, iterate candidates",
+    "state": "open",
+    "created_at": "2026-04-15T19:15:52Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "aashna"
+    }
+  },
+  {
+    "number": 309880,
+    "title": "Consistent include pathing for new 2026 in theme-defaults",
+    "state": "closed",
+    "created_at": "2026-04-14T15:34:07Z",
+    "closed_at": "2026-04-16T09:46:57Z",
+    "merged_at": "2026-04-16T09:46:57Z",
+    "user": {
+      "login": "OscarPalafox"
+    }
+  },
+  {
+    "number": 309944,
+    "title": "Fix: Git warning messages incorrectly shown with error styling",
+    "state": "closed",
+    "created_at": "2026-04-14T19:03:29Z",
+    "closed_at": "2026-04-16T09:37:32Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310439,
+    "title": "Markers: fix ARIA label argument errors and string inconsistencies",
+    "state": "closed",
+    "created_at": "2026-04-16T03:21:47Z",
+    "closed_at": "2026-04-16T09:37:29Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310442,
+    "title": "SCM: fix singular/plural condition for quick diff change count label",
+    "state": "closed",
+    "created_at": "2026-04-16T03:25:01Z",
+    "closed_at": "2026-04-16T09:37:26Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310444,
+    "title": "Extensions: fix typo and plural in uninstall dependency error messages",
+    "state": "closed",
+    "created_at": "2026-04-16T03:27:02Z",
+    "closed_at": "2026-04-16T09:37:23Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310446,
+    "title": "Notebook: fix duplicate word in cell toolbar location setting description",
+    "state": "closed",
+    "created_at": "2026-04-16T03:28:07Z",
+    "closed_at": "2026-04-16T09:37:20Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310448,
+    "title": "Debug: fix missing word spaces in Disassembly View mnemonic titles",
+    "state": "closed",
+    "created_at": "2026-04-16T03:30:34Z",
+    "closed_at": "2026-04-16T09:37:17Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310450,
+    "title": "Copilot: fix duplicate word in maxDiffSizeBeforeUsingExternalIngest description",
+    "state": "closed",
+    "created_at": "2026-04-16T03:34:14Z",
+    "closed_at": "2026-04-16T09:37:14Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310454,
+    "title": "Fix missing comma after \"When enabled\" in localize strings",
+    "state": "closed",
+    "created_at": "2026-04-16T03:38:01Z",
+    "closed_at": "2026-04-16T09:37:11Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310461,
+    "title": "Fix double space before \"setting\" in git extension branchProtection description",
+    "state": "closed",
+    "created_at": "2026-04-16T03:44:43Z",
+    "closed_at": "2026-04-16T09:37:08Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310463,
+    "title": "Fix missing period after \"e.g\" in suggest.selectionMode description",
+    "state": "closed",
+    "created_at": "2026-04-16T03:51:04Z",
+    "closed_at": "2026-04-16T09:37:05Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310471,
+    "title": "Fix missing opening single quote in semanticTokenScopes selector error message",
+    "state": "closed",
+    "created_at": "2026-04-16T04:21:08Z",
+    "closed_at": "2026-04-16T09:37:02Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310473,
+    "title": "Fix typo \"languge\" → \"language\" in semanticTokenScopes description",
+    "state": "closed",
+    "created_at": "2026-04-16T04:21:59Z",
+    "closed_at": "2026-04-16T09:36:59Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310475,
+    "title": "Fix: correct indefinite article 'a' → 'an' before vowel-initial words in localize strings",
+    "state": "closed",
+    "created_at": "2026-04-16T04:25:41Z",
+    "closed_at": "2026-04-16T09:36:56Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310477,
+    "title": "Fix: word duplication and truncation typos in localize strings",
+    "state": "closed",
+    "created_at": "2026-04-16T04:27:44Z",
+    "closed_at": "2026-04-16T09:36:53Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310481,
+    "title": "Fix: remove trailing spaces in localize string descriptions",
+    "state": "closed",
+    "created_at": "2026-04-16T04:32:51Z",
+    "closed_at": "2026-04-16T09:36:50Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310485,
+    "title": "Fix: normalize 'E.g' → 'e.g.' abbreviation in localize strings",
+    "state": "closed",
+    "created_at": "2026-04-16T04:37:47Z",
+    "closed_at": "2026-04-16T09:36:47Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310490,
+    "title": "Fix: 'can not' → 'cannot' and article errors in extension point error messages",
+    "state": "closed",
+    "created_at": "2026-04-16T04:46:10Z",
+    "closed_at": "2026-04-16T09:36:44Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310492,
+    "title": "Fix: article errors, typo, and missing comma in localized strings",
+    "state": "closed",
+    "created_at": "2026-04-16T04:50:20Z",
+    "closed_at": "2026-04-16T09:36:41Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310494,
+    "title": "Fix: 'E.g.' → 'e.g.' case in TypeScript and CSS extension NLS strings",
+    "state": "closed",
+    "created_at": "2026-04-16T04:51:19Z",
+    "closed_at": "2026-04-16T09:36:38Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310497,
+    "title": "Fix: trailing spaces in remote localized notification and tooltip strings",
+    "state": "closed",
+    "created_at": "2026-04-16T04:58:27Z",
+    "closed_at": "2026-04-16T09:36:35Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310502,
+    "title": "Fix: Missing comma after 'When enabled/disabled' in IntelliSense suggest settings",
+    "state": "closed",
+    "created_at": "2026-04-16T05:06:26Z",
+    "closed_at": "2026-04-16T09:36:32Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310506,
+    "title": "Fix: Missing commas after introductory clauses in task schema and problem matcher descriptions",
+    "state": "closed",
+    "created_at": "2026-04-16T05:10:42Z",
+    "closed_at": "2026-04-16T09:36:29Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310512,
+    "title": "Fix: Article errors ('a HTTP', 'a HTML') and 'setup' used as verb in localized strings",
+    "state": "closed",
+    "created_at": "2026-04-16T05:21:30Z",
+    "closed_at": "2026-04-16T09:36:26Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310514,
+    "title": "Fix: Missing comma after 'Instead' as transitional adverb in editor settings",
+    "state": "closed",
+    "created_at": "2026-04-16T05:23:25Z",
+    "closed_at": "2026-04-16T09:36:23Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310516,
+    "title": "Fix: Missing comma after introductory 'In order to' clauses in localized strings",
+    "state": "closed",
+    "created_at": "2026-04-16T05:24:40Z",
+    "closed_at": "2026-04-16T09:36:19Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310521,
+    "title": "Fix: 'Controls if'/'Determines if' → 'Controls whether'/'Determines whether' in extension settings",
+    "state": "closed",
+    "created_at": "2026-04-16T05:31:50Z",
+    "closed_at": "2026-04-16T09:36:16Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310526,
+    "title": "Fix: article errors ('a array', 'a opening') and 'eg.' → 'e.g.' in localized strings",
+    "state": "closed",
+    "created_at": "2026-04-16T05:44:50Z",
+    "closed_at": "2026-04-16T09:36:13Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310527,
+    "title": "Fix: missing commas after introductory 'When X' clauses in localized strings",
+    "state": "closed",
+    "created_at": "2026-04-16T05:45:54Z",
+    "closed_at": "2026-04-16T09:36:09Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310532,
+    "title": "Fix: 'drop down' → 'dropdown' in debug compound configuration description",
+    "state": "closed",
+    "created_at": "2026-04-16T05:57:53Z",
+    "closed_at": "2026-04-16T09:36:06Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310537,
+    "title": "Fix: 'Controls if' → 'Controls whether' in localized setting descriptions (batch 2)",
+    "state": "closed",
+    "created_at": "2026-04-16T06:10:20Z",
+    "closed_at": "2026-04-16T09:36:03Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310539,
+    "title": "Fix: double article errors ('a the', 'the an') in localized context descriptions",
+    "state": "closed",
+    "created_at": "2026-04-16T06:11:22Z",
+    "closed_at": "2026-04-16T09:36:00Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310545,
+    "title": "Fix: 'can not' → 'cannot' in debug error messages",
+    "state": "closed",
+    "created_at": "2026-04-16T06:36:24Z",
+    "closed_at": "2026-04-16T09:35:57Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310546,
+    "title": "Fix: key name capitalization and 'ie.' → 'i.e.' in localized strings",
+    "state": "closed",
+    "created_at": "2026-04-16T06:36:27Z",
+    "closed_at": "2026-04-16T09:35:54Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310547,
+    "title": "Fix: 'Controls if' → 'Controls whether' and 'drop down' → 'dropdown' in debug schemas",
+    "state": "closed",
+    "created_at": "2026-04-16T06:36:30Z",
+    "closed_at": "2026-04-16T09:35:50Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310550,
+    "title": "feat: add 'Insert Console Log for Selection' command to TypeScript extension",
+    "state": "closed",
+    "created_at": "2026-04-16T06:42:49Z",
+    "closed_at": "2026-04-16T09:35:47Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310551,
+    "title": "feat: add 'Copy File Name' command to Explorer and Open Editors",
+    "state": "closed",
+    "created_at": "2026-04-16T06:42:52Z",
+    "closed_at": "2026-04-16T09:35:44Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310554,
+    "title": "Fix: typos 'continous' → 'continuous' and 'filterd' → 'filtered' in testing module",
+    "state": "closed",
+    "created_at": "2026-04-16T06:52:54Z",
+    "closed_at": "2026-04-16T09:35:41Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310555,
+    "title": "Fix: spelling typos 'occurence' → 'occurrence' and 'seperate' → 'separate' in code and comments",
+    "state": "closed",
+    "created_at": "2026-04-16T06:55:16Z",
+    "closed_at": "2026-04-16T09:35:38Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310556,
+    "title": "Fix: typo 'occured' → 'occurred' in parcelWatcher comment",
+    "state": "closed",
+    "created_at": "2026-04-16T06:55:19Z",
+    "closed_at": "2026-04-16T09:35:35Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310557,
+    "title": "Fix: typo 'succesful' → 'successful' in lspTerminalModelContentProvider",
+    "state": "closed",
+    "created_at": "2026-04-16T06:55:26Z",
+    "closed_at": "2026-04-16T09:35:31Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310558,
+    "title": "Fix: typos 'overide' → 'override' and 'accomodate' → 'accommodate' in comments",
+    "state": "closed",
+    "created_at": "2026-04-16T06:55:28Z",
+    "closed_at": "2026-04-16T09:35:27Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310559,
+    "title": "Fix: typo 'immediatly' → 'immediately' in debug service comments",
+    "state": "closed",
+    "created_at": "2026-04-16T06:55:36Z",
+    "closed_at": "2026-04-16T09:35:23Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310560,
+    "title": "Fix: typo 'triggerd' → 'triggered' in working copy and context menu comments",
+    "state": "closed",
+    "created_at": "2026-04-16T06:55:38Z",
+    "closed_at": "2026-04-16T09:35:21Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310561,
+    "title": "Fix: typos 'likelyhood' → 'likelihood', 'dependant' → 'dependent' in file watchers and notebook",
+    "state": "closed",
+    "created_at": "2026-04-16T06:56:01Z",
+    "closed_at": "2026-04-16T09:35:18Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310562,
+    "title": "Fix: typo 'indeces' → 'indices' in historyService comment",
+    "state": "closed",
+    "created_at": "2026-04-16T06:56:04Z",
+    "closed_at": "2026-04-16T09:35:15Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310563,
+    "title": "Fix: typo 'registraion' → 'registration' in mainThreadNotebookKernels",
+    "state": "closed",
+    "created_at": "2026-04-16T06:56:11Z",
+    "closed_at": "2026-04-16T09:35:12Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310565,
+    "title": "Fix: typos 'placeholer', 'avilable', 'excecution', 'perserve' in editor and debug code",
+    "state": "closed",
+    "created_at": "2026-04-16T06:56:52Z",
+    "closed_at": "2026-04-16T09:35:09Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  },
+  {
+    "number": 310567,
+    "title": "Fix: typos 'modifed'/'modifeid' → 'modified' in notebook services comments",
+    "state": "closed",
+    "created_at": "2026-04-16T06:57:02Z",
+    "closed_at": "2026-04-16T09:35:06Z",
+    "merged_at": null,
+    "user": {
+      "login": "Nedunchezhiyan-M"
+    }
+  }
+]
