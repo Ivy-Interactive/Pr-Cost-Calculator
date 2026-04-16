@@ -3,10 +3,7 @@ import type { PullRequest } from "./types";
 const GITHUB_API = "https://api.github.com";
 const GITHUB_PAT = import.meta.env.VITE_GITHUB_PAT as string | undefined;
 
-export async function fetchAllPRs(
-  owner: string,
-  repo: string,
-): Promise<PullRequest[]> {
+export async function fetchAllPRs(owner: string, repo: string): Promise<PullRequest[]> {
   const allPRs: PullRequest[] = [];
   let page = 1;
   const perPage = 100;
@@ -44,9 +41,7 @@ export async function fetchAllPRs(
 
 export function getUniqueContributors(prs: PullRequest[]): string[] {
   const contributors = new Set(prs.map((pr) => pr.user.login));
-  return Array.from(contributors).sort((a, b) =>
-    a.toLowerCase().localeCompare(b.toLowerCase()),
-  );
+  return Array.from(contributors).sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
 }
 
 export function categorizePR(pr: PullRequest): "merged" | "denied" | "open" {

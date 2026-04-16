@@ -31,13 +31,7 @@ interface CostChartProps {
   yAxisLabel: string;
 }
 
-export function CostChart({
-  data,
-  title,
-  dataKey,
-  color,
-  yAxisLabel,
-}: CostChartProps) {
+export function CostChart({ data, title, dataKey, color, yAxisLabel }: CostChartProps) {
   const chartData = {
     labels: data.map((d) => d.date),
     datasets: [
