@@ -1,4 +1,5 @@
 import { useState, useMemo } from "react";
+import { QuickCalculator } from "./components/QuickCalculator";
 import { RepoForm } from "./components/RepoForm";
 import { ContributorSelect } from "./components/ContributorSelect";
 import { CostInputs } from "./components/CostInputs";
@@ -57,26 +58,29 @@ function App() {
         <p>Estimate development and AI token costs per pull request</p>
       </header>
 
-      <section className="controls">
-        <RepoForm onSubmit={handleFetch} loading={loading} />
-        {error && <div className="error">{error}</div>}
+      <div className="landing-grid">
+        <QuickCalculator />
+        <section className="controls">
+          <RepoForm onSubmit={handleFetch} loading={loading} />
+          {error && <div className="error">{error}</div>}
 
-        {contributors.length > 0 && (
-          <div className="filters">
-            <ContributorSelect
-              contributors={contributors}
-              selected={selectedContributor}
-              onChange={setSelectedContributor}
-            />
-            <CostInputs
-              monthlySalary={monthlySalary}
-              dailyTokenSpend={dailyTokenSpend}
-              onSalaryChange={setMonthlySalary}
-              onTokenSpendChange={setDailyTokenSpend}
-            />
-          </div>
-        )}
-      </section>
+          {contributors.length > 0 && (
+            <div className="filters">
+              <ContributorSelect
+                contributors={contributors}
+                selected={selectedContributor}
+                onChange={setSelectedContributor}
+              />
+              <CostInputs
+                monthlySalary={monthlySalary}
+                dailyTokenSpend={dailyTokenSpend}
+                onSalaryChange={setMonthlySalary}
+                onTokenSpendChange={setDailyTokenSpend}
+              />
+            </div>
+          )}
+        </section>
+      </div>
 
       {filteredPRs.length > 0 && (
         <>
