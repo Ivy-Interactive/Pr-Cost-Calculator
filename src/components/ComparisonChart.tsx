@@ -37,20 +37,22 @@ export function ComparisonChart() {
   }, [againstOptions, againstKey]);
 
   useEffect(() => {
-    loadPrefetchedPRs(compareKey).then(setComparePRs).catch(() => setComparePRs([]));
+    loadPrefetchedPRs(compareKey)
+      .then(setComparePRs)
+      .catch(() => setComparePRs([]));
   }, [compareKey]);
 
   useEffect(() => {
-    loadPrefetchedPRs(againstKey).then(setAgainstPRs).catch(() => setAgainstPRs([]));
+    loadPrefetchedPRs(againstKey)
+      .then(setAgainstPRs)
+      .catch(() => setAgainstPRs([]));
   }, [againstKey]);
 
   const compareData = useMemo(() => getRollingAverages(comparePRs, 5000, 200), [comparePRs]);
   const againstData = useMemo(() => getRollingAverages(againstPRs, 5000, 200), [againstPRs]);
 
-  const compareLabel =
-    PREFETCHED_REPOS.find((r) => r.key === compareKey)?.label ?? compareKey;
-  const againstLabel =
-    PREFETCHED_REPOS.find((r) => r.key === againstKey)?.label ?? againstKey;
+  const compareLabel = PREFETCHED_REPOS.find((r) => r.key === compareKey)?.label ?? compareKey;
+  const againstLabel = PREFETCHED_REPOS.find((r) => r.key === againstKey)?.label ?? againstKey;
 
   const chartData = {
     labels: compareData.map((d: RollingDataPoint) => d.date),
