@@ -3,7 +3,21 @@ import type { PullRequest } from "./types";
 const GITHUB_API = "https://api.github.com";
 const GITHUB_PAT = import.meta.env.VITE_GITHUB_PAT as string | undefined;
 
-export async function fetchAllPRs(
+export async function fetchPrefetchedPRs(
+  owner: string,
+  repo: string,
+): Promise<PullRequest[] | null> {
+  try {
+    const response = await fetch(`${import.meta.env.BASE_URL}data/${owner}-${repo}.json`);
+    if (!response.ok) return null;
+    const prs: PullRequest[] = await response.json();
+    return prs;
+  } catch {
+    return null;
+  }
+}
+
+async function fetchLivePRs(
   owner: string,
   repo: string,
 ): Promise<PullRequest[]> {
@@ -40,6 +54,15 @@ export async function fetchAllPRs(
   }
 
   return allPRs;
+}
+
+export async function fetchAllPRs(
+  owner: string,
+  repo: string,
+): Promise<PullRequest[]> {
+  const prefetched = await fetchPrefetchedPRs(owner, repo);
+  if (prefetched) return prefetched;
+  return fetchLivePRs(owner, repo);
 }
 
 export function getUniqueContributors(prs: PullRequest[]): string[] {
