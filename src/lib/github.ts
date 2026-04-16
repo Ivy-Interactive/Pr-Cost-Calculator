@@ -1,5 +1,17 @@
 import type { PullRequest } from "./types";
 
+export const PREFETCHED_REPOS = [
+  { key: "Ivy-Interactive-Ivy-Framework", label: "Ivy-Interactive/Ivy-Framework" },
+  { key: "facebook-react", label: "facebook/react" },
+  { key: "torvalds-linux", label: "torvalds/linux" },
+];
+
+export async function loadPrefetchedPRs(repoKey: string): Promise<PullRequest[]> {
+  const res = await fetch(`${import.meta.env.BASE_URL}data/${repoKey}.json`);
+  if (!res.ok) throw new Error(`Failed to load prefetched data for ${repoKey}`);
+  return res.json();
+}
+
 const GITHUB_API = "https://api.github.com";
 const GITHUB_PAT = import.meta.env.VITE_GITHUB_PAT as string | undefined;
 

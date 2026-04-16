@@ -137,4 +137,59 @@ describe("getRollingAverages", () => {
     expect(data.every((d) => d.prsCreated === 0)).toBe(true);
     expect(data.every((d) => d.costPerPR === 0)).toBe(true);
   });
+
+  it("returns prsMerged field with correct count", () => {
+    // Use a date 10 days ago to ensure it falls within a sampled 14-day window
+    const tenDaysAgo = new Date(Date.now() - 10 * 24 * 60 * 60 * 1000);
+    const dateStr = tenDaysAgo.toISOString();
+    const prs = [
+      makePR({
+        user: { login: "alice" },
+        state: "closed",
+        merged_at: dateStr,
+        created_at: dateStr,
+      }),
+      makePR({
+        user: { login: "alice" },
+        state: "closed",
+        merged_at: dateStr,
+        created_at: dateStr,
+      }),
+      makePR({
+        user: { login: "alice" },
+        state: "closed",
+        merged_at: null,
+        created_at: dateStr,
+      }),
+    ];
+    const data = getRollingAverages(prs, 5000, 200, 5);
+    const pointWithPRs = data.find((d) => d.prsCreated > 0);
+    expect(pointWithPRs).toBeDefined();
+    expect(pointWithPRs!).toHaveProperty("prsMerged");
+    expect(pointWithPRs!.prsMerged).toBe(2);
+    expect(pointWithPRs!.prsCreated).toBe(3);
+  });
+
+  it("prsMerged is distinct from prsCreated", () => {
+    const tenDaysAgo = new Date(Date.now() - 10 * 24 * 60 * 60 * 1000);
+    const dateStr = tenDaysAgo.toISOString();
+    const prs = [
+      makePR({
+        user: { login: "alice" },
+        state: "closed",
+        merged_at: dateStr,
+        created_at: dateStr,
+      }),
+      makePR({
+        user: { login: "alice" },
+        state: "closed",
+        merged_at: null,
+        created_at: dateStr,
+      }),
+    ];
+    const data = getRollingAverages(prs, 5000, 200, 5);
+    const pointWithPRs = data.find((d) => d.prsCreated > 0);
+    expect(pointWithPRs).toBeDefined();
+    expect(pointWithPRs!.prsMerged).toBeLessThan(pointWithPRs!.prsCreated);
+  });
 });

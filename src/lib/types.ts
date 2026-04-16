@@ -24,6 +24,7 @@ export interface MonthlyStats {
 export interface RollingDataPoint {
   date: string;
   prsCreated: number;
+  prsMerged: number;
   denialRate: number;
   costPerPR: number;
 }
