@@ -68,9 +68,7 @@ describe("fetchPrefetchedPRs", () => {
   });
 
   it("returns null when JSON file is not found (404)", async () => {
-    vi.spyOn(globalThis, "fetch").mockResolvedValueOnce(
-      new Response("Not Found", { status: 404 }),
-    );
+    vi.spyOn(globalThis, "fetch").mockResolvedValueOnce(new Response("Not Found", { status: 404 }));
 
     const result = await fetchPrefetchedPRs("owner", "repo");
     expect(result).toBeNull();

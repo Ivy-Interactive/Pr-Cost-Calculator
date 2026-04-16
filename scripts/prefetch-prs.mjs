@@ -1,10 +1,6 @@
 #!/usr/bin/env node
 
-const REPOS = [
-  "Ivy-Interactive/Ivy-Framework",
-  "facebook/react",
-  "torvalds/linux",
-];
+const REPOS = ["Ivy-Interactive/Ivy-Framework", "facebook/react", "torvalds/linux"];
 
 const GITHUB_API = "https://api.github.com";
 
@@ -37,13 +33,9 @@ async function fetchPRsForRepo(owner, repo, days) {
   let page = 1;
   const perPage = 100;
 
-  const since = days
-    ? new Date(Date.now() - days * 24 * 60 * 60 * 1000).toISOString()
-    : null;
+  const since = days ? new Date(Date.now() - days * 24 * 60 * 60 * 1000).toISOString() : null;
 
-  console.log(
-    `Fetching PRs for ${owner}/${repo}${since ? ` (updated since ${since})` : ""}...`,
-  );
+  console.log(`Fetching PRs for ${owner}/${repo}${since ? ` (updated since ${since})` : ""}...`);
 
   while (true) {
     let url = `${GITHUB_API}/repos/${owner}/${repo}/pulls?state=all&per_page=${perPage}&page=${page}&sort=updated&direction=desc`;
@@ -130,9 +122,7 @@ async function main() {
           prMap.set(pr.number, pr);
         }
 
-        finalPRs = Array.from(prMap.values()).sort(
-          (a, b) => b.number - a.number,
-        );
+        finalPRs = Array.from(prMap.values()).sort((a, b) => b.number - a.number);
       } else {
         finalPRs = fetchedPRs;
       }

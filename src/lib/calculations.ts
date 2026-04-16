@@ -14,10 +14,7 @@ import { categorizePR } from "./github";
 const WORKING_HOURS_PER_MONTH = 168;
 const WORKING_DAYS_PER_MONTH = 21;
 
-export function filterByContributor(
-  prs: PullRequest[],
-  contributor: string,
-): PullRequest[] {
+export function filterByContributor(prs: PullRequest[], contributor: string): PullRequest[] {
   return prs.filter((pr) => pr.user.login === contributor);
 }
 
@@ -99,8 +96,7 @@ export function getRollingAverages(
 
     const denialRate = total > 0 ? (denied / total) * 100 : 0;
     const monthlyTokenSpend = dailyTokenSpend * WORKING_DAYS_PER_MONTH;
-    const totalCostPerPR =
-      total > 0 ? monthlySalary / total + monthlyTokenSpend / total : 0;
+    const totalCostPerPR = total > 0 ? monthlySalary / total + monthlyTokenSpend / total : 0;
 
     dataPoints.push({
       date: format(day, "MMM dd"),

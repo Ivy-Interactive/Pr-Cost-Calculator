@@ -17,10 +17,7 @@ export async function fetchPrefetchedPRs(
   }
 }
 
-async function fetchLivePRs(
-  owner: string,
-  repo: string,
-): Promise<PullRequest[]> {
+async function fetchLivePRs(owner: string, repo: string): Promise<PullRequest[]> {
   const allPRs: PullRequest[] = [];
   let page = 1;
   const perPage = 100;
@@ -56,10 +53,7 @@ async function fetchLivePRs(
   return allPRs;
 }
 
-export async function fetchAllPRs(
-  owner: string,
-  repo: string,
-): Promise<PullRequest[]> {
+export async function fetchAllPRs(owner: string, repo: string): Promise<PullRequest[]> {
   const prefetched = await fetchPrefetchedPRs(owner, repo);
   if (prefetched) return prefetched;
   return fetchLivePRs(owner, repo);
@@ -67,9 +61,7 @@ export async function fetchAllPRs(
 
 export function getUniqueContributors(prs: PullRequest[]): string[] {
   const contributors = new Set(prs.map((pr) => pr.user.login));
-  return Array.from(contributors).sort((a, b) =>
-    a.toLowerCase().localeCompare(b.toLowerCase()),
-  );
+  return Array.from(contributors).sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
 }
 
 export function categorizePR(pr: PullRequest): "merged" | "denied" | "open" {
