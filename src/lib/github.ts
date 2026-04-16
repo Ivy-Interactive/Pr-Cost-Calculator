@@ -1,0 +1,56 @@
+import type { PullRequest } from "./types";
+
+const GITHUB_API = "https://api.github.com";
+
+export async function fetchAllPRs(
+  owner: string,
+  repo: string,
+  token?: string,
+): Promise<PullRequest[]> {
+  const allPRs: PullRequest[] = [];
+  let page = 1;
+  const perPage = 100;
+
+  const headers: Record<string, string> = {
+    Accept: "application/vnd.github.v3+json",
+  };
+  if (token) {
+    headers.Authorization = `Bearer ${token}`;
+  }
+
+  while (true) {
+    const url = `${GITHUB_API}/repos/${owner}/${repo}/pulls?state=all&per_page=${perPage}&page=${page}`;
+    const response = await fetch(url, { headers });
+
+    if (!response.ok) {
+      if (response.status === 403) {
+        throw new Error(
+          "GitHub API rate limit exceeded. Add a personal access token to increase the limit.",
+        );
+      }
+      throw new Error(`GitHub API error: ${response.status} ${response.statusText}`);
+    }
+
+    const prs: PullRequest[] = await response.json();
+    if (prs.length === 0) break;
+
+    allPRs.push(...prs);
+    if (prs.length < perPage) break;
+    page++;
+  }
+
+  return allPRs;
+}
+
+export function getUniqueContributors(prs: PullRequest[]): string[] {
+  const contributors = new Set(prs.map((pr) => pr.user.login));
+  return Array.from(contributors).sort((a, b) =>
+    a.toLowerCase().localeCompare(b.toLowerCase()),
+  );
+}
+
+export function categorizePR(pr: PullRequest): "merged" | "denied" | "open" {
+  if (pr.merged_at) return "merged";
+  if (pr.state === "closed" && !pr.merged_at) return "denied";
+  return "open";
+}
