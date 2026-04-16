@@ -1,11 +1,11 @@
 import type { PullRequest } from "./types";
 
 const GITHUB_API = "https://api.github.com";
+const GITHUB_PAT = import.meta.env.VITE_GITHUB_PAT as string | undefined;
 
 export async function fetchAllPRs(
   owner: string,
   repo: string,
-  token?: string,
 ): Promise<PullRequest[]> {
   const allPRs: PullRequest[] = [];
   let page = 1;
@@ -14,8 +14,8 @@ export async function fetchAllPRs(
   const headers: Record<string, string> = {
     Accept: "application/vnd.github.v3+json",
   };
-  if (token) {
-    headers.Authorization = `Bearer ${token}`;
+  if (GITHUB_PAT) {
+    headers.Authorization = `Bearer ${GITHUB_PAT}`;
   }
 
   while (true) {
