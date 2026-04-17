@@ -1,6 +1,13 @@
 #!/usr/bin/env node
 
-const REPOS = ["Ivy-Interactive/Ivy-Framework", "facebook/react", "microsoft/vscode"];
+const REPOS = [
+  "Ivy-Interactive/Ivy-Framework",
+  "facebook/react",
+  "microsoft/vscode",
+  "goldfire/howler.js",
+  "googlecreativelab/teachablemachine-community",
+  "Vanilagy/mediabunny",
+];
 
 const GITHUB_API = "https://api.github.com";
 

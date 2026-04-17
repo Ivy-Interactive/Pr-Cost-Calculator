@@ -1,0 +1,2290 @@
+[
+  {
+    "number": 375,
+    "title": "Bump follow-redirects from 1.15.2 to 1.15.6 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2024-03-16T05:52:23Z",
+    "closed_at": "2026-04-14T10:13:27Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 374,
+    "title": "Bump follow-redirects from 1.15.2 to 1.15.6 in /libraries/image",
+    "state": "closed",
+    "created_at": "2024-03-16T05:52:04Z",
+    "closed_at": "2026-04-14T10:13:25Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 373,
+    "title": "Bump follow-redirects from 1.15.2 to 1.15.6 in /snippets",
+    "state": "closed",
+    "created_at": "2024-03-16T05:51:59Z",
+    "closed_at": "2026-04-14T10:13:23Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 477,
+    "title": "Bump follow-redirects from 1.15.2 to 1.16.0 in /libraries/image",
+    "state": "open",
+    "created_at": "2026-04-14T10:13:18Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 456,
+    "title": "Bump lodash from 4.17.21 to 4.17.23 in /libraries/image",
+    "state": "closed",
+    "created_at": "2026-01-22T00:02:45Z",
+    "closed_at": "2026-04-02T13:26:31Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 476,
+    "title": "Bump lodash from 4.17.21 to 4.18.1 in /libraries/image",
+    "state": "open",
+    "created_at": "2026-04-02T13:26:26Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 455,
+    "title": "Bump lodash from 4.17.21 to 4.17.23 in /snippets",
+    "state": "closed",
+    "created_at": "2026-01-21T23:58:50Z",
+    "closed_at": "2026-04-02T13:13:00Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 475,
+    "title": "Bump lodash from 4.17.21 to 4.18.1 in /snippets",
+    "state": "open",
+    "created_at": "2026-04-02T13:12:55Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 454,
+    "title": "Bump lodash from 4.17.21 to 4.17.23 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2026-01-21T23:46:09Z",
+    "closed_at": "2026-04-02T07:54:23Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 474,
+    "title": "Bump lodash from 4.17.21 to 4.18.1 in /libraries/pose",
+    "state": "open",
+    "created_at": "2026-04-02T07:54:19Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 473,
+    "title": "Bump serialize-javascript, terser-webpack-plugin and webpack in /libraries/pose",
+    "state": "open",
+    "created_at": "2026-03-29T04:28:08Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 472,
+    "title": "Bump handlebars from 4.7.7 to 4.7.9 in /libraries/pose",
+    "state": "open",
+    "created_at": "2026-03-28T04:03:50Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 461,
+    "title": "chore: Migrate gsutil usage to gcloud storage",
+    "state": "closed",
+    "created_at": "2026-03-06T07:37:39Z",
+    "closed_at": "2026-03-27T15:03:14Z",
+    "merged_at": "2026-03-27T15:03:14Z",
+    "user": {
+      "login": "bhandarivijay-png"
+    }
+  },
+  {
+    "number": 471,
+    "title": "Bump picomatch from 2.3.1 to 2.3.2 in /libraries/pose",
+    "state": "open",
+    "created_at": "2026-03-25T23:19:33Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 470,
+    "title": "Bump picomatch from 2.3.1 to 2.3.2 in /libraries/image",
+    "state": "open",
+    "created_at": "2026-03-25T23:19:30Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 469,
+    "title": "Bump minimatch and mocha in /libraries/image",
+    "state": "open",
+    "created_at": "2026-03-25T22:47:41Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 468,
+    "title": "Bump minimatch and mocha in /libraries/pose",
+    "state": "open",
+    "created_at": "2026-03-25T22:38:42Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 465,
+    "title": "Bump flatted, karma and karma-typescript in /libraries/pose",
+    "state": "open",
+    "created_at": "2026-03-20T11:43:13Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 464,
+    "title": "Bump flatted from 3.2.7 to 3.4.2 in /libraries/image",
+    "state": "open",
+    "created_at": "2026-03-19T17:47:52Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 463,
+    "title": "Create main.yml",
+    "state": "open",
+    "created_at": "2026-03-15T13:35:47Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "tpmhuytpmhuy"
+    }
+  },
+  {
+    "number": 451,
+    "title": "Update javascript.md",
+    "state": "open",
+    "created_at": "2025-12-03T10:35:29Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "lenadgit"
+    }
+  },
+  {
+    "number": 462,
+    "title": "Update p5.js Web Editor link in markdown snippet",
+    "state": "open",
+    "created_at": "2026-03-07T03:24:14Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "todocono"
+    }
+  },
+  {
+    "number": 460,
+    "title": "Update javascript.md",
+    "state": "open",
+    "created_at": "2026-03-04T09:27:42Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "lvqtrung"
+    }
+  },
+  {
+    "number": 453,
+    "title": "Bump qs from 6.11.0 to 6.14.1 in /snippets",
+    "state": "closed",
+    "created_at": "2025-12-30T22:38:24Z",
+    "closed_at": "2026-02-12T18:58:54Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 459,
+    "title": "Bump qs from 6.11.0 to 6.14.2 in /snippets",
+    "state": "open",
+    "created_at": "2026-02-12T18:58:49Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 398,
+    "title": "Bump body-parser from 1.20.1 to 1.20.3 in /libraries/image",
+    "state": "closed",
+    "created_at": "2024-09-11T09:46:35Z",
+    "closed_at": "2026-02-12T18:56:09Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 458,
+    "title": "Bump qs and body-parser in /libraries/image",
+    "state": "open",
+    "created_at": "2026-02-12T18:56:05Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 406,
+    "title": "Bump elliptic from 6.5.4 to 6.6.0 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2024-10-29T00:55:45Z",
+    "closed_at": "2025-11-18T20:25:53Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 450,
+    "title": "Bump elliptic from 6.5.4 to 6.6.1 in /libraries/pose",
+    "state": "open",
+    "created_at": "2025-11-18T20:25:49Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 449,
+    "title": "Bump js-yaml and mocha in /libraries/image",
+    "state": "open",
+    "created_at": "2025-11-18T12:34:15Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 448,
+    "title": "Bump pbkdf2 from 3.1.2 to 3.1.5 in /libraries/pose",
+    "state": "open",
+    "created_at": "2025-11-17T00:12:26Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 447,
+    "title": "Bump js-yaml from 4.1.0 to 4.1.1 in /snippets",
+    "state": "open",
+    "created_at": "2025-11-15T10:47:59Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 446,
+    "title": "Update javascript.md",
+    "state": "open",
+    "created_at": "2025-11-13T18:47:11Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "jvalderramao-bot"
+    }
+  },
+  {
+    "number": 445,
+    "title": " Ai SIGN LANGUAGE INTERPRETER",
+    "state": "open",
+    "created_at": "2025-11-12T08:14:45Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "neoramehta0-netizen"
+    }
+  },
+  {
+    "number": 441,
+    "title": "Create Yuna",
+    "state": "open",
+    "created_at": "2025-10-23T21:46:01Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "parkyuna2304-pixel"
+    }
+  },
+  {
+    "number": 437,
+    "title": "Update javascript.md",
+    "state": "open",
+    "created_at": "2025-09-05T08:34:28Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "wandokong"
+    }
+  },
+  {
+    "number": 436,
+    "title": "Update README.md",
+    "state": "closed",
+    "created_at": "2025-08-21T18:52:31Z",
+    "closed_at": "2025-08-21T18:52:37Z",
+    "merged_at": null,
+    "user": {
+      "login": "iamanjum3"
+    }
+  },
+  {
+    "number": 435,
+    "title": "Bump sha.js from 2.4.11 to 2.4.12 in /libraries/pose",
+    "state": "open",
+    "created_at": "2025-08-21T16:13:57Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 434,
+    "title": "Bump tmp from 0.2.1 to 0.2.4 in /libraries/image",
+    "state": "open",
+    "created_at": "2025-08-06T18:31:50Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 433,
+    "title": "Bump form-data from 3.0.1 to 3.0.4 in /libraries/pose",
+    "state": "open",
+    "created_at": "2025-07-21T23:10:36Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 432,
+    "title": "Image Detection African Cap javascript.md",
+    "state": "open",
+    "created_at": "2025-07-16T18:10:02Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "AsoloEmmanuel"
+    }
+  },
+  {
+    "number": 431,
+    "title": "Bump pbkdf2 from 3.1.2 to 3.1.3 in /libraries/image",
+    "state": "open",
+    "created_at": "2025-06-24T05:03:27Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 430,
+    "title": "SECURITY.md",
+    "state": "open",
+    "created_at": "2025-04-25T06:14:57Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "shravanikammari01"
+    }
+  },
+  {
+    "number": 426,
+    "title": "Update javascript.md",
+    "state": "open",
+    "created_at": "2025-02-17T09:57:33Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "JoeM1990"
+    }
+  },
+  {
+    "number": 425,
+    "title": "Bump serialize-javascript, terser-webpack-plugin and webpack in /libraries/image",
+    "state": "open",
+    "created_at": "2025-02-11T12:10:46Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 424,
+    "title": "Create Foto Persoon",
+    "state": "open",
+    "created_at": "2025-02-02T18:06:29Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "JosseVR"
+    }
+  },
+  {
+    "number": 423,
+    "title": "Update javascript.md  with code",
+    "state": "open",
+    "created_at": "2025-01-13T19:16:54Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "sujeet-jaiswal"
+    }
+  },
+  {
+    "number": 422,
+    "title": "Update javascript.md",
+    "state": "open",
+    "created_at": "2025-01-07T05:41:50Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "anshuman35"
+    }
+  },
+  {
+    "number": 401,
+    "title": "Bump elliptic from 6.5.4 to 6.5.7 in /libraries/image",
+    "state": "closed",
+    "created_at": "2024-10-11T18:36:08Z",
+    "closed_at": "2024-12-11T00:30:30Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 400,
+    "title": "Bump cookie and socket.io in /libraries/image",
+    "state": "closed",
+    "created_at": "2024-10-10T01:29:07Z",
+    "closed_at": "2024-12-11T00:30:30Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 420,
+    "title": "Bump cookie and socket.io in /libraries/image",
+    "state": "open",
+    "created_at": "2024-12-11T00:30:27Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 419,
+    "title": "Bump elliptic from 6.5.4 to 6.6.1 in /libraries/image",
+    "state": "open",
+    "created_at": "2024-12-11T00:30:27Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 324,
+    "title": "Update scripts to latest version",
+    "state": "closed",
+    "created_at": "2023-02-05T05:58:31Z",
+    "closed_at": "2023-02-06T14:10:58Z",
+    "merged_at": "2023-02-06T14:10:58Z",
+    "user": {
+      "login": "sryu1"
+    }
+  },
+  {
+    "number": 411,
+    "title": "Bump cross-spawn from 6.0.5 to 6.0.6 in /libraries/image",
+    "state": "open",
+    "created_at": "2024-11-20T12:08:04Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 410,
+    "title": "Rename javascript.md to javascript_shipping container_damage detectio…",
+    "state": "open",
+    "created_at": "2024-11-17T16:16:23Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "equitymonkinlove"
+    }
+  },
+  {
+    "number": 409,
+    "title": "Bump cross-spawn and webpack-cli in /libraries/image",
+    "state": "open",
+    "created_at": "2024-11-17T11:46:18Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 408,
+    "title": "Update opencv-keras.md",
+    "state": "open",
+    "created_at": "2024-11-06T10:49:03Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Xolani1999"
+    }
+  },
+  {
+    "number": 404,
+    "title": "Bump cookie and karma in /libraries/pose",
+    "state": "open",
+    "created_at": "2024-10-20T15:04:16Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 388,
+    "title": "Bump socket.io from 4.5.4 to 4.7.5 in /libraries/image",
+    "state": "closed",
+    "created_at": "2024-06-19T15:16:05Z",
+    "closed_at": "2024-10-10T01:29:09Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 397,
+    "title": "Bump webpack and webpack-cli in /libraries/image",
+    "state": "open",
+    "created_at": "2024-08-29T04:21:00Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 395,
+    "title": "Bump braces, terser-webpack-plugin, ts-loader and webpack in /libraries/pose",
+    "state": "open",
+    "created_at": "2024-08-07T21:16:28Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 386,
+    "title": "Bump ws and karma in /libraries/pose",
+    "state": "closed",
+    "created_at": "2024-06-17T23:47:02Z",
+    "closed_at": "2024-08-07T21:16:25Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 394,
+    "title": "Bump ws and karma in /libraries/pose",
+    "state": "open",
+    "created_at": "2024-08-07T21:16:22Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 393,
+    "title": "Bump socket.io-parser, karma and karma-typescript in /libraries/pose",
+    "state": "open",
+    "created_at": "2024-07-23T00:11:12Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 392,
+    "title": "Bump node-fetch and @tensorflow/tfjs in /libraries/pose",
+    "state": "open",
+    "created_at": "2024-07-15T20:12:41Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 391,
+    "title": "Bump node-fetch and @tensorflow/tfjs in /libraries/image",
+    "state": "open",
+    "created_at": "2024-07-15T19:55:10Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 385,
+    "title": "Bump braces, webpack and webpack-cli in /libraries/image",
+    "state": "open",
+    "created_at": "2024-06-14T15:38:50Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 381,
+    "title": "Update javascript.md",
+    "state": "open",
+    "created_at": "2024-05-14T15:17:39Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Fayzarl"
+    }
+  },
+  {
+    "number": 379,
+    "title": "Create Fruit detect healthy or rotten",
+    "state": "open",
+    "created_at": "2024-04-22T00:42:58Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "afreen903421"
+    }
+  },
+  {
+    "number": 378,
+    "title": "Create ML model",
+    "state": "open",
+    "created_at": "2024-04-19T11:15:49Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "16805"
+    }
+  },
+  {
+    "number": 360,
+    "title": "Bump follow-redirects from 1.15.2 to 1.15.4 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2024-01-10T11:29:16Z",
+    "closed_at": "2024-03-16T05:52:25Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 361,
+    "title": "Bump follow-redirects from 1.15.2 to 1.15.4 in /libraries/image",
+    "state": "closed",
+    "created_at": "2024-01-10T11:29:16Z",
+    "closed_at": "2024-03-16T05:52:06Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 359,
+    "title": "Bump follow-redirects from 1.15.2 to 1.15.4 in /snippets",
+    "state": "closed",
+    "created_at": "2024-01-10T11:29:12Z",
+    "closed_at": "2024-03-16T05:52:01Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 372,
+    "title": "Update javascript.md",
+    "state": "closed",
+    "created_at": "2024-03-05T17:45:23Z",
+    "closed_at": "2024-03-05T17:45:35Z",
+    "merged_at": null,
+    "user": {
+      "login": "morutithapelo"
+    }
+  },
+  {
+    "number": 365,
+    "title": "Update keras.md",
+    "state": "open",
+    "created_at": "2024-02-04T17:44:34Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Thebbie-A"
+    }
+  },
+  {
+    "number": 362,
+    "title": "Update keras.md",
+    "state": "open",
+    "created_at": "2024-01-16T15:23:01Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "mdkeydama23"
+    }
+  },
+  {
+    "number": 299,
+    "title": "Upgrade seedrandom dependency",
+    "state": "closed",
+    "created_at": "2022-10-08T14:13:59Z",
+    "closed_at": "2023-12-01T15:21:11Z",
+    "merged_at": null,
+    "user": {
+      "login": "PLtier"
+    }
+  },
+  {
+    "number": 355,
+    "title": "Bump browserify-sign from 4.2.1 to 4.2.2 in /libraries/pose",
+    "state": "open",
+    "created_at": "2023-10-28T02:24:05Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 354,
+    "title": "Bump browserify-sign from 4.2.1 to 4.2.2 in /libraries/image",
+    "state": "open",
+    "created_at": "2023-10-27T13:34:47Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 353,
+    "title": "Bump @babel/traverse from 7.20.13 to 7.23.2 in /libraries/image",
+    "state": "open",
+    "created_at": "2023-10-17T06:33:58Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 328,
+    "title": "Update custom-posenet.ts",
+    "state": "closed",
+    "created_at": "2023-02-09T20:43:59Z",
+    "closed_at": "2023-10-15T00:03:01Z",
+    "merged_at": null,
+    "user": {
+      "login": "Tinny-Robot"
+    }
+  },
+  {
+    "number": 351,
+    "title": "Bump get-func-name from 2.0.0 to 2.0.2 in /libraries/image",
+    "state": "open",
+    "created_at": "2023-09-27T20:54:04Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 120,
+    "title": "Android tflite instructions update",
+    "state": "closed",
+    "created_at": "2020-07-17T19:09:16Z",
+    "closed_at": "2020-07-22T13:56:40Z",
+    "merged_at": "2020-07-22T13:56:39Z",
+    "user": {
+      "login": "natowi"
+    }
+  },
+  {
+    "number": 143,
+    "title": "Add snippet for Android sound classification",
+    "state": "closed",
+    "created_at": "2020-10-01T07:54:03Z",
+    "closed_at": "2020-11-02T14:57:30Z",
+    "merged_at": "2020-11-02T14:57:30Z",
+    "user": {
+      "login": "khanhlvg"
+    }
+  },
+  {
+    "number": 208,
+    "title": "Update TFLite sound classification snippet",
+    "state": "closed",
+    "created_at": "2021-05-12T04:06:30Z",
+    "closed_at": "2021-05-13T03:25:07Z",
+    "merged_at": "2021-05-13T03:25:07Z",
+    "user": {
+      "login": "khanhlvg"
+    }
+  },
+  {
+    "number": 335,
+    "title": "Possible fixes for inaccurate results with python snippets",
+    "state": "open",
+    "created_at": "2023-03-26T08:45:15Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "sryu1"
+    }
+  },
+  {
+    "number": 348,
+    "title": "Update javascript.md",
+    "state": "open",
+    "created_at": "2023-08-21T19:00:49Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Kushagra-sachdeva"
+    }
+  },
+  {
+    "number": 344,
+    "title": "change javax.xml.bind.DatatypeConverter to java.util.Base64",
+    "state": "open",
+    "created_at": "2023-07-01T19:43:26Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "sabas1080"
+    }
+  },
+  {
+    "number": 343,
+    "title": "Update p5js.md",
+    "state": "open",
+    "created_at": "2023-06-22T06:22:52Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "shashimehta03"
+    }
+  },
+  {
+    "number": 339,
+    "title": "Mask",
+    "state": "open",
+    "created_at": "2023-05-22T03:02:01Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Satchanon"
+    }
+  },
+  {
+    "number": 337,
+    "title": "Create sample project_ image classification",
+    "state": "open",
+    "created_at": "2023-04-11T10:33:27Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "sanjanadaskol"
+    }
+  },
+  {
+    "number": 336,
+    "title": "Update Android.md",
+    "state": "open",
+    "created_at": "2023-04-01T07:42:45Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "alas-abdirahman"
+    }
+  },
+  {
+    "number": 329,
+    "title": "Update teachable-posenet.ts",
+    "state": "closed",
+    "created_at": "2023-02-09T20:44:24Z",
+    "closed_at": "2023-03-26T10:53:02Z",
+    "merged_at": null,
+    "user": {
+      "login": "Tinny-Robot"
+    }
+  },
+  {
+    "number": 334,
+    "title": "Create cancer detection",
+    "state": "closed",
+    "created_at": "2023-03-13T05:44:37Z",
+    "closed_at": "2023-03-23T19:20:07Z",
+    "merged_at": null,
+    "user": {
+      "login": "kaifk2"
+    }
+  },
+  {
+    "number": 327,
+    "title": "Update make-version.js",
+    "state": "open",
+    "created_at": "2023-02-09T20:32:39Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Tinny-Robot"
+    }
+  },
+  {
+    "number": 320,
+    "title": "Update javascript.md",
+    "state": "closed",
+    "created_at": "2023-02-01T16:58:09Z",
+    "closed_at": "2023-02-06T14:16:58Z",
+    "merged_at": null,
+    "user": {
+      "login": "ojas-sys"
+    }
+  },
+  {
+    "number": 316,
+    "title": "Update scripts to use npm instead of yarn",
+    "state": "closed",
+    "created_at": "2023-01-27T19:04:52Z",
+    "closed_at": "2023-01-27T20:00:49Z",
+    "merged_at": "2023-01-27T20:00:49Z",
+    "user": {
+      "login": "HalfdanJ"
+    }
+  },
+  {
+    "number": 308,
+    "title": "Updated keras and opencv keras snippets attempt 2",
+    "state": "closed",
+    "created_at": "2022-11-18T06:18:31Z",
+    "closed_at": "2023-01-27T18:54:55Z",
+    "merged_at": "2023-01-27T18:54:55Z",
+    "user": {
+      "login": "sryu1"
+    }
+  },
+  {
+    "number": 306,
+    "title": "Updated keras and opencv keras snippets",
+    "state": "closed",
+    "created_at": "2022-11-05T20:59:51Z",
+    "closed_at": "2022-11-18T06:17:01Z",
+    "merged_at": null,
+    "user": {
+      "login": "sryu1"
+    }
+  },
+  {
+    "number": 304,
+    "title": "Update keras.md",
+    "state": "closed",
+    "created_at": "2022-10-27T21:07:15Z",
+    "closed_at": "2022-10-27T22:51:41Z",
+    "merged_at": "2022-10-27T22:51:41Z",
+    "user": {
+      "login": "sryu1"
+    }
+  },
+  {
+    "number": 300,
+    "title": "Update opencv-keras.md",
+    "state": "closed",
+    "created_at": "2022-10-19T10:19:12Z",
+    "closed_at": "2022-10-24T14:05:59Z",
+    "merged_at": "2022-10-24T14:05:59Z",
+    "user": {
+      "login": "leeyunjai82"
+    }
+  },
+  {
+    "number": 301,
+    "title": "Update keras.md",
+    "state": "closed",
+    "created_at": "2022-10-19T21:21:37Z",
+    "closed_at": "2022-10-24T13:40:58Z",
+    "merged_at": null,
+    "user": {
+      "login": "leeyunjai82"
+    }
+  },
+  {
+    "number": 303,
+    "title": "Update keras.md as suggested by Pull Request #301",
+    "state": "closed",
+    "created_at": "2022-10-23T01:33:13Z",
+    "closed_at": "2022-10-24T13:40:24Z",
+    "merged_at": "2022-10-24T13:40:24Z",
+    "user": {
+      "login": "sryu1"
+    }
+  },
+  {
+    "number": 278,
+    "title": "Opencv-keras web camera example for users - opencv-keras.md",
+    "state": "closed",
+    "created_at": "2022-04-14T21:05:24Z",
+    "closed_at": "2022-10-17T14:54:22Z",
+    "merged_at": "2022-10-17T14:54:22Z",
+    "user": {
+      "login": "danielwilczak101"
+    }
+  },
+  {
+    "number": 275,
+    "title": "Update javascript.md",
+    "state": "closed",
+    "created_at": "2022-03-21T07:13:25Z",
+    "closed_at": "2022-10-17T14:50:48Z",
+    "merged_at": null,
+    "user": {
+      "login": "anshuman35"
+    }
+  },
+  {
+    "number": 274,
+    "title": "Update javascript.md",
+    "state": "closed",
+    "created_at": "2022-03-07T07:15:32Z",
+    "closed_at": "2022-10-17T14:50:37Z",
+    "merged_at": null,
+    "user": {
+      "login": "anshuman35"
+    }
+  },
+  {
+    "number": 279,
+    "title": "Update p5js.md",
+    "state": "closed",
+    "created_at": "2022-04-18T11:25:35Z",
+    "closed_at": "2022-10-17T14:50:21Z",
+    "merged_at": null,
+    "user": {
+      "login": "anshuman35"
+    }
+  },
+  {
+    "number": 290,
+    "title": "Update tf.ts",
+    "state": "closed",
+    "created_at": "2022-07-13T05:51:50Z",
+    "closed_at": "2022-10-17T14:50:08Z",
+    "merged_at": null,
+    "user": {
+      "login": "anshuman35"
+    }
+  },
+  {
+    "number": 298,
+    "title": "Update javascript.md",
+    "state": "closed",
+    "created_at": "2022-10-07T05:42:49Z",
+    "closed_at": "2022-10-17T14:49:27Z",
+    "merged_at": null,
+    "user": {
+      "login": "anshuman35"
+    }
+  },
+  {
+    "number": 297,
+    "title": "Changed how the prediction is printed",
+    "state": "closed",
+    "created_at": "2022-10-06T06:18:18Z",
+    "closed_at": "2022-10-06T13:09:31Z",
+    "merged_at": "2022-10-06T13:09:31Z",
+    "user": {
+      "login": "sryu1"
+    }
+  },
+  {
+    "number": 296,
+    "title": "Updated Keras snippet for python",
+    "state": "closed",
+    "created_at": "2022-10-05T11:11:20Z",
+    "closed_at": "2022-10-05T12:23:53Z",
+    "merged_at": "2022-10-05T12:23:53Z",
+    "user": {
+      "login": "sryu1"
+    }
+  },
+  {
+    "number": 277,
+    "title": "Opencv-keras web camera example for users",
+    "state": "closed",
+    "created_at": "2022-04-14T18:01:31Z",
+    "closed_at": "2022-04-14T18:03:30Z",
+    "merged_at": null,
+    "user": {
+      "login": "danielwilczak101"
+    }
+  },
+  {
+    "number": 273,
+    "title": "Update p5js.md",
+    "state": "closed",
+    "created_at": "2022-03-07T06:05:45Z",
+    "closed_at": "2022-03-07T14:18:09Z",
+    "merged_at": null,
+    "user": {
+      "login": "anshuman35"
+    }
+  },
+  {
+    "number": 271,
+    "title": "Fix the missing variable in template script and incorrect port filter",
+    "state": "open",
+    "created_at": "2022-02-23T16:51:34Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Pandede"
+    }
+  },
+  {
+    "number": 247,
+    "title": "Upgrade Edge TPU code to use PyCoral API",
+    "state": "closed",
+    "created_at": "2021-09-25T00:40:13Z",
+    "closed_at": "2022-02-04T21:17:58Z",
+    "merged_at": "2022-02-04T21:17:58Z",
+    "user": {
+      "login": "scottamain"
+    }
+  },
+  {
+    "number": 257,
+    "title": "Sanjay test",
+    "state": "closed",
+    "created_at": "2021-11-09T17:19:35Z",
+    "closed_at": "2021-11-09T17:20:52Z",
+    "merged_at": null,
+    "user": {
+      "login": "GOLLAVILLISANJAYKUMAR"
+    }
+  },
+  {
+    "number": 93,
+    "title": "Simplified code for loading model and predicting keras model.",
+    "state": "closed",
+    "created_at": "2020-03-27T21:01:57Z",
+    "closed_at": "2021-08-09T21:40:44Z",
+    "merged_at": "2021-08-09T21:40:44Z",
+    "user": {
+      "login": "snehitvaddi"
+    }
+  },
+  {
+    "number": 238,
+    "title": "Fix image variable name",
+    "state": "closed",
+    "created_at": "2021-08-09T23:58:06Z",
+    "closed_at": "2021-08-10T00:38:14Z",
+    "merged_at": "2021-08-10T00:38:14Z",
+    "user": {
+      "login": "zelacerda"
+    }
+  },
+  {
+    "number": 237,
+    "title": "Upgrade all minor version libs in image library",
+    "state": "closed",
+    "created_at": "2021-08-09T22:16:22Z",
+    "closed_at": "2021-08-09T22:36:07Z",
+    "merged_at": "2021-08-09T22:36:07Z",
+    "user": {
+      "login": "HalfdanJ"
+    }
+  },
+  {
+    "number": 148,
+    "title": "fix ./snippets/markdown/image/edgetpu/python.md",
+    "state": "closed",
+    "created_at": "2020-10-29T16:37:20Z",
+    "closed_at": "2021-08-09T21:41:12Z",
+    "merged_at": "2021-08-09T21:41:12Z",
+    "user": {
+      "login": "ToddInLB"
+    }
+  },
+  {
+    "number": 156,
+    "title": "update README.md, fix when running demo in ios, video will be frozen",
+    "state": "closed",
+    "created_at": "2020-11-23T03:30:29Z",
+    "closed_at": "2021-08-09T21:38:42Z",
+    "merged_at": "2021-08-09T21:38:41Z",
+    "user": {
+      "login": "thedb"
+    }
+  },
+  {
+    "number": 182,
+    "title": "Bump acorn from 6.3.0 to 6.4.1 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2021-03-15T10:16:58Z",
+    "closed_at": "2021-08-09T21:34:45Z",
+    "merged_at": null,
+    "user": {
+      "login": "Saranga99"
+    }
+  },
+  {
+    "number": 222,
+    "title": "Updates android snippet to reflect new android example",
+    "state": "closed",
+    "created_at": "2021-06-15T16:56:18Z",
+    "closed_at": "2021-08-09T21:34:28Z",
+    "merged_at": "2021-08-09T21:34:28Z",
+    "user": {
+      "login": "GautamBose"
+    }
+  },
+  {
+    "number": 91,
+    "title": "Bump acorn from 6.3.0 to 6.4.1 in /libraries/image",
+    "state": "closed",
+    "created_at": "2020-03-15T19:09:49Z",
+    "closed_at": "2021-08-09T21:34:13Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 236,
+    "title": "Bump tar from 4.4.13 to 4.4.15 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2021-08-04T14:17:17Z",
+    "closed_at": "2021-08-09T21:34:01Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 235,
+    "title": "Bump tar from 4.4.13 to 4.4.15 in /libraries/image",
+    "state": "closed",
+    "created_at": "2021-08-04T14:17:15Z",
+    "closed_at": "2021-08-09T21:34:00Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 224,
+    "title": "Bump yargs-parser from 5.0.0 to 5.0.1 in /libraries/image",
+    "state": "closed",
+    "created_at": "2021-06-15T16:57:07Z",
+    "closed_at": "2021-08-09T21:34:00Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 223,
+    "title": "Bump yargs-parser from 5.0.0 to 5.0.1 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2021-06-15T16:57:05Z",
+    "closed_at": "2021-08-09T21:33:59Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 207,
+    "title": "Bump hosted-git-info from 2.8.5 to 2.8.9 in /libraries/image",
+    "state": "closed",
+    "created_at": "2021-05-11T06:17:57Z",
+    "closed_at": "2021-08-09T21:33:59Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 206,
+    "title": "Bump hosted-git-info from 2.8.5 to 2.8.9 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2021-05-11T06:05:25Z",
+    "closed_at": "2021-08-09T21:33:58Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 205,
+    "title": "Bump lodash from 4.17.15 to 4.17.21 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2021-05-10T18:05:12Z",
+    "closed_at": "2021-08-09T21:33:58Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 204,
+    "title": "Bump lodash from 4.17.15 to 4.17.21 in /libraries/image",
+    "state": "closed",
+    "created_at": "2021-05-10T17:59:19Z",
+    "closed_at": "2021-08-09T21:33:57Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 203,
+    "title": "Bump handlebars from 4.5.1 to 4.7.7 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2021-05-08T09:44:23Z",
+    "closed_at": "2021-08-09T21:33:57Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 202,
+    "title": "Bump handlebars from 4.5.1 to 4.7.7 in /libraries/image",
+    "state": "closed",
+    "created_at": "2021-05-08T09:43:56Z",
+    "closed_at": "2021-08-09T21:33:57Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 199,
+    "title": "Bump ssri from 6.0.1 to 6.0.2 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2021-04-30T10:59:10Z",
+    "closed_at": "2021-08-09T21:33:56Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 196,
+    "title": "Bump ssri from 6.0.1 to 6.0.2 in /libraries/image",
+    "state": "closed",
+    "created_at": "2021-04-19T16:43:46Z",
+    "closed_at": "2021-08-09T21:33:56Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 188,
+    "title": "Bump y18n from 3.2.1 to 3.2.2 in /libraries/image",
+    "state": "closed",
+    "created_at": "2021-03-31T04:09:55Z",
+    "closed_at": "2021-08-09T21:33:56Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 187,
+    "title": "Bump y18n from 3.2.1 to 3.2.2 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2021-03-31T04:07:58Z",
+    "closed_at": "2021-08-09T21:33:55Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 181,
+    "title": "Bump elliptic from 6.5.1 to 6.5.4 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2021-03-09T21:24:13Z",
+    "closed_at": "2021-08-09T21:33:55Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 180,
+    "title": "Bump elliptic from 6.5.1 to 6.5.4 in /libraries/image",
+    "state": "closed",
+    "created_at": "2021-03-09T21:15:32Z",
+    "closed_at": "2021-08-09T21:33:54Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 162,
+    "title": "Bump ini from 1.3.5 to 1.3.8 in /libraries/image",
+    "state": "closed",
+    "created_at": "2020-12-11T23:45:46Z",
+    "closed_at": "2021-08-09T21:33:54Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 161,
+    "title": "Bump ini from 1.3.5 to 1.3.8 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2020-12-11T23:45:36Z",
+    "closed_at": "2021-08-09T21:33:54Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 160,
+    "title": "Bump ini from 1.3.5 to 1.3.8 in /snippets",
+    "state": "closed",
+    "created_at": "2020-12-11T23:45:31Z",
+    "closed_at": "2021-08-09T21:33:53Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 139,
+    "title": "Bump http-proxy from 1.18.0 to 1.18.1 in /libraries/image",
+    "state": "closed",
+    "created_at": "2020-09-10T16:43:07Z",
+    "closed_at": "2021-08-09T21:33:53Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 138,
+    "title": "Bump http-proxy from 1.18.0 to 1.18.1 in /snippets",
+    "state": "closed",
+    "created_at": "2020-09-10T16:42:50Z",
+    "closed_at": "2021-08-09T21:33:53Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 97,
+    "title": "Bump acorn from 6.3.0 to 6.4.1 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2020-04-05T08:45:33Z",
+    "closed_at": "2021-08-09T21:33:51Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 137,
+    "title": "Bump http-proxy from 1.18.0 to 1.18.1 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2020-09-10T16:42:48Z",
+    "closed_at": "2021-08-09T21:33:52Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 133,
+    "title": "Bump tree-kill from 1.2.1 to 1.2.2 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2020-09-06T15:13:14Z",
+    "closed_at": "2021-08-09T21:33:52Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 132,
+    "title": "Bump tree-kill from 1.2.1 to 1.2.2 in /libraries/image",
+    "state": "closed",
+    "created_at": "2020-09-06T15:12:36Z",
+    "closed_at": "2021-08-09T21:33:52Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 221,
+    "title": "Adds Converter Code",
+    "state": "closed",
+    "created_at": "2021-06-14T20:02:31Z",
+    "closed_at": "2021-06-15T16:56:28Z",
+    "merged_at": "2021-06-15T16:56:28Z",
+    "user": {
+      "login": "GautamBose"
+    }
+  },
+  {
+    "number": 220,
+    "title": "Adds sketch upload to snippet deploy action",
+    "state": "closed",
+    "created_at": "2021-06-14T18:47:08Z",
+    "closed_at": "2021-06-15T15:15:04Z",
+    "merged_at": "2021-06-15T15:15:04Z",
+    "user": {
+      "login": "GautamBose"
+    }
+  },
+  {
+    "number": 215,
+    "title": "Updates links in getting started and adds index updates",
+    "state": "closed",
+    "created_at": "2021-06-08T22:58:20Z",
+    "closed_at": "2021-06-08T22:58:55Z",
+    "merged_at": "2021-06-08T22:58:55Z",
+    "user": {
+      "login": "GautamBose"
+    }
+  },
+  {
+    "number": 214,
+    "title": "Adds embedded image model support",
+    "state": "closed",
+    "created_at": "2021-06-08T16:55:22Z",
+    "closed_at": "2021-06-08T21:26:00Z",
+    "merged_at": "2021-06-08T21:26:00Z",
+    "user": {
+      "login": "GautamBose"
+    }
+  },
+  {
+    "number": 122,
+    "title": "Bump lodash from 4.17.15 to 4.17.19 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2020-07-18T15:15:19Z",
+    "closed_at": "2021-05-10T18:05:15Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 123,
+    "title": "Bump lodash from 4.17.15 to 4.17.19 in /libraries/image",
+    "state": "closed",
+    "created_at": "2020-07-18T15:24:42Z",
+    "closed_at": "2021-05-10T17:59:21Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 135,
+    "title": "Bump handlebars from 4.5.1 to 4.7.6 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2020-09-09T23:12:52Z",
+    "closed_at": "2021-05-08T09:44:25Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 136,
+    "title": "Bump handlebars from 4.5.1 to 4.7.6 in /libraries/image",
+    "state": "closed",
+    "created_at": "2020-09-09T23:13:45Z",
+    "closed_at": "2021-05-08T09:43:58Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 190,
+    "title": "Adds support for grayscale image models and image models with different input sizes",
+    "state": "closed",
+    "created_at": "2021-04-05T16:09:09Z",
+    "closed_at": "2021-04-06T15:58:34Z",
+    "merged_at": "2021-04-06T15:58:34Z",
+    "user": {
+      "login": "GautamBose"
+    }
+  },
+  {
+    "number": 128,
+    "title": "Bump elliptic from 6.5.1 to 6.5.3 in /libraries/pose",
+    "state": "closed",
+    "created_at": "2020-08-01T01:17:39Z",
+    "closed_at": "2021-03-09T21:24:16Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 127,
+    "title": "Bump elliptic from 6.5.1 to 6.5.3 in /libraries/image",
+    "state": "closed",
+    "created_at": "2020-08-01T01:09:04Z",
+    "closed_at": "2021-03-09T21:15:35Z",
+    "merged_at": null,
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 154,
+    "title": "fix when running demo in ios, video will be frozen",
+    "state": "closed",
+    "created_at": "2020-11-20T10:12:42Z",
+    "closed_at": "2020-11-23T03:19:32Z",
+    "merged_at": null,
+    "user": {
+      "login": "thedb"
+    }
+  },
+  {
+    "number": 103,
+    "title": "Adding Node-RED node under Community Contributions",
+    "state": "open",
+    "created_at": "2020-04-15T17:42:44Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "bonastreyair"
+    }
+  },
+  {
+    "number": 149,
+    "title": "adds tflite audio snippet to index.js",
+    "state": "closed",
+    "created_at": "2020-11-02T15:22:20Z",
+    "closed_at": "2020-11-02T15:32:31Z",
+    "merged_at": "2020-11-02T15:32:31Z",
+    "user": {
+      "login": "GautamBose"
+    }
+  },
+  {
+    "number": 146,
+    "title": "Simplified Android tutorial for beginners",
+    "state": "open",
+    "created_at": "2020-10-18T08:48:15Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "natowi"
+    }
+  },
+  {
+    "number": 142,
+    "title": "bag and Human Recognition",
+    "state": "closed",
+    "created_at": "2020-09-30T16:05:28Z",
+    "closed_at": "2020-09-30T16:24:02Z",
+    "merged_at": null,
+    "user": {
+      "login": "Rutikab12"
+    }
+  },
+  {
+    "number": 90,
+    "title": "Improve compatibility outside of web browsers",
+    "state": "closed",
+    "created_at": "2020-03-13T13:55:37Z",
+    "closed_at": "2020-09-15T08:55:57Z",
+    "merged_at": null,
+    "user": {
+      "login": "SpraxDev"
+    }
+  },
+  {
+    "number": 92,
+    "title": "Update ml5 version number to @latest",
+    "state": "closed",
+    "created_at": "2020-03-26T23:16:27Z",
+    "closed_at": "2020-06-30T22:51:20Z",
+    "merged_at": "2020-06-30T22:51:20Z",
+    "user": {
+      "login": "bomanimc"
+    }
+  },
+  {
+    "number": 87,
+    "title": "Update keras.md",
+    "state": "closed",
+    "created_at": "2020-03-04T12:10:10Z",
+    "closed_at": "2020-06-30T22:52:55Z",
+    "merged_at": null,
+    "user": {
+      "login": "Iamjulius"
+    }
+  },
+  {
+    "number": 80,
+    "title": "Update formatting of \"audio\" README.md",
+    "state": "closed",
+    "created_at": "2020-02-19T02:09:53Z",
+    "closed_at": "2020-05-02T08:17:37Z",
+    "merged_at": null,
+    "user": {
+      "login": "etinaude"
+    }
+  },
+  {
+    "number": 101,
+    "title": "Create blank.yml",
+    "state": "closed",
+    "created_at": "2020-04-09T01:50:26Z",
+    "closed_at": "2020-04-16T21:46:16Z",
+    "merged_at": null,
+    "user": {
+      "login": "Selasi3"
+    }
+  },
+  {
+    "number": 98,
+    "title": "Fix isTensor() function",
+    "state": "closed",
+    "created_at": "2020-04-06T16:20:56Z",
+    "closed_at": "2020-04-16T21:40:18Z",
+    "merged_at": "2020-04-16T21:40:18Z",
+    "user": {
+      "login": "mrxdst"
+    }
+  },
+  {
+    "number": 78,
+    "title": "fix for a memory leak",
+    "state": "closed",
+    "created_at": "2020-02-15T20:02:21Z",
+    "closed_at": "2020-03-07T01:07:59Z",
+    "merged_at": "2020-03-07T01:07:59Z",
+    "user": {
+      "login": "AliKarpuzoglu"
+    }
+  },
+  {
+    "number": 81,
+    "title": "Fixed Normalization",
+    "state": "open",
+    "created_at": "2020-02-19T10:50:13Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "AliKarpuzoglu"
+    }
+  },
+  {
+    "number": 62,
+    "title": "Adds resize and crop operations as in TM2 frontend",
+    "state": "closed",
+    "created_at": "2019-11-27T00:41:09Z",
+    "closed_at": "2020-01-16T19:28:25Z",
+    "merged_at": "2020-01-16T19:28:25Z",
+    "user": {
+      "login": "GautamBose"
+    }
+  },
+  {
+    "number": 70,
+    "title": "fix ./snippets/markdown/image/edgetpu/python.md",
+    "state": "closed",
+    "created_at": "2019-12-21T15:47:32Z",
+    "closed_at": "2019-12-23T03:22:12Z",
+    "merged_at": "2019-12-23T03:22:12Z",
+    "user": {
+      "login": "mqcmd196"
+    }
+  },
+  {
+    "number": 58,
+    "title": "normalized between -1 and 1",
+    "state": "closed",
+    "created_at": "2019-11-21T21:38:27Z",
+    "closed_at": "2019-11-22T15:25:22Z",
+    "merged_at": "2019-11-22T15:25:22Z",
+    "user": {
+      "login": "GautamBose"
+    }
+  },
+  {
+    "number": 56,
+    "title": "fixes pip module names",
+    "state": "closed",
+    "created_at": "2019-11-20T14:44:48Z",
+    "closed_at": "2019-11-20T14:54:52Z",
+    "merged_at": "2019-11-20T14:54:52Z",
+    "user": {
+      "login": "GautamBose"
+    }
+  },
+  {
+    "number": 53,
+    "title": "image.resize((224, 224)) returns a resized copy",
+    "state": "closed",
+    "created_at": "2019-11-19T18:37:57Z",
+    "closed_at": "2019-11-20T14:39:12Z",
+    "merged_at": "2019-11-20T14:39:11Z",
+    "user": {
+      "login": "Tailorware"
+    }
+  },
+  {
+    "number": 25,
+    "title": "Add readme to snippets",
+    "state": "closed",
+    "created_at": "2019-11-07T15:22:48Z",
+    "closed_at": "2019-11-07T16:08:30Z",
+    "merged_at": "2019-11-07T16:08:30Z",
+    "user": {
+      "login": "HalfdanJ"
+    }
+  },
+  {
+    "number": 50,
+    "title": "Change pose posenetConfig metadata to modelSettings",
+    "state": "closed",
+    "created_at": "2019-11-18T04:00:31Z",
+    "closed_at": "2019-11-18T22:00:03Z",
+    "merged_at": "2019-11-18T22:00:03Z",
+    "user": {
+      "login": "irealva"
+    }
+  },
+  {
+    "number": 45,
+    "title": "Improvements to pose model accuracy",
+    "state": "closed",
+    "created_at": "2019-11-14T20:14:38Z",
+    "closed_at": "2019-11-15T15:24:09Z",
+    "merged_at": "2019-11-15T15:24:09Z",
+    "user": {
+      "login": "irealva"
+    }
+  },
+  {
+    "number": 44,
+    "title": "Adds Keras Snippet",
+    "state": "closed",
+    "created_at": "2019-11-14T16:47:04Z",
+    "closed_at": "2019-11-14T17:20:10Z",
+    "merged_at": "2019-11-14T17:20:10Z",
+    "user": {
+      "login": "GautamBose"
+    }
+  },
+  {
+    "number": 47,
+    "title": "Open pose API to configure posenet options",
+    "state": "closed",
+    "created_at": "2019-11-14T22:39:34Z",
+    "closed_at": "2019-11-15T15:24:24Z",
+    "merged_at": "2019-11-15T15:24:24Z",
+    "user": {
+      "login": "irealva"
+    }
+  },
+  {
+    "number": 46,
+    "title": "[fix] Bumps ml5 version to 0.4.3",
+    "state": "closed",
+    "created_at": "2019-11-14T21:09:15Z",
+    "closed_at": "2019-11-15T00:50:46Z",
+    "merged_at": "2019-11-15T00:50:46Z",
+    "user": {
+      "login": "joeyklee"
+    }
+  },
+  {
+    "number": 22,
+    "title": "Fix webcam issue on Safari",
+    "state": "closed",
+    "created_at": "2019-11-06T15:24:11Z",
+    "closed_at": "2019-11-06T16:31:08Z",
+    "merged_at": "2019-11-06T16:31:08Z",
+    "user": {
+      "login": "irealva"
+    }
+  },
+  {
+    "number": 20,
+    "title": "New p5.js snippets",
+    "state": "closed",
+    "created_at": "2019-11-05T14:48:41Z",
+    "closed_at": "2019-11-06T21:43:28Z",
+    "merged_at": "2019-11-06T21:43:28Z",
+    "user": {
+      "login": "irealva"
+    }
+  },
+  {
+    "number": 26,
+    "title": "Add new readme to main section and gif of Teachable Machine",
+    "state": "closed",
+    "created_at": "2019-11-07T16:07:56Z",
+    "closed_at": "2019-11-07T16:10:40Z",
+    "merged_at": "2019-11-07T16:10:40Z",
+    "user": {
+      "login": "irealva"
+    }
+  },
+  {
+    "number": 32,
+    "title": "Fixing syntax error in p5.js snippet",
+    "state": "closed",
+    "created_at": "2019-11-09T14:14:07Z",
+    "closed_at": "2019-11-11T15:48:05Z",
+    "merged_at": "2019-11-11T15:48:05Z",
+    "user": {
+      "login": "mikakruschel"
+    }
+  },
+  {
+    "number": 24,
+    "title": "Match the web editor example exactly?",
+    "state": "closed",
+    "created_at": "2019-11-07T02:41:13Z",
+    "closed_at": "2019-11-07T06:12:11Z",
+    "merged_at": "2019-11-07T06:12:11Z",
+    "user": {
+      "login": "shiffman"
+    }
+  },
+  {
+    "number": 23,
+    "title": "[p5.js] P5 snippets update for clarity // audio & image",
+    "state": "closed",
+    "created_at": "2019-11-06T21:12:41Z",
+    "closed_at": "2019-11-06T21:39:19Z",
+    "merged_at": "2019-11-06T21:39:19Z",
+    "user": {
+      "login": "joeyklee"
+    }
+  },
+  {
+    "number": 21,
+    "title": "Adding ml5 flipVideo() function",
+    "state": "closed",
+    "created_at": "2019-11-05T15:06:13Z",
+    "closed_at": "2019-11-06T02:42:15Z",
+    "merged_at": "2019-11-06T02:42:15Z",
+    "user": {
+      "login": "shiffman"
+    }
+  },
+  {
+    "number": 10,
+    "title": "Support cdn",
+    "state": "closed",
+    "created_at": "2019-09-23T21:45:58Z",
+    "closed_at": "2019-09-27T03:46:14Z",
+    "merged_at": "2019-09-27T03:46:14Z",
+    "user": {
+      "login": "HalfdanJ"
+    }
+  },
+  {
+    "number": 8,
+    "title": "Cloudbuild",
+    "state": "closed",
+    "created_at": "2019-09-06T00:47:37Z",
+    "closed_at": "2019-09-09T17:47:32Z",
+    "merged_at": "2019-09-09T17:47:32Z",
+    "user": {
+      "login": "HalfdanJ"
+    }
+  },
+  {
+    "number": 17,
+    "title": "New snippets and API for image lib",
+    "state": "closed",
+    "created_at": "2019-11-03T13:01:44Z",
+    "closed_at": "2019-11-05T03:03:00Z",
+    "merged_at": "2019-11-05T03:03:00Z",
+    "user": {
+      "login": "irealva"
+    }
+  },
+  {
+    "number": 19,
+    "title": "New snippets and API for pose lib",
+    "state": "closed",
+    "created_at": "2019-11-05T01:43:04Z",
+    "closed_at": "2019-11-05T03:54:38Z",
+    "merged_at": "2019-11-05T03:54:38Z",
+    "user": {
+      "login": "irealva"
+    }
+  },
+  {
+    "number": 18,
+    "title": "New version of audio snippet with tf.js 1.3.1",
+    "state": "closed",
+    "created_at": "2019-11-03T13:44:02Z",
+    "closed_at": "2019-11-05T03:04:15Z",
+    "merged_at": "2019-11-05T03:04:15Z",
+    "user": {
+      "login": "irealva"
+    }
+  },
+  {
+    "number": 13,
+    "title": "Add stopTraining function to stop training midway",
+    "state": "closed",
+    "created_at": "2019-10-23T17:08:35Z",
+    "closed_at": "2019-10-28T23:23:21Z",
+    "merged_at": "2019-10-28T23:23:21Z",
+    "user": {
+      "login": "irealva"
+    }
+  },
+  {
+    "number": 9,
+    "title": "Bump to tf.js 1.3.x",
+    "state": "closed",
+    "created_at": "2019-09-16T21:34:25Z",
+    "closed_at": "2019-10-28T23:25:47Z",
+    "merged_at": "2019-10-28T23:25:47Z",
+    "user": {
+      "login": "HalfdanJ"
+    }
+  },
+  {
+    "number": 16,
+    "title": "Updating pose and image libs to tf.js 1.3.1",
+    "state": "closed",
+    "created_at": "2019-10-30T22:17:36Z",
+    "closed_at": "2019-10-30T22:58:11Z",
+    "merged_at": "2019-10-30T22:58:11Z",
+    "user": {
+      "login": "irealva"
+    }
+  },
+  {
+    "number": 14,
+    "title": "Change predict functions to `predict()` and `predictTopK()` in pose and image libraries",
+    "state": "closed",
+    "created_at": "2019-10-23T20:25:36Z",
+    "closed_at": "2019-10-25T18:31:16Z",
+    "merged_at": "2019-10-25T18:31:16Z",
+    "user": {
+      "login": "irealva"
+    }
+  },
+  {
+    "number": 15,
+    "title": "Support for visualizing accuracy per class to image and pose libs",
+    "state": "closed",
+    "created_at": "2019-10-24T22:27:37Z",
+    "closed_at": "2019-10-25T18:35:13Z",
+    "merged_at": "2019-10-25T18:35:13Z",
+    "user": {
+      "login": "irealva"
+    }
+  },
+  {
+    "number": 11,
+    "title": "Refactor to put librarires in subfolder and snippets in other folder",
+    "state": "closed",
+    "created_at": "2019-09-27T18:14:09Z",
+    "closed_at": "2019-10-25T21:16:39Z",
+    "merged_at": "2019-10-25T21:16:39Z",
+    "user": {
+      "login": "HalfdanJ"
+    }
+  },
+  {
+    "number": 7,
+    "title": "Fix memory leaks in image and pose libraries",
+    "state": "closed",
+    "created_at": "2019-08-30T18:04:27Z",
+    "closed_at": "2019-08-31T19:06:11Z",
+    "merged_at": "2019-08-31T19:06:11Z",
+    "user": {
+      "login": "irealva"
+    }
+  },
+  {
+    "number": 6,
+    "title": "TeachablePoseNet Improvements",
+    "state": "closed",
+    "created_at": "2019-08-21T21:36:05Z",
+    "closed_at": "2019-08-22T17:59:11Z",
+    "merged_at": "2019-08-22T17:59:11Z",
+    "user": {
+      "login": "irealva"
+    }
+  },
+  {
+    "number": 5,
+    "title": "TeachableMobileNet Improvements",
+    "state": "closed",
+    "created_at": "2019-08-21T19:21:52Z",
+    "closed_at": "2019-08-22T18:00:13Z",
+    "merged_at": "2019-08-22T18:00:13Z",
+    "user": {
+      "login": "irealva"
+    }
+  },
+  {
+    "number": 4,
+    "title": "Support for a validation dataset and batch size parameter",
+    "state": "closed",
+    "created_at": "2019-08-05T17:39:55Z",
+    "closed_at": "2019-08-15T18:50:40Z",
+    "merged_at": "2019-08-15T18:50:40Z",
+    "user": {
+      "login": "irealva"
+    }
+  },
+  {
+    "number": 1,
+    "title": "MobilenetV2",
+    "state": "closed",
+    "created_at": "2019-07-08T19:14:09Z",
+    "closed_at": "2019-08-12T18:22:04Z",
+    "merged_at": "2019-08-12T18:22:04Z",
+    "user": {
+      "login": "HalfdanJ"
+    }
+  },
+  {
+    "number": 2,
+    "title": "Adding support for pose classification using posenet",
+    "state": "closed",
+    "created_at": "2019-07-10T16:13:56Z",
+    "closed_at": "2019-07-15T19:24:25Z",
+    "merged_at": "2019-07-15T19:24:25Z",
+    "user": {
+      "login": "irealva"
+    }
+  }
+]
