@@ -21,6 +21,7 @@ export function ComparisonChart() {
   const [againstKey, setAgainstKey] = useState(PREFETCHED_REPOS[1].key);
   const [comparePRs, setComparePRs] = useState<PullRequest[]>([]);
   const [againstPRs, setAgainstPRs] = useState<PullRequest[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   const againstOptions = useMemo(
     () =>
@@ -37,16 +38,20 @@ export function ComparisonChart() {
   }, [againstOptions, againstKey]);
 
   useEffect(() => {
-    loadPrefetchedPRs(compareKey)
-      .then(setComparePRs)
-      .catch(() => setComparePRs([]));
-  }, [compareKey]);
-
-  useEffect(() => {
-    loadPrefetchedPRs(againstKey)
-      .then(setAgainstPRs)
-      .catch(() => setAgainstPRs([]));
-  }, [againstKey]);
+    setIsLoading(true);
+    Promise.all([loadPrefetchedPRs(compareKey), loadPrefetchedPRs(againstKey)])
+      .then(([compareData, againstData]) => {
+        setComparePRs(compareData);
+        setAgainstPRs(againstData);
+      })
+      .catch(() => {
+        setComparePRs([]);
+        setAgainstPRs([]);
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
+  }, [compareKey, againstKey]);
 
   const compareData = useMemo(() => getRollingAverages(comparePRs, 5000, 200), [comparePRs]);
   const againstData = useMemo(() => getRollingAverages(againstPRs, 5000, 200), [againstPRs]);
@@ -172,7 +177,11 @@ export function ComparisonChart() {
         </div>
       </div>
       <div className="comparison-chart-container">
-        <Line data={chartData} options={options} />
+        {isLoading ? (
+          <div className="loading-spinner"></div>
+        ) : (
+          <Line data={chartData} options={options} />
+        )}
       </div>
     </section>
   );
