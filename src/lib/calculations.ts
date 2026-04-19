@@ -109,3 +109,95 @@ export function getRollingAverages(
 
   return dataPoints;
 }
+
+/**
+ * Generate a "What if Tendril?" prediction for the Against repo.
+ * Before cutoff: prediction = against values (unchanged).
+ * After cutoff: against values are scaled by Ivy-Framework's growth coefficient.
+ */
+export function computeTendrilPrediction(
+  ivyData: RollingDataPoint[],
+  againstData: RollingDataPoint[],
+  cutoffDate: string = "Mar 02",
+): RollingDataPoint[] {
+  // Find the cutoff index (first date >= cutoffDate)
+  const cutoffIdx = ivyData.findIndex((d) => d.date >= cutoffDate);
+  if (cutoffIdx <= 0) return againstData;
+
+  // Compute Ivy baseline = average of Ivy values BEFORE cutoff
+  const ivyBefore = ivyData.slice(0, cutoffIdx);
+
+  const avgIvyPRs =
+    ivyBefore.reduce((s, d) => s + d.prsCreated, 0) / ivyBefore.length || 1;
+  const avgIvyDenial =
+    ivyBefore.reduce((s, d) => s + d.denialRate, 0) / ivyBefore.length || 1;
+
+  return againstData.map((point, i) => {
+    if (i < cutoffIdx) return { ...point };
+
+    const ivyPoint = ivyData[i] ?? ivyData[ivyData.length - 1];
+
+    // Growth coefficient = how much Ivy grew relative to its own baseline
+    // PRs: can only grow (coeff >= 1)
+    const prsCoeff = Math.max(1, ivyPoint.prsCreated / avgIvyPRs);
+    // Denial: can only shrink (coeff <= 1)
+    const denialCoeff = avgIvyDenial > 0 ? Math.min(1, ivyPoint.denialRate / avgIvyDenial) : 1;
+
+    const predPRs = point.prsCreated * prsCoeff;
+    // Cost = same total budget spread over more PRs
+    const predCost = predPRs > 0 ? (point.costPerPR * point.prsCreated) / predPRs : 0;
+
+    return {
+      ...point,
+      prsCreated: Math.round(predPRs),
+      prsMerged: Math.round(point.prsMerged * prsCoeff),
+      denialRate: Math.max(0, point.denialRate * denialCoeff),
+      costPerPR: Math.max(0, predCost),
+    };
+  });
+}
+
+/**
+ * Apply Ivy-Framework's monthly improvement coefficients to Against repo monthly stats.
+ * Months before March 2026 are unchanged; March onward get Tendril prediction.
+ */
+export function computeTendrilMonthlyPrediction(
+  ivyMonthly: MonthlyStats[],
+  againstMonthly: MonthlyStats[],
+  cutoffMonth: string = "2026-03",
+): MonthlyStats[] {
+  // Compute Ivy baseline from months before cutoff
+  const ivyBefore = ivyMonthly.filter((m) => m.month < cutoffMonth);
+  if (ivyBefore.length === 0) return againstMonthly;
+
+  const avgIvyTotal = ivyBefore.reduce((s, m) => s + m.totalPRs, 0) / ivyBefore.length || 1;
+  const avgIvyDenial = ivyBefore.reduce((s, m) => s + m.denialRate, 0) / ivyBefore.length || 1;
+
+  return againstMonthly.map((month) => {
+    if (month.month < cutoffMonth) return { ...month };
+
+    const ivyMonth = ivyMonthly.find((m) => m.month === month.month);
+    if (!ivyMonth) return { ...month };
+
+    const prsCoeff = Math.max(1, ivyMonth.totalPRs / avgIvyTotal);
+    const denialCoeff = Math.min(1, ivyMonth.denialRate / avgIvyDenial);
+
+    const predMerged = Math.round(month.merged * prsCoeff);
+    const predDenied = Math.max(0, Math.round(month.denied * denialCoeff));
+    const predTotal = predMerged + predDenied;
+    const predDenialRate = predTotal > 0 ? (predDenied / predTotal) * 100 : 0;
+    const predDevCost = predTotal > 0 ? month.devCostPerPR * month.totalPRs / predTotal : 0;
+    const predTokenCost = predTotal > 0 ? month.tokenCostPerPR * month.totalPRs / predTotal : 0;
+
+    return {
+      ...month,
+      merged: predMerged,
+      denied: predDenied,
+      totalPRs: predTotal,
+      denialRate: predDenialRate,
+      devCostPerPR: predDevCost,
+      tokenCostPerPR: predTokenCost,
+      avgHoursPerPR: predTotal > 0 ? WORKING_HOURS_PER_MONTH / predTotal : 0,
+    };
+  });
+}

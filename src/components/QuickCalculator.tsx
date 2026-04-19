@@ -1,13 +1,25 @@
 import { useState } from "react";
 
 export function QuickCalculator() {
-  const [monthlySalary, setMonthlySalary] = useState(5000);
-  const [dailyTokenSpend, setDailyTokenSpend] = useState(200);
-  const [prsPerMonth, setPrsPerMonth] = useState(20);
+  const [salaryStr, setSalaryStr] = useState("5000");
+  const [tokenSpendStr, setTokenSpendStr] = useState("200");
+  const [prsStr, setPrsStr] = useState("20");
+  const [denialRate, setDenialRate] = useState(0);
 
-  const devCostPerPR = monthlySalary / prsPerMonth;
-  const tokenCostPerPR = (dailyTokenSpend * 21) / prsPerMonth;
-  const totalCostPerPR = devCostPerPR + tokenCostPerPR;
+  const salary = Number(salaryStr) || 0;
+  const tokenSpend = Number(tokenSpendStr) || 0;
+  const prsPerMonth = Number(prsStr) || 0;
+
+  const canCalculate = prsPerMonth > 0 && denialRate < 100;
+
+  const devCostPerPR = canCalculate ? salary / prsPerMonth : 0;
+  const tokenCostPerPR = canCalculate ? (tokenSpend * 21) / prsPerMonth : 0;
+  const baseTotalCost = devCostPerPR + tokenCostPerPR;
+  const effectiveMultiplier = canCalculate ? 1 / (1 - denialRate / 100) : 0;
+  const effectiveTotalCost = baseTotalCost * effectiveMultiplier;
+
+  const fmt = (value: number) =>
+    canCalculate ? `$${value.toFixed(2)}` : "—";
 
   return (
     <div className="quick-calculator">
@@ -17,8 +29,8 @@ export function QuickCalculator() {
           <label>Monthly Salary (USD)</label>
           <input
             type="number"
-            value={monthlySalary}
-            onChange={(e) => setMonthlySalary(Number(e.target.value))}
+            value={salaryStr}
+            onChange={(e) => setSalaryStr(e.target.value)}
             min={0}
           />
         </div>
@@ -26,8 +38,8 @@ export function QuickCalculator() {
           <label>Daily Token Spend (USD)</label>
           <input
             type="number"
-            value={dailyTokenSpend}
-            onChange={(e) => setDailyTokenSpend(Number(e.target.value))}
+            value={tokenSpendStr}
+            onChange={(e) => setTokenSpendStr(e.target.value)}
             min={0}
           />
         </div>
@@ -35,24 +47,41 @@ export function QuickCalculator() {
           <label>PRs per Month</label>
           <input
             type="number"
-            value={prsPerMonth}
-            onChange={(e) => setPrsPerMonth(Math.max(1, Number(e.target.value)))}
-            min={1}
+            value={prsStr}
+            onChange={(e) => setPrsStr(e.target.value)}
+            min={0}
+          />
+        </div>
+        <div className="form-group">
+          <label>Denial Rate ({denialRate}%)</label>
+          <input
+            type="range"
+            min={0}
+            max={99}
+            value={denialRate}
+            onChange={(e) => setDenialRate(Number(e.target.value))}
+            className="denial-slider"
           />
         </div>
       </div>
       <div className="calc-results">
         <div className="calc-row">
-          <span>Dev Cost / PR</span>
-          <span className="calc-value">${devCostPerPR.toFixed(2)}</span>
+          <span>Dev Cost / merged PR</span>
+          <span className="calc-value">{fmt(devCostPerPR * effectiveMultiplier)}</span>
         </div>
         <div className="calc-row">
-          <span>Token Cost / PR</span>
-          <span className="calc-value">${tokenCostPerPR.toFixed(2)}</span>
+          <span>Token Cost / merged PR</span>
+          <span className="calc-value">{fmt(tokenCostPerPR * effectiveMultiplier)}</span>
         </div>
+        {denialRate > 0 && (
+          <div className="calc-row calc-denial-info">
+            <span>Denial overhead</span>
+            <span className="calc-value denial-value">+{((effectiveMultiplier - 1) * 100).toFixed(0)}%</span>
+          </div>
+        )}
         <div className="calc-row calc-total">
-          <span>Total Cost / PR</span>
-          <span className="calc-value">${totalCostPerPR.toFixed(2)}</span>
+          <span>Total Cost / merged PR</span>
+          <span className="calc-value">{fmt(effectiveTotalCost)}</span>
         </div>
       </div>
     </div>

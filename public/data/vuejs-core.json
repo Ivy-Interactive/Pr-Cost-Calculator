@@ -1,0 +1,5524 @@
+[
+  {
+    "number": 14737,
+    "title": "fix(runtime-core): prevent crash when disabled Teleport with component child is inside Suspense",
+    "state": "closed",
+    "created_at": "2026-04-19T09:39:46Z",
+    "closed_at": "2026-04-19T12:25:43Z",
+    "merged_at": null,
+    "user": {
+      "login": "ZackaryShen"
+    }
+  },
+  {
+    "number": 14736,
+    "title": "fix(compiler-sfc): resolve :deep inside :is/:where at start position",
+    "state": "closed",
+    "created_at": "2026-04-19T08:11:57Z",
+    "closed_at": "2026-04-19T13:09:43Z",
+    "merged_at": null,
+    "user": {
+      "login": "ZackaryShen"
+    }
+  },
+  {
+    "number": 14735,
+    "title": "test(e2e): fix flaky idle hydration strategy test",
+    "state": "open",
+    "created_at": "2026-04-17T14:21:31Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "babu-ch"
+    }
+  },
+  {
+    "number": 14734,
+    "title": "fix(reactivity): unlink effect scopes on out-of-order off",
+    "state": "open",
+    "created_at": "2026-04-17T10:16:07Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14732,
+    "title": "Fix/web stream error handling",
+    "state": "open",
+    "created_at": "2026-04-16T21:32:52Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Zakir176"
+    }
+  },
+  {
+    "number": 14731,
+    "title": "refactor: extract shared compiler options resolution logic",
+    "state": "open",
+    "created_at": "2026-04-16T21:07:16Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Zakir176"
+    }
+  },
+  {
+    "number": 14730,
+    "title": "refactor(runtime-vapor): simplify slot fallback ownership",
+    "state": "open",
+    "created_at": "2026-04-16T07:41:19Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14726,
+    "title": "fix(runtime-vapor): clean up teleported keepalive slot content in vdom fragments",
+    "state": "open",
+    "created_at": "2026-04-15T00:56:36Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14725,
+    "title": "fix(compiler-sfc): handle nested :deep in selector pseudos",
+    "state": "open",
+    "created_at": "2026-04-15T00:52:33Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14723,
+    "title": "fix(runtime-vapor): defer interop slot hydration until fallback is attached",
+    "state": "closed",
+    "created_at": "2026-04-14T08:20:20Z",
+    "closed_at": "2026-04-16T07:57:46Z",
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14722,
+    "title": "fix(compiler-sfc): preserve vapor render args for template-only components",
+    "state": "closed",
+    "created_at": "2026-04-14T07:19:19Z",
+    "closed_at": "2026-04-14T07:33:21Z",
+    "merged_at": "2026-04-14T07:33:21Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14721,
+    "title": "fix(runtime-vapor): pass render args to template-only components",
+    "state": "closed",
+    "created_at": "2026-04-14T06:21:03Z",
+    "closed_at": "2026-04-14T06:43:10Z",
+    "merged_at": "2026-04-14T06:43:10Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14720,
+    "title": "fix(runtime-vapor): fix teleport unmount through vdom interop",
+    "state": "closed",
+    "created_at": "2026-04-14T03:52:39Z",
+    "closed_at": "2026-04-14T05:47:03Z",
+    "merged_at": "2026-04-14T05:47:03Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14719,
+    "title": "fix(runtime-vapor): preserve render context in dev render",
+    "state": "closed",
+    "created_at": "2026-04-14T01:38:50Z",
+    "closed_at": "2026-04-14T07:39:51Z",
+    "merged_at": "2026-04-14T07:39:51Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14718,
+    "title": "fix(runtime-vapor): remove teleport with insertion parent",
+    "state": "closed",
+    "created_at": "2026-04-13T23:49:42Z",
+    "closed_at": "2026-04-13T23:58:51Z",
+    "merged_at": "2026-04-13T23:58:51Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14716,
+    "title": "chore(deps): update pnpm/action-setup action to v6",
+    "state": "open",
+    "created_at": "2026-04-13T03:16:45Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14715,
+    "title": "chore(deps): update actions/github-script action to v9",
+    "state": "open",
+    "created_at": "2026-04-13T03:16:40Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14714,
+    "title": "fix(deps): update dependency postcss to ^8.5.10",
+    "state": "open",
+    "created_at": "2026-04-13T01:46:36Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14713,
+    "title": "chore(deps): update test",
+    "state": "open",
+    "created_at": "2026-04-13T01:46:21Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14712,
+    "title": "chore(deps): update build",
+    "state": "open",
+    "created_at": "2026-04-13T00:57:23Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14711,
+    "title": "chore(deps): update lint",
+    "state": "open",
+    "created_at": "2026-04-13T00:57:04Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14710,
+    "title": "feat(types): support JSX children typing for defineComponent",
+    "state": "open",
+    "created_at": "2026-04-12T17:21:21Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "zhiyuanzmj"
+    }
+  },
+  {
+    "number": 14709,
+    "title": "fix(package.json): set `homepage` to vuejs.org",
+    "state": "closed",
+    "created_at": "2026-04-10T22:44:38Z",
+    "closed_at": "2026-04-10T23:54:20Z",
+    "merged_at": "2026-04-10T23:54:20Z",
+    "user": {
+      "login": "serhalp"
+    }
+  },
+  {
+    "number": 14708,
+    "title": "fix(keep-alive): defer keep-alive branch updates while inactive",
+    "state": "open",
+    "created_at": "2026-04-10T09:31:09Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14707,
+    "title": "chore(build): replace deprecated conventional-changelog-cli with conventional-changelog",
+    "state": "closed",
+    "created_at": "2026-04-10T07:07:53Z",
+    "closed_at": "2026-04-10T07:12:24Z",
+    "merged_at": "2026-04-10T07:12:24Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14705,
+    "title": "fix(runtime-vapor): tree-shake ssr runtime from defineVaporCustomElement",
+    "state": "closed",
+    "created_at": "2026-04-10T02:51:42Z",
+    "closed_at": "2026-04-10T03:18:09Z",
+    "merged_at": "2026-04-10T03:18:09Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14704,
+    "title": "fix(hydration): keep lazy hydration on the async wrapper path",
+    "state": "closed",
+    "created_at": "2026-04-10T01:08:51Z",
+    "closed_at": "2026-04-13T01:45:08Z",
+    "merged_at": "2026-04-13T01:45:08Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14702,
+    "title": "fix(teleport): don't move teleport children if not mounted",
+    "state": "open",
+    "created_at": "2026-04-09T10:21:10Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "lichunju1"
+    }
+  },
+  {
+    "number": 14698,
+    "title": "chore(deps-dev): bump lodash from 4.17.23 to 4.18.1",
+    "state": "closed",
+    "created_at": "2026-04-09T03:00:48Z",
+    "closed_at": "2026-04-09T03:03:14Z",
+    "merged_at": "2026-04-09T03:03:14Z",
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 14697,
+    "title": "chore(deps): bump vite from 7.3.1 to 7.3.2",
+    "state": "closed",
+    "created_at": "2026-04-09T03:00:26Z",
+    "closed_at": "2026-04-09T03:05:51Z",
+    "merged_at": "2026-04-09T03:05:51Z",
+    "user": {
+      "login": "dependabot[bot]"
+    }
+  },
+  {
+    "number": 14695,
+    "title": "refactor(hydration): preserve async wrapper hydration paths while tightening vapor mismatch handling",
+    "state": "closed",
+    "created_at": "2026-04-08T09:35:50Z",
+    "closed_at": "2026-04-10T01:15:11Z",
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14694,
+    "title": "chore: update pnpm config",
+    "state": "open",
+    "created_at": "2026-04-08T02:38:51Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "btea"
+    }
+  },
+  {
+    "number": 14693,
+    "title": "feat(types): infer expose type from SetupContext in defineComponent",
+    "state": "open",
+    "created_at": "2026-04-07T15:39:55Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "zhiyuanzmj"
+    }
+  },
+  {
+    "number": 14691,
+    "title": "feat(runtime-vapor): hydrate async setup component under VDOM Suspense",
+    "state": "closed",
+    "created_at": "2026-04-07T08:51:15Z",
+    "closed_at": "2026-04-07T09:58:38Z",
+    "merged_at": "2026-04-07T09:58:38Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14690,
+    "title": "fix(hydration): avoid component double mount during hydration",
+    "state": "closed",
+    "created_at": "2026-04-07T02:42:21Z",
+    "closed_at": "2026-04-07T03:18:07Z",
+    "merged_at": "2026-04-07T03:18:07Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14689,
+    "title": "chore(deps): update dependency vite to v7.3.2 [security] - autoclosed",
+    "state": "closed",
+    "created_at": "2026-04-06T21:56:13Z",
+    "closed_at": "2026-04-09T03:08:04Z",
+    "merged_at": null,
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14688,
+    "title": "feat(types): infer slots type from SetupContext in defineComponent",
+    "state": "open",
+    "created_at": "2026-04-06T16:18:41Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "zhiyuanzmj"
+    }
+  },
+  {
+    "number": 14687,
+    "title": "feat(types): infer emits from SetupContext in defineComponent",
+    "state": "open",
+    "created_at": "2026-04-06T11:07:43Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "zhiyuanzmj"
+    }
+  },
+  {
+    "number": 14686,
+    "title": "types(runtime-vapor): infer expose type from setup in defineVaporComponent options api",
+    "state": "closed",
+    "created_at": "2026-04-06T03:53:20Z",
+    "closed_at": "2026-04-12T10:52:32Z",
+    "merged_at": null,
+    "user": {
+      "login": "zhiyuanzmj"
+    }
+  },
+  {
+    "number": 14685,
+    "title": "chore(deps): update dawidd6/action-download-artifact action to v20",
+    "state": "closed",
+    "created_at": "2026-04-06T01:08:46Z",
+    "closed_at": "2026-04-09T03:23:54Z",
+    "merged_at": "2026-04-09T03:23:54Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14684,
+    "title": "chore(deps): update lint",
+    "state": "closed",
+    "created_at": "2026-04-06T01:08:41Z",
+    "closed_at": "2026-04-09T03:15:33Z",
+    "merged_at": "2026-04-09T03:15:33Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14683,
+    "title": "chore(deps): update build",
+    "state": "closed",
+    "created_at": "2026-04-06T00:37:19Z",
+    "closed_at": "2026-04-09T03:19:30Z",
+    "merged_at": "2026-04-09T03:19:30Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14682,
+    "title": "chore(deps): update all non-major dependencies",
+    "state": "closed",
+    "created_at": "2026-04-06T00:37:07Z",
+    "closed_at": "2026-04-09T05:35:43Z",
+    "merged_at": "2026-04-09T05:35:43Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14675,
+    "title": "chore(deps): update dependency lodash to v4.18.1 [security] - autoclosed",
+    "state": "closed",
+    "created_at": "2026-04-03T05:40:27Z",
+    "closed_at": "2026-04-09T03:03:42Z",
+    "merged_at": null,
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14674,
+    "title": "Revert \"fix(server-renderer): cleanup component effect scopes after SSR render\"",
+    "state": "closed",
+    "created_at": "2026-04-03T02:27:29Z",
+    "closed_at": "2026-04-03T02:29:04Z",
+    "merged_at": "2026-04-03T02:29:03Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14673,
+    "title": "fix(ssr): avoid triggering onScopeDispose during SSR cleanup",
+    "state": "closed",
+    "created_at": "2026-04-03T01:30:17Z",
+    "closed_at": "2026-04-03T02:21:17Z",
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14670,
+    "title": "refactor(runtime-vapor): improve anchor reuse logic during hydration",
+    "state": "closed",
+    "created_at": "2026-04-02T01:54:41Z",
+    "closed_at": "2026-04-03T00:16:36Z",
+    "merged_at": "2026-04-03T00:16:36Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14668,
+    "title": "fix(runtime-core): prevent currentInstance leak into sibling render during async setup re-entry",
+    "state": "closed",
+    "created_at": "2026-04-01T16:49:12Z",
+    "closed_at": "2026-04-03T02:31:23Z",
+    "merged_at": "2026-04-03T02:31:23Z",
+    "user": {
+      "login": "cernymatej"
+    }
+  },
+  {
+    "number": 14666,
+    "title": "fix(runtime-vapor): Add a non-null check for parentComponent",
+    "state": "closed",
+    "created_at": "2026-04-01T03:44:19Z",
+    "closed_at": "2026-04-01T03:49:55Z",
+    "merged_at": "2026-04-01T03:49:55Z",
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 14663,
+    "title": "docs(runtime-core): clarify useTemplateRef slot owner behavior",
+    "state": "closed",
+    "created_at": "2026-03-31T05:55:56Z",
+    "closed_at": "2026-03-31T07:45:07Z",
+    "merged_at": null,
+    "user": {
+      "login": "Misrilal-Sah"
+    }
+  },
+  {
+    "number": 14662,
+    "title": "test(types): add regression for toRef(MaybeRef) assignment",
+    "state": "closed",
+    "created_at": "2026-03-31T05:55:34Z",
+    "closed_at": "2026-03-31T07:42:21Z",
+    "merged_at": null,
+    "user": {
+      "login": "Misrilal-Sah"
+    }
+  },
+  {
+    "number": 14661,
+    "title": "docs(runtime-core): clarify watchEffect dependency tracking",
+    "state": "closed",
+    "created_at": "2026-03-31T05:55:05Z",
+    "closed_at": "2026-03-31T07:44:57Z",
+    "merged_at": null,
+    "user": {
+      "login": "Misrilal-Sah"
+    }
+  },
+  {
+    "number": 14660,
+    "title": "fix(runtime-core): type TemplateRef as readonly Ref",
+    "state": "closed",
+    "created_at": "2026-03-31T05:54:36Z",
+    "closed_at": "2026-03-31T07:41:48Z",
+    "merged_at": null,
+    "user": {
+      "login": "Misrilal-Sah"
+    }
+  },
+  {
+    "number": 14659,
+    "title": "fix(runtime-dom): widen VOnModifiers key typings",
+    "state": "closed",
+    "created_at": "2026-03-31T05:54:01Z",
+    "closed_at": "2026-03-31T07:45:41Z",
+    "merged_at": null,
+    "user": {
+      "login": "Misrilal-Sah"
+    }
+  },
+  {
+    "number": 14658,
+    "title": "fix(runtime-core): relax function ref callback variance",
+    "state": "closed",
+    "created_at": "2026-03-31T05:53:38Z",
+    "closed_at": "2026-03-31T07:40:54Z",
+    "merged_at": null,
+    "user": {
+      "login": "Misrilal-Sah"
+    }
+  },
+  {
+    "number": 14657,
+    "title": "fix(reactivity): add generic watch overloads",
+    "state": "closed",
+    "created_at": "2026-03-31T05:52:54Z",
+    "closed_at": "2026-03-31T07:43:16Z",
+    "merged_at": null,
+    "user": {
+      "login": "Misrilal-Sah"
+    }
+  },
+  {
+    "number": 14656,
+    "title": "fix(reactivity): allow async watchEffect callbacks",
+    "state": "closed",
+    "created_at": "2026-03-31T05:51:20Z",
+    "closed_at": "2026-03-31T07:44:39Z",
+    "merged_at": null,
+    "user": {
+      "login": "Misrilal-Sah"
+    }
+  },
+  {
+    "number": 14655,
+    "title": "fix(runtime-vapor): stop stale effects when remounting interop vapor slots",
+    "state": "closed",
+    "created_at": "2026-03-31T02:20:14Z",
+    "closed_at": "2026-04-01T03:12:23Z",
+    "merged_at": "2026-04-01T03:12:23Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14653,
+    "title": "docs: fix typos in changelogs",
+    "state": "closed",
+    "created_at": "2026-03-30T17:23:08Z",
+    "closed_at": "2026-03-31T03:13:45Z",
+    "merged_at": "2026-03-31T03:13:44Z",
+    "user": {
+      "login": "ayushshukla1807"
+    }
+  },
+  {
+    "number": 14652,
+    "title": "Docs/fix typo changelog 3.3",
+    "state": "closed",
+    "created_at": "2026-03-30T14:06:02Z",
+    "closed_at": "2026-03-31T03:13:09Z",
+    "merged_at": null,
+    "user": {
+      "login": "Zakir176"
+    }
+  },
+  {
+    "number": 14651,
+    "title": "fix(runtime-vapor): re-mount vapor slot when slot changes in vdom interop",
+    "state": "closed",
+    "created_at": "2026-03-30T08:12:22Z",
+    "closed_at": "2026-03-30T09:27:26Z",
+    "merged_at": "2026-03-30T09:27:26Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14649,
+    "title": "fix(runtime-vapor): use last-wins semantics for duplicate dynamic slot names",
+    "state": "closed",
+    "created_at": "2026-03-30T05:45:21Z",
+    "closed_at": "2026-03-30T06:04:54Z",
+    "merged_at": "2026-03-30T06:04:54Z",
+    "user": {
+      "login": "babu-ch"
+    }
+  },
+  {
+    "number": 14647,
+    "title": "chore(deps): update test",
+    "state": "closed",
+    "created_at": "2026-03-30T00:53:38Z",
+    "closed_at": "2026-04-09T03:19:13Z",
+    "merged_at": "2026-04-09T03:19:13Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14642,
+    "title": "fix(teleport): handle updates before deferred mount",
+    "state": "closed",
+    "created_at": "2026-03-27T03:15:03Z",
+    "closed_at": "2026-04-03T03:45:17Z",
+    "merged_at": "2026-04-03T03:45:17Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14641,
+    "title": "fix(types): use private branding for shallowReactive",
+    "state": "closed",
+    "created_at": "2026-03-27T01:49:33Z",
+    "closed_at": "2026-04-03T02:31:00Z",
+    "merged_at": "2026-04-03T02:31:00Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14639,
+    "title": "fix(types): allow customRef to have different getter/setter types",
+    "state": "closed",
+    "created_at": "2026-03-26T18:23:19Z",
+    "closed_at": "2026-04-03T02:30:30Z",
+    "merged_at": "2026-04-03T02:30:30Z",
+    "user": {
+      "login": "cyphercodes"
+    }
+  },
+  {
+    "number": 14636,
+    "title": "fix(ssr): ensure duplicate component VNodes render after hydration",
+    "state": "open",
+    "created_at": "2026-03-26T13:03:54Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "cernymatej"
+    }
+  },
+  {
+    "number": 14634,
+    "title": "fix(transition): handle dynamic slot update",
+    "state": "closed",
+    "created_at": "2026-03-26T10:21:47Z",
+    "closed_at": "2026-03-30T04:04:52Z",
+    "merged_at": "2026-03-30T04:04:52Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14633,
+    "title": "fix(runtime-vapor): support render vapor async wrapper in vdom suspense",
+    "state": "closed",
+    "created_at": "2026-03-26T09:07:55Z",
+    "closed_at": "2026-03-30T08:14:16Z",
+    "merged_at": "2026-03-30T08:14:16Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14632,
+    "title": "fix(transition): handle transition appear with slotted v-show at runtime",
+    "state": "closed",
+    "created_at": "2026-03-26T04:03:27Z",
+    "closed_at": "2026-03-26T06:43:30Z",
+    "merged_at": "2026-03-26T06:43:30Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14630,
+    "title": "chore: ignore entities updates in renovate",
+    "state": "closed",
+    "created_at": "2026-03-25T09:05:44Z",
+    "closed_at": "2026-03-25T09:06:03Z",
+    "merged_at": "2026-03-25T09:06:03Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14629,
+    "title": "fix(runtime-core): prevent merging model listener when value is null or undefined",
+    "state": "closed",
+    "created_at": "2026-03-25T08:09:42Z",
+    "closed_at": "2026-03-25T08:18:46Z",
+    "merged_at": "2026-03-25T08:18:46Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14628,
+    "title": "fix(transition-group): handle v-if dynamic slots",
+    "state": "closed",
+    "created_at": "2026-03-25T06:45:58Z",
+    "closed_at": "2026-03-25T10:04:33Z",
+    "merged_at": "2026-03-25T10:04:33Z",
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 14625,
+    "title": "fix(reactivity): normalize toRef property keys before dep lookup + improve types",
+    "state": "closed",
+    "created_at": "2026-03-25T01:27:42Z",
+    "closed_at": "2026-03-25T06:30:10Z",
+    "merged_at": "2026-03-25T06:30:10Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14624,
+    "title": "fix(runtime-core): invalidate detached v-for memo vnodes after unmount",
+    "state": "closed",
+    "created_at": "2026-03-24T08:32:53Z",
+    "closed_at": "2026-03-25T06:29:33Z",
+    "merged_at": "2026-03-25T06:29:33Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14622,
+    "title": "fix(compiler-sfc): support template literal as defineModel name",
+    "state": "closed",
+    "created_at": "2026-03-23T15:12:00Z",
+    "closed_at": "2026-03-25T06:28:47Z",
+    "merged_at": "2026-03-25T06:28:47Z",
+    "user": {
+      "login": "babu-ch"
+    }
+  },
+  {
+    "number": 14619,
+    "title": "fix(compiler-vapor): normalize default dynamic slot names in transform",
+    "state": "closed",
+    "created_at": "2026-03-23T08:46:05Z",
+    "closed_at": "2026-03-24T06:58:24Z",
+    "merged_at": "2026-03-24T06:58:24Z",
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 14618,
+    "title": "test(vapor-e2e): migrate e2e tests to browser mode",
+    "state": "closed",
+    "created_at": "2026-03-23T03:49:47Z",
+    "closed_at": "2026-03-25T23:46:36Z",
+    "merged_at": "2026-03-25T23:46:36Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14616,
+    "title": "chore(deps): update pnpm/action-setup action to v5",
+    "state": "closed",
+    "created_at": "2026-03-23T02:29:08Z",
+    "closed_at": "2026-03-25T08:33:52Z",
+    "merged_at": "2026-03-25T08:33:52Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14615,
+    "title": "chore(deps): update dependency entities to v8",
+    "state": "closed",
+    "created_at": "2026-03-23T02:29:03Z",
+    "closed_at": "2026-03-25T09:06:05Z",
+    "merged_at": null,
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14614,
+    "title": "chore(deps): update dawidd6/action-download-artifact action to v19",
+    "state": "closed",
+    "created_at": "2026-03-23T01:04:44Z",
+    "closed_at": "2026-03-25T08:32:34Z",
+    "merged_at": "2026-03-25T08:32:34Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14613,
+    "title": "chore(deps): update dependency @babel/parser to ^7.29.2",
+    "state": "closed",
+    "created_at": "2026-03-23T01:04:38Z",
+    "closed_at": "2026-03-25T08:32:17Z",
+    "merged_at": "2026-03-25T08:32:17Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14612,
+    "title": "feat(compiler-sfc,compiler-spatial): add spatial computing support for visionOS",
+    "state": "closed",
+    "created_at": "2026-03-21T11:33:15Z",
+    "closed_at": "2026-03-22T08:41:48Z",
+    "merged_at": null,
+    "user": {
+      "login": "Amiya167"
+    }
+  },
+  {
+    "number": 14611,
+    "title": "fix(transition): skip enter guard while hmr updating",
+    "state": "closed",
+    "created_at": "2026-03-21T01:25:49Z",
+    "closed_at": "2026-03-25T06:27:50Z",
+    "merged_at": "2026-03-25T06:27:50Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14610,
+    "title": "fix(compiler-vapor): avoid delegating same-event handlers when sibling uses `stop` modifiers",
+    "state": "closed",
+    "created_at": "2026-03-21T01:18:43Z",
+    "closed_at": "2026-03-23T01:21:50Z",
+    "merged_at": "2026-03-23T01:21:50Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14607,
+    "title": "feat(vapor): preserve static keys",
+    "state": "closed",
+    "created_at": "2026-03-20T03:25:54Z",
+    "closed_at": "2026-03-23T01:34:14Z",
+    "merged_at": "2026-03-23T01:34:14Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14606,
+    "title": "fix(compiler-vapor): handle template children in Transition",
+    "state": "closed",
+    "created_at": "2026-03-19T10:28:18Z",
+    "closed_at": "2026-03-20T10:00:40Z",
+    "merged_at": "2026-03-20T10:00:40Z",
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 14605,
+    "title": "fix(transition-group): align transition-group dynamic tag updates with vdom",
+    "state": "closed",
+    "created_at": "2026-03-19T09:52:23Z",
+    "closed_at": "2026-03-20T01:37:37Z",
+    "merged_at": "2026-03-20T01:37:37Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14604,
+    "title": "fix(compiler-vapor): preserve comment-only default slots while ignoring mixed slot comments",
+    "state": "closed",
+    "created_at": "2026-03-19T03:30:52Z",
+    "closed_at": "2026-03-19T03:39:15Z",
+    "merged_at": "2026-03-19T03:39:15Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14602,
+    "title": "fix(runtime-vapor): invalidate pending mount hooks on deactivate/unmount",
+    "state": "closed",
+    "created_at": "2026-03-18T00:29:13Z",
+    "closed_at": "2026-03-19T02:53:12Z",
+    "merged_at": "2026-03-19T02:53:12Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14601,
+    "title": "fix(compiler-vapor): ignore comments when checking extraneous default slot children",
+    "state": "closed",
+    "created_at": "2026-03-17T13:49:05Z",
+    "closed_at": "2026-03-19T03:25:03Z",
+    "merged_at": "2026-03-19T03:25:03Z",
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 14600,
+    "title": "fix(teleport): remove stale target anchors after invalid target updates",
+    "state": "closed",
+    "created_at": "2026-03-17T02:48:40Z",
+    "closed_at": "2026-03-17T03:34:46Z",
+    "merged_at": "2026-03-17T03:34:46Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14599,
+    "title": "fix(teleport): preserve nested teleported children across HMR reloads",
+    "state": "closed",
+    "created_at": "2026-03-17T02:36:21Z",
+    "closed_at": "2026-03-17T03:25:50Z",
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14598,
+    "title": "fix(teleport): should not mount deferred teleport after unmount",
+    "state": "closed",
+    "created_at": "2026-03-17T02:28:29Z",
+    "closed_at": "2026-03-17T03:34:02Z",
+    "merged_at": "2026-03-17T03:34:02Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14597,
+    "title": "fix(teleport): handle missing slots edge case",
+    "state": "closed",
+    "created_at": "2026-03-17T02:18:38Z",
+    "closed_at": "2026-03-17T03:28:17Z",
+    "merged_at": "2026-03-17T03:28:17Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14596,
+    "title": "fix(runtime-vapor): restore render context for interop slot fallbacks",
+    "state": "closed",
+    "created_at": "2026-03-17T01:29:06Z",
+    "closed_at": "2026-03-17T01:39:02Z",
+    "merged_at": "2026-03-17T01:39:02Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14595,
+    "title": "refactor(runtime-vapor): move render context handling into VaporFragment",
+    "state": "closed",
+    "created_at": "2026-03-17T01:26:07Z",
+    "closed_at": "2026-03-17T01:35:20Z",
+    "merged_at": "2026-03-17T01:35:20Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14594,
+    "title": "fix(teleport): reapply teleport css vars after root replacement",
+    "state": "closed",
+    "created_at": "2026-03-17T00:07:25Z",
+    "closed_at": "2026-03-17T00:36:55Z",
+    "merged_at": "2026-03-17T00:36:55Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14593,
+    "title": "fix(runtime-vapor): delay teleport child init until target is available",
+    "state": "closed",
+    "created_at": "2026-03-16T13:33:16Z",
+    "closed_at": "2026-03-17T01:23:23Z",
+    "merged_at": "2026-03-17T01:23:23Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14592,
+    "title": "fix(hydration): consume target anchors for disabled teleports",
+    "state": "closed",
+    "created_at": "2026-03-16T09:48:51Z",
+    "closed_at": "2026-03-16T09:52:36Z",
+    "merged_at": "2026-03-16T09:52:36Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14591,
+    "title": "fix(runtime-vapor): reuse teleport anchors when keyed roots reorder",
+    "state": "closed",
+    "created_at": "2026-03-16T09:33:42Z",
+    "closed_at": "2026-03-16T09:37:46Z",
+    "merged_at": "2026-03-16T09:37:46Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14590,
+    "title": "fix(runtime-vapor): TransitionGroup with v-for + v-if not applying transition hooks",
+    "state": "closed",
+    "created_at": "2026-03-16T08:36:57Z",
+    "closed_at": "2026-03-16T09:15:33Z",
+    "merged_at": "2026-03-16T09:15:33Z",
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 14589,
+    "title": "fix(hydration): avoid setting targetStart to placeholder when target is null",
+    "state": "closed",
+    "created_at": "2026-03-16T08:18:31Z",
+    "closed_at": "2026-03-16T08:33:07Z",
+    "merged_at": "2026-03-16T08:33:07Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14588,
+    "title": "fix(teleport): clean up old anchors when teleport target changes",
+    "state": "closed",
+    "created_at": "2026-03-16T08:07:01Z",
+    "closed_at": "2026-03-16T08:24:24Z",
+    "merged_at": "2026-03-16T08:24:24Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14587,
+    "title": "fix(hydration): handle nested disabled teleport anchor location",
+    "state": "closed",
+    "created_at": "2026-03-16T08:04:08Z",
+    "closed_at": "2026-03-16T08:23:59Z",
+    "merged_at": "2026-03-16T08:23:59Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14586,
+    "title": "fix(hydration): handle enabled teleport hydration with null target",
+    "state": "closed",
+    "created_at": "2026-03-16T07:57:27Z",
+    "closed_at": "2026-03-16T08:23:30Z",
+    "merged_at": "2026-03-16T08:23:30Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14585,
+    "title": "refactor(runtime-vapor): replace findBlockNode with locateNextNode in v-for hydration",
+    "state": "closed",
+    "created_at": "2026-03-16T06:29:57Z",
+    "closed_at": "2026-03-16T06:47:41Z",
+    "merged_at": "2026-03-16T06:47:41Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14584,
+    "title": "test(custom-element): add vapor test for slotted shadow DOM parent resolution",
+    "state": "closed",
+    "created_at": "2026-03-16T03:56:10Z",
+    "closed_at": "2026-03-16T03:57:11Z",
+    "merged_at": "2026-03-16T03:57:11Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14583,
+    "title": "fix(custom-element): should properly patch as props for vapor custom elements",
+    "state": "closed",
+    "created_at": "2026-03-16T03:49:25Z",
+    "closed_at": "2026-03-16T03:55:33Z",
+    "merged_at": "2026-03-16T03:55:33Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14582,
+    "title": "test(custom-element): add vapor tests for child component style injection order",
+    "state": "closed",
+    "created_at": "2026-03-16T03:38:45Z",
+    "closed_at": "2026-03-16T03:39:55Z",
+    "merged_at": "2026-03-16T03:39:55Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14581,
+    "title": "chore(deps): update dependency vite to v8",
+    "state": "closed",
+    "created_at": "2026-03-16T03:29:55Z",
+    "closed_at": "2026-04-09T03:23:14Z",
+    "merged_at": "2026-04-09T03:23:14Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14580,
+    "title": "chore(deps): update dependency jsdom to v29",
+    "state": "closed",
+    "created_at": "2026-03-16T02:41:17Z",
+    "closed_at": "2026-03-25T08:56:06Z",
+    "merged_at": "2026-03-25T08:56:05Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14579,
+    "title": "chore(deps): update dawidd6/action-download-artifact action to v18 - autoclosed",
+    "state": "closed",
+    "created_at": "2026-03-16T02:40:55Z",
+    "closed_at": "2026-03-18T10:08:41Z",
+    "merged_at": null,
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14578,
+    "title": "chore(deps): update test",
+    "state": "closed",
+    "created_at": "2026-03-16T01:27:59Z",
+    "closed_at": "2026-03-25T08:36:59Z",
+    "merged_at": "2026-03-25T08:36:59Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14577,
+    "title": "chore(deps): update all non-major dependencies",
+    "state": "closed",
+    "created_at": "2026-03-16T01:27:41Z",
+    "closed_at": "2026-03-25T08:47:10Z",
+    "merged_at": "2026-03-25T08:47:10Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14576,
+    "title": "refactor(runtime-vapor): extract scopeId logic into separate file",
+    "state": "closed",
+    "created_at": "2026-03-16T01:21:08Z",
+    "closed_at": "2026-03-16T01:26:43Z",
+    "merged_at": "2026-03-16T01:26:43Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14575,
+    "title": "refactor(runtime-vapor): extract transition hooks registry into separate file",
+    "state": "closed",
+    "created_at": "2026-03-16T01:12:18Z",
+    "closed_at": "2026-03-16T01:28:20Z",
+    "merged_at": "2026-03-16T01:28:20Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14574,
+    "title": "refactor(runtime-vapor): replace DelegatedFunction pattern with inline hydration checks",
+    "state": "closed",
+    "created_at": "2026-03-16T00:52:47Z",
+    "closed_at": "2026-03-16T01:33:04Z",
+    "merged_at": "2026-03-16T01:33:04Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14573,
+    "title": "chore(deps): update lint",
+    "state": "closed",
+    "created_at": "2026-03-16T00:14:58Z",
+    "closed_at": "2026-03-25T08:31:23Z",
+    "merged_at": "2026-03-25T08:31:23Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14572,
+    "title": "chore(deps): update build",
+    "state": "closed",
+    "created_at": "2026-03-16T00:14:48Z",
+    "closed_at": "2026-03-25T08:50:21Z",
+    "merged_at": "2026-03-25T08:50:21Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14571,
+    "title": "fix(runtime-vapor): TransitionGroup with v-if + v-for not applying transition hooks",
+    "state": "closed",
+    "created_at": "2026-03-16T00:09:22Z",
+    "closed_at": "2026-03-16T00:14:10Z",
+    "merged_at": "2026-03-16T00:14:10Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14570,
+    "title": "fix: improve code quality with type annotations and error handling",
+    "state": "open",
+    "created_at": "2026-03-15T12:46:48Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "N3XT3R1337"
+    }
+  },
+  {
+    "number": 14569,
+    "title": "fix(runtime-dom): correctly handle the v-if in TransitionGroup",
+    "state": "closed",
+    "created_at": "2026-03-14T02:51:53Z",
+    "closed_at": "2026-03-16T00:14:46Z",
+    "merged_at": null,
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 14568,
+    "title": "fix(compiler-vapor): avoid cache name collisions in expression dedupe",
+    "state": "closed",
+    "created_at": "2026-03-13T12:47:21Z",
+    "closed_at": "2026-03-13T12:54:47Z",
+    "merged_at": "2026-03-13T12:54:47Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14567,
+    "title": "fix(compiler-vapor): fix circular reference in repeated call expression cache",
+    "state": "closed",
+    "created_at": "2026-03-13T11:12:23Z",
+    "closed_at": "2026-03-13T12:45:53Z",
+    "merged_at": "2026-03-13T12:45:53Z",
+    "user": {
+      "login": "babu-ch"
+    }
+  },
+  {
+    "number": 14566,
+    "title": "chore: add jsdoc for defineSlots",
+    "state": "closed",
+    "created_at": "2026-03-13T10:16:45Z",
+    "closed_at": "2026-03-13T12:57:41Z",
+    "merged_at": "2026-03-13T12:57:41Z",
+    "user": {
+      "login": "BobbieGoede"
+    }
+  },
+  {
+    "number": 14565,
+    "title": "refactor(runtime-vapor): only restore current instance for deferred branches",
+    "state": "closed",
+    "created_at": "2026-03-13T09:57:08Z",
+    "closed_at": "2026-03-13T10:01:13Z",
+    "merged_at": "2026-03-13T10:01:13Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14562,
+    "title": "fix(compiler-vapor): do not cache expressions with globally allowed identifiers",
+    "state": "closed",
+    "created_at": "2026-03-13T01:04:19Z",
+    "closed_at": "2026-03-13T01:10:54Z",
+    "merged_at": "2026-03-13T01:10:54Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14559,
+    "title": "fix(compiler-sfc): scoped style with state pseudo in compound selectors",
+    "state": "closed",
+    "created_at": "2026-03-12T10:58:31Z",
+    "closed_at": "2026-03-12T11:00:29Z",
+    "merged_at": null,
+    "user": {
+      "login": "w2jiodsfa"
+    }
+  },
+  {
+    "number": 14558,
+    "title": "fix(compiler-sfc): scoped style with state pseudo in compound selectors",
+    "state": "closed",
+    "created_at": "2026-03-12T10:54:48Z",
+    "closed_at": "2026-03-12T10:58:15Z",
+    "merged_at": null,
+    "user": {
+      "login": "w2jiodsfa"
+    }
+  },
+  {
+    "number": 14557,
+    "title": "chore: bump .node-version to 24.14.0",
+    "state": "closed",
+    "created_at": "2026-03-12T04:01:18Z",
+    "closed_at": "2026-03-12T04:05:35Z",
+    "merged_at": null,
+    "user": {
+      "login": "Boshen"
+    }
+  },
+  {
+    "number": 14556,
+    "title": "chore: migrate to VitePlus",
+    "state": "closed",
+    "created_at": "2026-03-12T03:38:14Z",
+    "closed_at": "2026-03-13T03:09:09Z",
+    "merged_at": "2026-03-13T03:09:09Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14550,
+    "title": "fix(runtime-core): preserve nullish event handlers in mergeProps",
+    "state": "closed",
+    "created_at": "2026-03-10T13:56:22Z",
+    "closed_at": "2026-03-25T06:29:08Z",
+    "merged_at": "2026-03-25T06:29:08Z",
+    "user": {
+      "login": "zhiyuanzmj"
+    }
+  },
+  {
+    "number": 14549,
+    "title": "fix(compiler-sfc): preserve leading universal selector when followed by combinator",
+    "state": "open",
+    "created_at": "2026-03-10T10:15:24Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "babu-ch"
+    }
+  },
+  {
+    "number": 14548,
+    "title": "fix(server-renderer): cleanup component effect scopes after SSR render",
+    "state": "closed",
+    "created_at": "2026-03-09T19:06:27Z",
+    "closed_at": "2026-03-25T06:28:22Z",
+    "merged_at": "2026-03-25T06:28:22Z",
+    "user": {
+      "login": "SaeedNezafat"
+    }
+  },
+  {
+    "number": 14547,
+    "title": "fix(ssr): prevent watch() from firing after async setup await",
+    "state": "closed",
+    "created_at": "2026-03-09T09:40:23Z",
+    "closed_at": "2026-03-09T09:58:11Z",
+    "merged_at": "2026-03-09T09:58:11Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14545,
+    "title": "fix(reactivity): avoid duplicate raw/proxy entries in Set.add",
+    "state": "closed",
+    "created_at": "2026-03-09T06:30:18Z",
+    "closed_at": "2026-03-09T06:47:28Z",
+    "merged_at": "2026-03-09T06:47:28Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14544,
+    "title": "chore(deps): update dependency puppeteer to ~24.38.0",
+    "state": "closed",
+    "created_at": "2026-03-09T01:03:25Z",
+    "closed_at": "2026-03-09T08:05:49Z",
+    "merged_at": "2026-03-09T08:05:49Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14543,
+    "title": "fix(deps): update dependency postcss to ^8.5.8",
+    "state": "closed",
+    "created_at": "2026-03-09T01:03:11Z",
+    "closed_at": "2026-03-09T07:53:14Z",
+    "merged_at": "2026-03-09T07:53:14Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14541,
+    "title": "fix(scheduler): improve error recovery",
+    "state": "open",
+    "created_at": "2026-03-07T19:03:38Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "yangmingshan"
+    }
+  },
+  {
+    "number": 14540,
+    "title": "fix(transition): handle rapid in-out transition toggles",
+    "state": "closed",
+    "created_at": "2026-03-07T13:07:00Z",
+    "closed_at": "2026-03-09T01:07:24Z",
+    "merged_at": "2026-03-09T01:07:24Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14538,
+    "title": "fix(runtime-vapor): handle out-in transition with empty leaving branch",
+    "state": "closed",
+    "created_at": "2026-03-07T04:38:41Z",
+    "closed_at": "2026-03-07T04:43:26Z",
+    "merged_at": "2026-03-07T04:43:26Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14535,
+    "title": "fix(runtime-vapor): handle transition in-out leave without incoming branch",
+    "state": "closed",
+    "created_at": "2026-03-06T12:48:42Z",
+    "closed_at": "2026-03-06T13:13:02Z",
+    "merged_at": "2026-03-06T13:13:02Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14534,
+    "title": "Edison/fix/transitionmode",
+    "state": "closed",
+    "created_at": "2026-03-06T12:45:07Z",
+    "closed_at": "2026-03-06T12:45:41Z",
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14532,
+    "title": "此pr 用于追踪， 除了runtime文件夹， 在scripts中，修改了哪些地方的代码，以适配pure 模式",
+    "state": "closed",
+    "created_at": "2026-03-06T09:03:10Z",
+    "closed_at": "2026-03-06T09:05:25Z",
+    "merged_at": null,
+    "user": {
+      "login": "shenjunjian"
+    }
+  },
+  {
+    "number": 14530,
+    "title": "fix(vapor): infer component multi-root metadata from SFC templates for hydration",
+    "state": "closed",
+    "created_at": "2026-03-06T01:29:05Z",
+    "closed_at": "2026-03-16T02:40:19Z",
+    "merged_at": "2026-03-16T02:40:19Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14529,
+    "title": "fix(types): allow narrower HTMLElement types in function refs",
+    "state": "open",
+    "created_at": "2026-03-05T09:43:43Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "7inspire"
+    }
+  },
+  {
+    "number": 14528,
+    "title": "fix(hmr): preserve appContext on root HMR reload",
+    "state": "closed",
+    "created_at": "2026-03-05T06:33:12Z",
+    "closed_at": "2026-03-05T06:43:46Z",
+    "merged_at": "2026-03-05T06:43:46Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14527,
+    "title": "fix(hmr): child reload in dynamic branch should not break subsequent parent reload",
+    "state": "closed",
+    "created_at": "2026-03-05T06:30:19Z",
+    "closed_at": "2026-03-05T06:50:55Z",
+    "merged_at": "2026-03-05T06:50:54Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14524,
+    "title": "fix(runtime-vapor): should not pass reserved props into vapor attrs on update",
+    "state": "closed",
+    "created_at": "2026-03-05T03:35:26Z",
+    "closed_at": "2026-03-05T05:53:51Z",
+    "merged_at": "2026-03-05T05:53:51Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14522,
+    "title": "fix(runtime-vapor): correct vapor slot props proxy has/ownKeys semantics",
+    "state": "closed",
+    "created_at": "2026-03-05T03:03:28Z",
+    "closed_at": "2026-03-05T03:23:38Z",
+    "merged_at": "2026-03-05T03:23:38Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14521,
+    "title": "fix(runtime-vapor): keep vdom child attrs in sync with vapor parent updates",
+    "state": "closed",
+    "created_at": "2026-03-05T02:58:34Z",
+    "closed_at": "2026-03-05T03:23:21Z",
+    "merged_at": "2026-03-05T03:23:21Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14520,
+    "title": "fix(runtime-vapor): ensure vapor slot unmounting removes vnode slot content",
+    "state": "closed",
+    "created_at": "2026-03-05T02:53:25Z",
+    "closed_at": "2026-03-05T03:23:03Z",
+    "merged_at": "2026-03-05T03:23:03Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14517,
+    "title": "fix(runtime-vapor): fix interop hydration anchor handling for Teleport/Suspense dynamic VNodes",
+    "state": "closed",
+    "created_at": "2026-03-04T10:06:06Z",
+    "closed_at": "2026-03-04T14:01:25Z",
+    "merged_at": "2026-03-04T14:01:25Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14516,
+    "title": "chore(lint): ban optional-chaining in runtime code",
+    "state": "closed",
+    "created_at": "2026-03-04T06:46:44Z",
+    "closed_at": "2026-03-04T06:49:25Z",
+    "merged_at": "2026-03-04T06:49:25Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14514,
+    "title": "fix(runtime-vapor): properly resolve event handler in dynamic props",
+    "state": "closed",
+    "created_at": "2026-03-04T02:57:55Z",
+    "closed_at": "2026-03-04T07:17:18Z",
+    "merged_at": "2026-03-04T07:17:18Z",
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 14513,
+    "title": "fix(runtime-vapor): fix VDOM interop hydration for multi-node vnode ranges",
+    "state": "closed",
+    "created_at": "2026-03-04T02:07:28Z",
+    "closed_at": "2026-03-04T02:17:27Z",
+    "merged_at": "2026-03-04T02:17:27Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14512,
+    "title": "fix(runtime-vapor): hydrate vapor slot in vdom component with sibling nodes",
+    "state": "closed",
+    "created_at": "2026-03-04T00:58:24Z",
+    "closed_at": "2026-03-04T01:02:22Z",
+    "merged_at": "2026-03-04T01:02:22Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14511,
+    "title": "CodeRabbit Generated Unit Tests: Add unit tests",
+    "state": "closed",
+    "created_at": "2026-03-03T11:09:25Z",
+    "closed_at": "2026-03-03T11:20:33Z",
+    "merged_at": null,
+    "user": {
+      "login": "coderabbitai[bot]"
+    }
+  },
+  {
+    "number": 14510,
+    "title": "fix(runtime-vapor): handle Static/Fragment vnode ranges in interop block nodes",
+    "state": "closed",
+    "created_at": "2026-03-03T09:31:01Z",
+    "closed_at": "2026-03-04T00:36:31Z",
+    "merged_at": "2026-03-04T00:36:31Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14506,
+    "title": "chore(deps): update rolldown + oxc",
+    "state": "closed",
+    "created_at": "2026-03-02T13:17:43Z",
+    "closed_at": "2026-03-02T13:31:22Z",
+    "merged_at": "2026-03-02T13:31:22Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14505,
+    "title": "fix(runtime-vapor): enable hydration capability for createSSRApp + vdomInterop",
+    "state": "closed",
+    "created_at": "2026-03-02T12:44:23Z",
+    "closed_at": "2026-03-02T13:05:23Z",
+    "merged_at": "2026-03-02T13:05:23Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14502,
+    "title": "fix(runtime-vapor): handle null/undefined dynamic template refs without warning",
+    "state": "closed",
+    "created_at": "2026-03-02T06:15:54Z",
+    "closed_at": "2026-03-02T06:34:01Z",
+    "merged_at": "2026-03-02T06:34:01Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14501,
+    "title": "fix(runtime-vapor): cleanup stale refs when dynamic vdom component ref target changes",
+    "state": "closed",
+    "created_at": "2026-03-02T03:37:40Z",
+    "closed_at": "2026-03-02T05:52:11Z",
+    "merged_at": "2026-03-02T05:52:11Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14500,
+    "title": "chore(deps): update actions/upload-artifact action to v7",
+    "state": "closed",
+    "created_at": "2026-03-02T03:15:32Z",
+    "closed_at": "2026-03-09T07:53:33Z",
+    "merged_at": "2026-03-09T07:53:33Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14499,
+    "title": "chore(deps): update lint",
+    "state": "closed",
+    "created_at": "2026-03-02T03:15:28Z",
+    "closed_at": "2026-03-09T07:52:39Z",
+    "merged_at": "2026-03-09T07:52:39Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14498,
+    "title": "chore(deps): update all non-major dependencies",
+    "state": "closed",
+    "created_at": "2026-03-02T01:38:02Z",
+    "closed_at": "2026-03-09T08:04:00Z",
+    "merged_at": "2026-03-09T08:04:00Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14497,
+    "title": "chore(deps): update build",
+    "state": "closed",
+    "created_at": "2026-03-02T01:37:42Z",
+    "closed_at": "2026-03-09T07:53:00Z",
+    "merged_at": "2026-03-09T07:53:00Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14496,
+    "title": "fix(runtime-vapor): properly set ref on dynamic component + vdom component",
+    "state": "closed",
+    "created_at": "2026-02-28T14:17:39Z",
+    "closed_at": "2026-03-02T03:14:50Z",
+    "merged_at": "2026-03-02T03:14:50Z",
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 14495,
+    "title": "chore(deps): update dependency minimatch to v10.2.3 [security]",
+    "state": "closed",
+    "created_at": "2026-02-28T12:40:42Z",
+    "closed_at": "2026-03-09T07:57:49Z",
+    "merged_at": "2026-03-09T07:57:49Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14494,
+    "title": "feat(compiler): emit lazy getter for scoped slot props",
+    "state": "open",
+    "created_at": "2026-02-28T06:53:51Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Mini-ghost"
+    }
+  },
+  {
+    "number": 14493,
+    "title": "fix(types): prevent shallowReactive marker from leaking into value unions",
+    "state": "closed",
+    "created_at": "2026-02-28T02:54:59Z",
+    "closed_at": "2026-03-25T09:06:27Z",
+    "merged_at": "2026-03-25T09:06:27Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14492,
+    "title": "fix(types): narrow useAttrs class/style typing for TSX",
+    "state": "closed",
+    "created_at": "2026-02-28T02:33:19Z",
+    "closed_at": "2026-03-09T06:23:42Z",
+    "merged_at": "2026-03-09T06:23:42Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14491,
+    "title": "fix(compiler-vapor): preserve :is prop on normal components",
+    "state": "closed",
+    "created_at": "2026-02-28T02:18:52Z",
+    "closed_at": "2026-03-02T05:54:48Z",
+    "merged_at": "2026-03-02T05:54:48Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14487,
+    "title": "refactor: use LIS",
+    "state": "open",
+    "created_at": "2026-02-27T07:13:54Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14485,
+    "title": "feat(vapor): support rendering vdom suspense in vapor",
+    "state": "closed",
+    "created_at": "2026-02-26T12:48:16Z",
+    "closed_at": "2026-02-26T12:49:59Z",
+    "merged_at": "2026-02-26T12:49:59Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14484,
+    "title": "feat(vapor): support rendering vdom teleport in vapor",
+    "state": "closed",
+    "created_at": "2026-02-26T12:41:20Z",
+    "closed_at": "2026-02-26T12:43:12Z",
+    "merged_at": "2026-02-26T12:43:12Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14483,
+    "title": "feat(vapor): bridge VDOM Teleport/Suspense in dynamic component interop",
+    "state": "closed",
+    "created_at": "2026-02-26T08:31:12Z",
+    "closed_at": "2026-02-26T12:49:02Z",
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14482,
+    "title": "test(vapor-e2e): split transition/transition-group e2e cases into file-based",
+    "state": "closed",
+    "created_at": "2026-02-26T06:10:43Z",
+    "closed_at": "2026-02-26T07:38:07Z",
+    "merged_at": "2026-02-26T07:38:07Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14480,
+    "title": "test(vapor-e2e): port #12091 prevent-enter-when-leaving transition case",
+    "state": "closed",
+    "created_at": "2026-02-26T02:03:41Z",
+    "closed_at": "2026-02-26T02:07:11Z",
+    "merged_at": "2026-02-26T02:07:11Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14479,
+    "title": "fix(sfc-playground): fix header z-index issue #14478",
+    "state": "closed",
+    "created_at": "2026-02-25T13:24:15Z",
+    "closed_at": "2026-02-27T01:02:06Z",
+    "merged_at": "2026-02-27T01:02:06Z",
+    "user": {
+      "login": "oodavid"
+    }
+  },
+  {
+    "number": 14477,
+    "title": "fix(runtime-vapor): allow renderEffect to self re-queue on sync state mutation",
+    "state": "closed",
+    "created_at": "2026-02-25T13:06:44Z",
+    "closed_at": "2026-02-26T01:41:05Z",
+    "merged_at": "2026-02-26T01:41:05Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14476,
+    "title": "fix(runtime-vapor): preserve slot-owner css vars for teleported slot content",
+    "state": "closed",
+    "created_at": "2026-02-25T08:19:43Z",
+    "closed_at": "2026-02-26T01:44:32Z",
+    "merged_at": "2026-02-26T01:44:32Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14475,
+    "title": "fix(runtime-vapor): preserve slot owner rendering context in resolveDynamicComponent",
+    "state": "closed",
+    "created_at": "2026-02-25T06:39:55Z",
+    "closed_at": "2026-02-26T01:41:59Z",
+    "merged_at": "2026-02-26T01:41:59Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14472,
+    "title": "refactor(runtime-vapor): improve template ref handling for DynamicFragment and async components",
+    "state": "closed",
+    "created_at": "2026-02-25T01:16:54Z",
+    "closed_at": "2026-02-25T02:48:53Z",
+    "merged_at": "2026-02-25T02:48:53Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14471,
+    "title": "fix(runtime-vapor): apply template ref on dynamic fragment",
+    "state": "closed",
+    "created_at": "2026-02-24T07:47:41Z",
+    "closed_at": "2026-02-25T01:11:34Z",
+    "merged_at": "2026-02-25T01:11:34Z",
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 14470,
+    "title": "fix(runtime-vapor): widen FunctionalVaporComponent props typing",
+    "state": "closed",
+    "created_at": "2026-02-24T06:55:03Z",
+    "closed_at": "2026-02-25T01:06:47Z",
+    "merged_at": "2026-02-25T01:06:47Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14469,
+    "title": "fix(server-renderer): render className as escaped string",
+    "state": "closed",
+    "created_at": "2026-02-24T02:58:57Z",
+    "closed_at": "2026-02-24T03:39:41Z",
+    "merged_at": "2026-02-24T03:39:41Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14468,
+    "title": "添加注释",
+    "state": "closed",
+    "created_at": "2026-02-24T01:03:28Z",
+    "closed_at": "2026-02-24T01:04:03Z",
+    "merged_at": null,
+    "user": {
+      "login": "WindAndDream"
+    }
+  },
+  {
+    "number": 14466,
+    "title": "Fix/custom element nullish prop coercion",
+    "state": "closed",
+    "created_at": "2026-02-23T07:00:23Z",
+    "closed_at": "2026-02-24T02:28:16Z",
+    "merged_at": null,
+    "user": {
+      "login": "Liknox"
+    }
+  },
+  {
+    "number": 14465,
+    "title": "chore(deps): update build",
+    "state": "closed",
+    "created_at": "2026-02-23T01:34:05Z",
+    "closed_at": "2026-02-24T03:47:59Z",
+    "merged_at": "2026-02-24T03:47:59Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14464,
+    "title": "chore(deps): update lint",
+    "state": "closed",
+    "created_at": "2026-02-23T01:33:49Z",
+    "closed_at": "2026-02-24T03:41:59Z",
+    "merged_at": "2026-02-24T03:41:59Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14463,
+    "title": "Report technical debt findings for core packages",
+    "state": "open",
+    "created_at": "2026-02-22T07:01:45Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "poria-lang"
+    }
+  },
+  {
+    "number": 14460,
+    "title": "chore(deps): update dependency minimatch to ~10.2.0 [security]",
+    "state": "closed",
+    "created_at": "2026-02-19T22:11:31Z",
+    "closed_at": "2026-02-24T03:49:30Z",
+    "merged_at": "2026-02-24T03:49:30Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14459,
+    "title": "fix(runtime-dom): preserve nullish values for custom element properties",
+    "state": "open",
+    "created_at": "2026-02-18T10:26:42Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "apoorvdarshan"
+    }
+  },
+  {
+    "number": 14458,
+    "title": "fix(compiler-sfc): fix withDefaults regression when UNKNOWN_TYPE is p…",
+    "state": "closed",
+    "created_at": "2026-02-17T14:55:29Z",
+    "closed_at": "2026-02-24T02:23:14Z",
+    "merged_at": null,
+    "user": {
+      "login": "ialiaslani"
+    }
+  },
+  {
+    "number": 14457,
+    "title": "Make a contribution to Vue",
+    "state": "closed",
+    "created_at": "2026-02-17T12:22:02Z",
+    "closed_at": "2026-02-17T12:35:25Z",
+    "merged_at": null,
+    "user": {
+      "login": "MoatazElsayad"
+    }
+  },
+  {
+    "number": 14456,
+    "title": "chore(deps): update test",
+    "state": "closed",
+    "created_at": "2026-02-16T01:07:00Z",
+    "closed_at": "2026-02-24T03:48:39Z",
+    "merged_at": "2026-02-24T03:48:38Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14455,
+    "title": "chore(deps): update all non-major dependencies",
+    "state": "closed",
+    "created_at": "2026-02-16T01:06:40Z",
+    "closed_at": "2026-02-24T03:45:16Z",
+    "merged_at": "2026-02-24T03:45:16Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14451,
+    "title": "types(jsx): change typescript error handling (fix #14450)",
+    "state": "closed",
+    "created_at": "2026-02-12T14:19:27Z",
+    "closed_at": "2026-02-24T03:56:16Z",
+    "merged_at": "2026-02-24T03:56:16Z",
+    "user": {
+      "login": "MisterIsaak"
+    }
+  },
+  {
+    "number": 14449,
+    "title": "fix(compiler-core,runtime-core): preserve slots order on `slots` instance property",
+    "state": "open",
+    "created_at": "2026-02-12T10:30:44Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "andreww2012"
+    }
+  },
+  {
+    "number": 14448,
+    "title": "fix(runtime-vapor): avoid exposing built-in components internals via template ref",
+    "state": "closed",
+    "created_at": "2026-02-12T08:49:09Z",
+    "closed_at": "2026-02-25T03:08:19Z",
+    "merged_at": "2026-02-25T03:08:19Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14447,
+    "title": "fix(runtime-vapor): guard attrs proxy traps for symbol keys",
+    "state": "closed",
+    "created_at": "2026-02-12T02:46:29Z",
+    "closed_at": "2026-02-12T06:20:55Z",
+    "merged_at": "2026-02-12T06:20:55Z",
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 14445,
+    "title": "fix(runtime-core): prevent instance leak in withAsyncContext",
+    "state": "closed",
+    "created_at": "2026-02-11T07:32:31Z",
+    "closed_at": "2026-02-24T03:40:25Z",
+    "merged_at": "2026-02-24T03:40:25Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14444,
+    "title": "fix(templateRef): don't update setup ref for useTemplateRef key",
+    "state": "closed",
+    "created_at": "2026-02-10T09:06:28Z",
+    "closed_at": "2026-02-10T09:14:17Z",
+    "merged_at": "2026-02-10T09:14:17Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14443,
+    "title": "fix(transition): prevent enter if leave is in progress",
+    "state": "closed",
+    "created_at": "2026-02-10T08:56:31Z",
+    "closed_at": "2026-02-24T03:38:29Z",
+    "merged_at": "2026-02-24T03:38:29Z",
+    "user": {
+      "login": "Mini-ghost"
+    }
+  },
+  {
+    "number": 14442,
+    "title": "feat(templateRef): avoid setting direct ref of useTemplateRef in dev",
+    "state": "closed",
+    "created_at": "2026-02-10T08:46:17Z",
+    "closed_at": "2026-02-10T08:50:32Z",
+    "merged_at": "2026-02-10T08:50:32Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14441,
+    "title": "types(jsx): flexible class attribute declarations",
+    "state": "closed",
+    "created_at": "2026-02-10T08:15:44Z",
+    "closed_at": "2026-02-24T03:39:00Z",
+    "merged_at": "2026-02-24T03:39:00Z",
+    "user": {
+      "login": "ZacharyBear"
+    }
+  },
+  {
+    "number": 14440,
+    "title": "fix(teleport): optimize transition handling and prevent unnecessary updates",
+    "state": "closed",
+    "created_at": "2026-02-10T07:26:50Z",
+    "closed_at": "2026-02-10T07:39:12Z",
+    "merged_at": "2026-02-10T07:39:12Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14439,
+    "title": "fix(reactivity): cleanup unsubscribed computed deps and release stale ref oldValue",
+    "state": "open",
+    "created_at": "2026-02-10T03:14:02Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14438,
+    "title": "fix(Teleport): modifying non-essential attributes does not require up…",
+    "state": "closed",
+    "created_at": "2026-02-10T02:34:54Z",
+    "closed_at": "2026-02-10T09:13:53Z",
+    "merged_at": "2026-02-10T09:13:53Z",
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 14437,
+    "title": "docs: fix typos and grammar across md files",
+    "state": "closed",
+    "created_at": "2026-02-09T23:56:43Z",
+    "closed_at": "2026-02-10T01:29:38Z",
+    "merged_at": "2026-02-10T01:29:38Z",
+    "user": {
+      "login": "him2him2"
+    }
+  },
+  {
+    "number": 14435,
+    "title": "perf(runtime): use Set for prop key lookups",
+    "state": "closed",
+    "created_at": "2026-02-09T16:52:19Z",
+    "closed_at": "2026-02-10T01:37:23Z",
+    "merged_at": null,
+    "user": {
+      "login": "Fronut"
+    }
+  },
+  {
+    "number": 14432,
+    "title": "chore(deps): update dependency eslint to v10",
+    "state": "closed",
+    "created_at": "2026-02-09T03:08:48Z",
+    "closed_at": "2026-02-09T06:33:04Z",
+    "merged_at": "2026-02-09T06:33:04Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14431,
+    "title": "chore(deps): update dependency puppeteer to ~24.37.2",
+    "state": "closed",
+    "created_at": "2026-02-09T03:08:34Z",
+    "closed_at": "2026-02-09T06:32:12Z",
+    "merged_at": "2026-02-09T06:32:12Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14430,
+    "title": "chore(deps): upgrade vitest to v4",
+    "state": "closed",
+    "created_at": "2026-02-09T03:07:19Z",
+    "closed_at": "2026-02-09T03:20:32Z",
+    "merged_at": "2026-02-09T03:20:32Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14428,
+    "title": "chore(deps): update all non-major dependencies",
+    "state": "closed",
+    "created_at": "2026-02-09T00:34:23Z",
+    "closed_at": "2026-02-09T06:28:50Z",
+    "merged_at": "2026-02-09T06:28:50Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14427,
+    "title": "chore(deps): update autofix-ci/action digest to 7a166d7",
+    "state": "closed",
+    "created_at": "2026-02-09T00:33:55Z",
+    "closed_at": "2026-02-09T06:24:18Z",
+    "merged_at": "2026-02-09T06:24:17Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14424,
+    "title": "refactor(runtime-vapor): improve interop-path treeshaking by isolating interop state",
+    "state": "closed",
+    "created_at": "2026-02-06T03:20:38Z",
+    "closed_at": "2026-02-06T03:28:01Z",
+    "merged_at": "2026-02-06T03:28:01Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14422,
+    "title": "fix(runtime-vapor): guard default slot for createPlainElement",
+    "state": "closed",
+    "created_at": "2026-02-05T16:30:11Z",
+    "closed_at": "2026-02-06T01:46:48Z",
+    "merged_at": "2026-02-06T01:46:48Z",
+    "user": {
+      "login": "zhiyuanzmj"
+    }
+  },
+  {
+    "number": 14421,
+    "title": "chore: fix typo",
+    "state": "closed",
+    "created_at": "2026-02-05T09:10:30Z",
+    "closed_at": "2026-02-06T01:23:05Z",
+    "merged_at": "2026-02-06T01:23:04Z",
+    "user": {
+      "login": "E66Crisp"
+    }
+  },
+  {
+    "number": 14419,
+    "title": "fix(runtime-core): avoid retaining el on cached text vnodes during static traversal",
+    "state": "closed",
+    "created_at": "2026-02-05T08:25:26Z",
+    "closed_at": "2026-02-09T07:53:48Z",
+    "merged_at": "2026-02-09T07:53:48Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14418,
+    "title": "test: build runtime-vapor in cjs for pkg.pr.new",
+    "state": "open",
+    "created_at": "2026-02-05T06:06:42Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "zhiyuanzmj"
+    }
+  },
+  {
+    "number": 14417,
+    "title": "fix(teleport): properly handling disabled teleport target anchor",
+    "state": "closed",
+    "created_at": "2026-02-05T03:32:33Z",
+    "closed_at": "2026-02-09T07:53:25Z",
+    "merged_at": "2026-02-09T07:53:25Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14414,
+    "title": "Learning",
+    "state": "closed",
+    "created_at": "2026-02-04T14:40:24Z",
+    "closed_at": "2026-02-04T14:40:37Z",
+    "merged_at": null,
+    "user": {
+      "login": "Tomxuetao"
+    }
+  },
+  {
+    "number": 14413,
+    "title": "refactor(compiler-vapor): introduce a dedicated KEY IR node + generator path",
+    "state": "closed",
+    "created_at": "2026-02-04T14:00:59Z",
+    "closed_at": "2026-02-06T02:10:51Z",
+    "merged_at": "2026-02-06T02:10:51Z",
+    "user": {
+      "login": "zhiyuanzmj"
+    }
+  },
+  {
+    "number": 14411,
+    "title": "fix(v-model): preserve pre-hydration user input across native controls",
+    "state": "open",
+    "created_at": "2026-02-04T09:52:25Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14410,
+    "title": "feat(compiler-vapor): add keyed block handling for dynamic keys",
+    "state": "closed",
+    "created_at": "2026-02-04T07:06:20Z",
+    "closed_at": "2026-02-04T07:47:18Z",
+    "merged_at": "2026-02-04T07:47:18Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14409,
+    "title": "fix(keep-alive): stabilize KeepAlive cache keys with DynamicFragment context",
+    "state": "closed",
+    "created_at": "2026-02-03T10:11:12Z",
+    "closed_at": "2026-02-04T07:12:47Z",
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14407,
+    "title": "fix(vFor): post-flush selector updates after list patch",
+    "state": "closed",
+    "created_at": "2026-02-03T06:18:37Z",
+    "closed_at": "2026-02-03T07:46:40Z",
+    "merged_at": "2026-02-03T07:46:40Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14406,
+    "title": "fix(runtime-vapor): isolate slotProps per fragment in v-for slots",
+    "state": "closed",
+    "created_at": "2026-02-03T03:18:04Z",
+    "closed_at": "2026-02-04T08:07:32Z",
+    "merged_at": "2026-02-04T08:07:31Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14405,
+    "title": "fix(compiler-vapor): keep literal interpolation in component slot templates",
+    "state": "closed",
+    "created_at": "2026-02-03T00:39:01Z",
+    "closed_at": "2026-02-03T00:56:55Z",
+    "merged_at": "2026-02-03T00:56:55Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14404,
+    "title": "types(runtime-vapor): reduce component type definition",
+    "state": "closed",
+    "created_at": "2026-02-02T19:32:53Z",
+    "closed_at": "2026-02-04T08:27:49Z",
+    "merged_at": "2026-02-04T08:27:49Z",
+    "user": {
+      "login": "zhiyuanzmj"
+    }
+  },
+  {
+    "number": 14402,
+    "title": "fix(compiler-sfc): add resolution trying for `.mts/.cts` files",
+    "state": "closed",
+    "created_at": "2026-02-02T18:40:59Z",
+    "closed_at": "2026-02-09T07:52:58Z",
+    "merged_at": "2026-02-09T07:52:58Z",
+    "user": {
+      "login": "Gehbt"
+    }
+  },
+  {
+    "number": 14400,
+    "title": "types(runtime-vapor): add types for Vapor components",
+    "state": "closed",
+    "created_at": "2026-02-02T17:47:28Z",
+    "closed_at": "2026-02-04T08:27:23Z",
+    "merged_at": "2026-02-04T08:27:23Z",
+    "user": {
+      "login": "zhiyuanzmj"
+    }
+  },
+  {
+    "number": 14398,
+    "title": "types(runtime-vapor): add $props type for JSX to detect props types",
+    "state": "closed",
+    "created_at": "2026-02-02T14:04:10Z",
+    "closed_at": "2026-02-04T08:31:29Z",
+    "merged_at": "2026-02-04T08:31:29Z",
+    "user": {
+      "login": "zhiyuanzmj"
+    }
+  },
+  {
+    "number": 14394,
+    "title": "fix(compiler-vapor): handle invalid table nesting with dynamic child",
+    "state": "closed",
+    "created_at": "2026-02-02T10:11:40Z",
+    "closed_at": "2026-02-03T01:24:04Z",
+    "merged_at": "2026-02-03T01:24:04Z",
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 14391,
+    "title": "fix(runtime-core): avoid unexpected `cancelled` parameter in transition `done` callback",
+    "state": "closed",
+    "created_at": "2026-02-02T04:29:00Z",
+    "closed_at": "2026-02-09T07:54:11Z",
+    "merged_at": "2026-02-09T07:54:11Z",
+    "user": {
+      "login": "KazariEX"
+    }
+  },
+  {
+    "number": 14390,
+    "title": "refactor(runtime-vapor): improve slot fallback propagation and interop",
+    "state": "closed",
+    "created_at": "2026-02-02T03:24:57Z",
+    "closed_at": "2026-02-04T07:39:05Z",
+    "merged_at": "2026-02-04T07:39:05Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14389,
+    "title": "chore(deps): update dessant/lock-threads action to v6",
+    "state": "closed",
+    "created_at": "2026-02-02T01:21:51Z",
+    "closed_at": "2026-02-09T06:24:33Z",
+    "merged_at": "2026-02-09T06:24:33Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14388,
+    "title": "chore(deps): update dawidd6/action-download-artifact action to v14",
+    "state": "closed",
+    "created_at": "2026-02-02T01:21:47Z",
+    "closed_at": "2026-02-09T06:24:47Z",
+    "merged_at": "2026-02-09T06:24:47Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14387,
+    "title": "chore(runtime-vapor): remove unused VaporFragment export",
+    "state": "closed",
+    "created_at": "2026-02-02T01:18:46Z",
+    "closed_at": "2026-02-02T01:20:52Z",
+    "merged_at": "2026-02-02T01:20:52Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14386,
+    "title": "chore(deps): update compiler to ^7.29.0",
+    "state": "closed",
+    "created_at": "2026-02-02T00:34:13Z",
+    "closed_at": "2026-02-09T06:23:40Z",
+    "merged_at": "2026-02-09T06:23:40Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14385,
+    "title": "chore(deps): update build",
+    "state": "closed",
+    "created_at": "2026-02-02T00:33:56Z",
+    "closed_at": "2026-02-09T06:23:22Z",
+    "merged_at": "2026-02-09T06:23:22Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14384,
+    "title": "chore(hydration): remove unused property and simplify advanceHydrationNode function",
+    "state": "closed",
+    "created_at": "2026-02-01T13:32:03Z",
+    "closed_at": "2026-02-02T00:32:57Z",
+    "merged_at": "2026-02-02T00:32:57Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14383,
+    "title": "fix(compiler-vapor): handling of class and style bindings on SVG elements",
+    "state": "closed",
+    "created_at": "2026-02-01T04:23:28Z",
+    "closed_at": "2026-02-02T01:49:29Z",
+    "merged_at": "2026-02-02T01:49:29Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14377,
+    "title": "fix(hydration): update hydration mismatch checks for asset URL SSR/CSR differences",
+    "state": "open",
+    "created_at": "2026-01-30T02:27:41Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14376,
+    "title": "chore(build): enhance dev script with dynamic target handling and polyfills",
+    "state": "closed",
+    "created_at": "2026-01-29T12:57:29Z",
+    "closed_at": "2026-01-29T13:00:08Z",
+    "merged_at": "2026-01-29T13:00:08Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14374,
+    "title": "fix(transition): add key for transition if-branches",
+    "state": "closed",
+    "created_at": "2026-01-29T07:24:38Z",
+    "closed_at": "2026-01-29T07:38:53Z",
+    "merged_at": "2026-01-29T07:38:53Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14372,
+    "title": "fix(runtime-core): track template ref keys to prevent setupState writes",
+    "state": "closed",
+    "created_at": "2026-01-28T19:01:59Z",
+    "closed_at": "2026-01-29T01:38:28Z",
+    "merged_at": null,
+    "user": {
+      "login": "serkodev"
+    }
+  },
+  {
+    "number": 14369,
+    "title": "test(keep-alive): prevent unmounted node from being inserted during transition leave",
+    "state": "closed",
+    "created_at": "2026-01-28T09:53:18Z",
+    "closed_at": "2026-01-29T00:41:18Z",
+    "merged_at": "2026-01-29T00:41:18Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14368,
+    "title": "fix(Transition): fix VaporTransition animation",
+    "state": "closed",
+    "created_at": "2026-01-28T09:15:25Z",
+    "closed_at": "2026-01-29T07:39:31Z",
+    "merged_at": null,
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 14364,
+    "title": "chore(build): use nativeMagicString ",
+    "state": "closed",
+    "created_at": "2026-01-27T10:18:46Z",
+    "closed_at": "2026-01-29T03:10:18Z",
+    "merged_at": "2026-01-29T03:10:17Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14363,
+    "title": "fix(vapor): properly move vapor component / slot",
+    "state": "closed",
+    "created_at": "2026-01-27T02:22:33Z",
+    "closed_at": "2026-01-28T08:22:16Z",
+    "merged_at": "2026-01-28T08:22:16Z",
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 14362,
+    "title": "fix(runtime-dom): handle null/undefined handler in withModifiers",
+    "state": "closed",
+    "created_at": "2026-01-27T00:39:10Z",
+    "closed_at": "2026-02-09T07:55:23Z",
+    "merged_at": "2026-02-09T07:55:23Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14360,
+    "title": "fix(transition-group): correct move translation under scale via element rect",
+    "state": "closed",
+    "created_at": "2026-01-26T03:19:00Z",
+    "closed_at": "2026-02-09T07:55:48Z",
+    "merged_at": "2026-02-09T07:55:48Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14359,
+    "title": "fix(reactivity): add __v_skip flag to EffectScope to prevent reactive conversion",
+    "state": "closed",
+    "created_at": "2026-01-26T01:41:56Z",
+    "closed_at": "2026-02-09T07:56:09Z",
+    "merged_at": "2026-02-09T07:56:09Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14355,
+    "title": "fix(vapor): support directives on vapor components in vdom parent",
+    "state": "closed",
+    "created_at": "2026-01-24T02:56:00Z",
+    "closed_at": "2026-01-28T08:22:52Z",
+    "merged_at": "2026-01-28T08:22:51Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14353,
+    "title": "fix(runtime-vapor): preserve slot owner to ensure correct scopeId inheritance for nested components within v-for loops with slots.",
+    "state": "closed",
+    "created_at": "2026-01-23T12:53:43Z",
+    "closed_at": "2026-01-26T01:31:38Z",
+    "merged_at": "2026-01-26T01:31:38Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14352,
+    "title": "📝 Add docstrings to `edison/refactor/hydrationNode`",
+    "state": "closed",
+    "created_at": "2026-01-23T02:05:38Z",
+    "closed_at": "2026-01-23T02:10:17Z",
+    "merged_at": null,
+    "user": {
+      "login": "coderabbitai[bot]"
+    }
+  },
+  {
+    "number": 14351,
+    "title": "fix(types): rewrite type OverloadUnion for edge cases",
+    "state": "closed",
+    "created_at": "2026-01-22T16:01:06Z",
+    "closed_at": "2026-01-22T16:38:50Z",
+    "merged_at": null,
+    "user": {
+      "login": "Gehbt"
+    }
+  },
+  {
+    "number": 14349,
+    "title": "fix(runtime-core): queue mounted hooks added during mount",
+    "state": "closed",
+    "created_at": "2026-01-22T03:15:36Z",
+    "closed_at": "2026-01-23T01:19:24Z",
+    "merged_at": "2026-01-23T01:19:24Z",
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 14348,
+    "title": "refactor(runtime-core): replace VueElement import with ComponentCustomElementInterface",
+    "state": "closed",
+    "created_at": "2026-01-22T02:53:57Z",
+    "closed_at": "2026-01-22T08:47:21Z",
+    "merged_at": "2026-01-22T08:47:21Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14346,
+    "title": "chore(deps): update dependency lodash to v4.17.23 [security]",
+    "state": "closed",
+    "created_at": "2026-01-22T01:04:10Z",
+    "closed_at": "2026-01-28T08:24:51Z",
+    "merged_at": "2026-01-28T08:24:51Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14345,
+    "title": "feat(teleport): use moveBefore to preserve node state when possible",
+    "state": "open",
+    "created_at": "2026-01-21T10:00:39Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14343,
+    "title": "fix(teleport): apply css vars after hydration",
+    "state": "closed",
+    "created_at": "2026-01-21T03:22:28Z",
+    "closed_at": "2026-01-21T03:27:45Z",
+    "merged_at": "2026-01-21T03:27:44Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14341,
+    "title": "docs: fix typo in CHANGELOG-3.3.md",
+    "state": "closed",
+    "created_at": "2026-01-20T16:53:35Z",
+    "closed_at": "2026-01-21T00:18:30Z",
+    "merged_at": "2026-01-21T00:18:29Z",
+    "user": {
+      "login": "Zakir176"
+    }
+  },
+  {
+    "number": 14340,
+    "title": "refactor(hydration): simplify hydration with compiler-calculated logicalIndex",
+    "state": "closed",
+    "created_at": "2026-01-20T03:34:46Z",
+    "closed_at": "2026-01-23T02:14:18Z",
+    "merged_at": "2026-01-23T02:14:18Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14339,
+    "title": "refactor(compile-vapor): remove unused ifBranchCount and ifBranch properties",
+    "state": "closed",
+    "created_at": "2026-01-20T03:00:43Z",
+    "closed_at": "2026-01-20T03:06:05Z",
+    "merged_at": "2026-01-20T03:06:05Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14337,
+    "title": "fix(compiler-vapor): prevent end tag omission for scope boundary elements",
+    "state": "closed",
+    "created_at": "2026-01-20T00:43:23Z",
+    "closed_at": "2026-01-20T02:36:55Z",
+    "merged_at": "2026-01-20T02:36:55Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14332,
+    "title": "fix(runtime-core): resolve kebab-case slot names from in-DOM templates",
+    "state": "closed",
+    "created_at": "2026-01-19T01:16:28Z",
+    "closed_at": "2026-01-21T00:43:04Z",
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14331,
+    "title": "Revert \"fix(runtime-core): resolve kebab-case slot names from in-DOM templates\"",
+    "state": "closed",
+    "created_at": "2026-01-19T01:14:19Z",
+    "closed_at": "2026-01-19T01:14:39Z",
+    "merged_at": "2026-01-19T01:14:39Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14328,
+    "title": "fix(runtime-vapor): prevent v-for crash on looping through null or undefined array",
+    "state": "closed",
+    "created_at": "2026-01-16T14:21:46Z",
+    "closed_at": "2026-01-19T00:39:34Z",
+    "merged_at": "2026-01-19T00:39:34Z",
+    "user": {
+      "login": "steel97"
+    }
+  },
+  {
+    "number": 14327,
+    "title": "fix(server-renderer): use ssrRenderClass helper for className attribute",
+    "state": "closed",
+    "created_at": "2026-01-16T09:21:38Z",
+    "closed_at": "2026-01-16T09:39:51Z",
+    "merged_at": "2026-01-16T09:39:51Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14326,
+    "title": "fix(runtime-vapor): take in account parent component scopeid on nested slot",
+    "state": "closed",
+    "created_at": "2026-01-15T22:09:33Z",
+    "closed_at": "2026-01-16T01:56:49Z",
+    "merged_at": "2026-01-16T01:56:49Z",
+    "user": {
+      "login": "steel97"
+    }
+  },
+  {
+    "number": 14325,
+    "title": "refactor(vapor): optimize hydration tree-shaking for vdom interop",
+    "state": "closed",
+    "created_at": "2026-01-15T14:32:16Z",
+    "closed_at": "2026-01-16T00:52:45Z",
+    "merged_at": "2026-01-16T00:52:45Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14324,
+    "title": "refactor(compiler-vapor): remove JSX",
+    "state": "closed",
+    "created_at": "2026-01-15T11:08:11Z",
+    "closed_at": "2026-01-16T00:57:45Z",
+    "merged_at": "2026-01-16T00:57:45Z",
+    "user": {
+      "login": "zhiyuanzmj"
+    }
+  },
+  {
+    "number": 14322,
+    "title": "refactor(runtime-vapor): improve hydration code treeshaking",
+    "state": "closed",
+    "created_at": "2026-01-15T06:10:41Z",
+    "closed_at": "2026-01-15T07:04:48Z",
+    "merged_at": "2026-01-15T07:04:48Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14321,
+    "title": "refactor(runtime-vapor): simplify DynamicFragment hydrate treeshaking",
+    "state": "closed",
+    "created_at": "2026-01-15T03:55:14Z",
+    "closed_at": "2026-01-15T03:57:02Z",
+    "merged_at": "2026-01-15T03:57:02Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14320,
+    "title": "refactor(runtime-vapor): inline async hydration logic",
+    "state": "closed",
+    "created_at": "2026-01-15T03:40:40Z",
+    "closed_at": "2026-01-15T03:42:25Z",
+    "merged_at": "2026-01-15T03:42:25Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14319,
+    "title": "refactor(runtime-vapor): extract transition hydration logic for tree-shaking",
+    "state": "closed",
+    "created_at": "2026-01-15T03:21:00Z",
+    "closed_at": "2026-01-15T03:32:43Z",
+    "merged_at": "2026-01-15T03:32:43Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14318,
+    "title": "refactor(runtime-vapor): extract async hydration logic for tree-shaking",
+    "state": "closed",
+    "created_at": "2026-01-15T02:42:49Z",
+    "closed_at": "2026-01-15T02:52:46Z",
+    "merged_at": "2026-01-15T02:52:46Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14317,
+    "title": "fix(compiler-vapor): allow multiple children in Transition v-if branch elements",
+    "state": "closed",
+    "created_at": "2026-01-14T15:25:41Z",
+    "closed_at": "2026-01-15T00:22:26Z",
+    "merged_at": "2026-01-15T00:22:26Z",
+    "user": {
+      "login": "cexbrayat"
+    }
+  },
+  {
+    "number": 14314,
+    "title": "fix(transition): handle transition on pre-resolved async components",
+    "state": "closed",
+    "created_at": "2026-01-14T09:24:04Z",
+    "closed_at": "2026-01-14T12:29:34Z",
+    "merged_at": "2026-01-14T12:29:34Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14313,
+    "title": "refactor(Transition): improve transition appear hook handling during hydration",
+    "state": "closed",
+    "created_at": "2026-01-14T07:45:47Z",
+    "closed_at": "2026-01-14T07:50:21Z",
+    "merged_at": "2026-01-14T07:50:21Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14312,
+    "title": "fix(compiler-core): handle semicolons in v-on expressions",
+    "state": "open",
+    "created_at": "2026-01-14T06:39:10Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "seekskyworld"
+    }
+  },
+  {
+    "number": 14311,
+    "title": "refactor(keep-alive): simplify caching via context pattern",
+    "state": "closed",
+    "created_at": "2026-01-14T03:55:51Z",
+    "closed_at": "2026-01-14T06:03:47Z",
+    "merged_at": "2026-01-14T06:03:47Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14310,
+    "title": "fix(compiler-vapor): do not escape quotes in root-level text nodes",
+    "state": "closed",
+    "created_at": "2026-01-14T00:18:25Z",
+    "closed_at": "2026-01-14T00:57:29Z",
+    "merged_at": "2026-01-14T00:57:29Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14308,
+    "title": "refactor(reactivity): add `__NO_SIDE_EFFECTS__` comments",
+    "state": "closed",
+    "created_at": "2026-01-13T12:42:58Z",
+    "closed_at": "2026-01-19T00:40:36Z",
+    "merged_at": "2026-01-19T00:40:36Z",
+    "user": {
+      "login": "skirtles-code"
+    }
+  },
+  {
+    "number": 14307,
+    "title": "fix(keep-alive): fix caching nested dynamic fragments",
+    "state": "closed",
+    "created_at": "2026-01-12T09:52:46Z",
+    "closed_at": "2026-01-14T01:28:29Z",
+    "merged_at": "2026-01-14T01:28:29Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14306,
+    "title": "refactor(vapor): decouple KeepAlive from AsyncComponent via reactive `__asyncResolved`",
+    "state": "closed",
+    "created_at": "2026-01-12T07:36:21Z",
+    "closed_at": "2026-01-12T08:44:01Z",
+    "merged_at": "2026-01-12T08:44:01Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14305,
+    "title": "refactor(runtime-vapor): use context pattern to control scope retention",
+    "state": "closed",
+    "created_at": "2026-01-12T06:43:01Z",
+    "closed_at": "2026-01-12T07:17:48Z",
+    "merged_at": "2026-01-12T07:17:48Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14302,
+    "title": "fix(runtime-core): resolve kebab-case slot names from in-DOM templates",
+    "state": "closed",
+    "created_at": "2026-01-09T01:56:11Z",
+    "closed_at": "2026-01-19T01:04:38Z",
+    "merged_at": "2026-01-19T01:04:38Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14301,
+    "title": "docs: improve clarity of comment in constants.ts",
+    "state": "closed",
+    "created_at": "2026-01-08T17:21:32Z",
+    "closed_at": "2026-01-09T03:03:40Z",
+    "merged_at": null,
+    "user": {
+      "login": "SAURABHHAM44"
+    }
+  },
+  {
+    "number": 14299,
+    "title": "fix(runtime-dom): ensure css vars deps tracking when component has no DOM on initial mount",
+    "state": "closed",
+    "created_at": "2026-01-08T09:06:40Z",
+    "closed_at": "2026-01-19T00:41:16Z",
+    "merged_at": "2026-01-19T00:41:16Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14297,
+    "title": "fix(compiler-sfc): use correct scope when resolving indexed access types from external files",
+    "state": "closed",
+    "created_at": "2026-01-08T02:15:02Z",
+    "closed_at": "2026-01-19T00:42:25Z",
+    "merged_at": "2026-01-19T00:42:25Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14296,
+    "title": "fix(compile-sfc): correctly handle variable shadowing in for loop for `defineProps` destructuring.",
+    "state": "closed",
+    "created_at": "2026-01-08T00:28:32Z",
+    "closed_at": "2026-01-19T00:43:16Z",
+    "merged_at": "2026-01-19T00:43:16Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14293,
+    "title": "refactor(keyedFragment): move key assignment for dynamic fragments from compiler to runtime",
+    "state": "closed",
+    "created_at": "2026-01-07T13:18:16Z",
+    "closed_at": "2026-01-12T00:54:34Z",
+    "merged_at": "2026-01-12T00:54:34Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14291,
+    "title": "chore: update oxlint 1.38.0 and oxfmt 0.23.0",
+    "state": "closed",
+    "created_at": "2026-01-07T09:27:08Z",
+    "closed_at": "2026-01-07T13:52:41Z",
+    "merged_at": "2026-01-07T13:52:41Z",
+    "user": {
+      "login": "ywenhao"
+    }
+  },
+  {
+    "number": 14290,
+    "title": "fix: correct spelling errors in CHANGELOG.md",
+    "state": "closed",
+    "created_at": "2026-01-07T08:30:20Z",
+    "closed_at": "2026-01-07T08:48:46Z",
+    "merged_at": "2026-01-07T08:48:45Z",
+    "user": {
+      "login": "baozjj"
+    }
+  },
+  {
+    "number": 14289,
+    "title": "fix(compiler-vapor): support v-if and v-for on the same `<template>` element by correctly wrapping structural directives.",
+    "state": "closed",
+    "created_at": "2026-01-07T07:50:28Z",
+    "closed_at": "2026-01-07T08:49:10Z",
+    "merged_at": "2026-01-07T08:49:10Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14286,
+    "title": "types(jsx): add Popover API",
+    "state": "closed",
+    "created_at": "2026-01-06T09:18:41Z",
+    "closed_at": "2026-01-11T03:28:21Z",
+    "merged_at": null,
+    "user": {
+      "login": "rzzf"
+    }
+  },
+  {
+    "number": 14285,
+    "title": "fix(keep-alive): improve KeepAlive caching behavior for async components by re-evaluating include/exclude after resolution and refactoring internal methods.",
+    "state": "closed",
+    "created_at": "2026-01-06T03:08:04Z",
+    "closed_at": "2026-01-06T03:20:41Z",
+    "merged_at": "2026-01-06T03:20:41Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14284,
+    "title": "fix(runtime-vapor): Loss of css var in Teleport",
+    "state": "closed",
+    "created_at": "2026-01-06T03:05:08Z",
+    "closed_at": "2026-01-08T08:43:47Z",
+    "merged_at": "2026-01-08T08:43:47Z",
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 14281,
+    "title": "fix(runtime-vapor): prevent event handler execution during emits lookup",
+    "state": "closed",
+    "created_at": "2026-01-05T09:22:33Z",
+    "closed_at": "2026-01-06T03:21:08Z",
+    "merged_at": "2026-01-06T03:21:08Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14279,
+    "title": "chore(deps): update dependency vite to v7",
+    "state": "closed",
+    "created_at": "2026-01-05T03:35:21Z",
+    "closed_at": "2026-01-28T08:25:27Z",
+    "merged_at": "2026-01-28T08:25:27Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14278,
+    "title": "feat(vapor): support rendering VNodes in dynamic components",
+    "state": "closed",
+    "created_at": "2026-01-05T03:26:31Z",
+    "closed_at": "2026-01-12T00:55:57Z",
+    "merged_at": "2026-01-12T00:55:57Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14277,
+    "title": "chore(deps): update dawidd6/action-download-artifact action to v12",
+    "state": "closed",
+    "created_at": "2026-01-05T01:54:07Z",
+    "closed_at": "2026-01-28T08:24:32Z",
+    "merged_at": "2026-01-28T08:24:31Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14276,
+    "title": "chore(deps): update actions/upload-artifact action to v6",
+    "state": "closed",
+    "created_at": "2026-01-05T01:54:03Z",
+    "closed_at": "2026-01-28T08:24:13Z",
+    "merged_at": "2026-01-28T08:24:13Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14275,
+    "title": "fix(runtime-core): skip patching reserved props for custom elements",
+    "state": "closed",
+    "created_at": "2026-01-04T13:54:55Z",
+    "closed_at": "2026-01-19T00:52:44Z",
+    "merged_at": "2026-01-19T00:52:43Z",
+    "user": {
+      "login": "danielroe"
+    }
+  },
+  {
+    "number": 14273,
+    "title": "feat(vapor): allow VDOM components to render vapor slots via `slots.name()`",
+    "state": "closed",
+    "created_at": "2026-01-04T08:52:05Z",
+    "closed_at": "2026-01-05T03:34:29Z",
+    "merged_at": "2026-01-05T03:34:29Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14272,
+    "title": "fix(runtime-core): support `uid` key for `useInstanceOption`",
+    "state": "closed",
+    "created_at": "2026-01-04T03:48:38Z",
+    "closed_at": "2026-01-04T05:57:54Z",
+    "merged_at": "2026-01-04T05:57:54Z",
+    "user": {
+      "login": "kazupon"
+    }
+  },
+  {
+    "number": 14268,
+    "title": "fix(runtime-vapor): handle css vars work with empty VaporFragment",
+    "state": "closed",
+    "created_at": "2026-01-01T02:11:54Z",
+    "closed_at": "2026-01-04T01:10:46Z",
+    "merged_at": "2026-01-04T01:10:46Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14267,
+    "title": "fix(compiler-sfc): avoid duplicated unref import for vapor mode",
+    "state": "closed",
+    "created_at": "2026-01-01T01:47:14Z",
+    "closed_at": "2026-01-04T01:09:51Z",
+    "merged_at": "2026-01-04T01:09:51Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14263,
+    "title": "fix(ssr): handle v-bind modifiers during render attrs",
+    "state": "closed",
+    "created_at": "2025-12-30T15:43:02Z",
+    "closed_at": "2026-01-19T00:51:14Z",
+    "merged_at": "2026-01-19T00:51:14Z",
+    "user": {
+      "login": "Gianthard-cyh"
+    }
+  },
+  {
+    "number": 14260,
+    "title": "fix(compiler-sfc): handle indexed access types in declare global blocks",
+    "state": "closed",
+    "created_at": "2025-12-29T08:05:35Z",
+    "closed_at": "2026-01-19T00:47:11Z",
+    "merged_at": "2026-01-19T00:47:11Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14259,
+    "title": "refactor(runtime-vapor): simplify hydration state management",
+    "state": "closed",
+    "created_at": "2025-12-29T06:14:13Z",
+    "closed_at": "2025-12-29T06:24:14Z",
+    "merged_at": "2025-12-29T06:24:14Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14258,
+    "title": "chore(deps): update actions/cache action to v5",
+    "state": "closed",
+    "created_at": "2025-12-29T00:35:04Z",
+    "closed_at": "2026-01-28T08:23:56Z",
+    "merged_at": "2026-01-28T08:23:56Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14257,
+    "title": "chore(deps): update lint",
+    "state": "closed",
+    "created_at": "2025-12-29T00:35:00Z",
+    "closed_at": "2026-01-28T08:26:05Z",
+    "merged_at": "2026-01-28T08:26:04Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14256,
+    "title": "feat(reactivity): add 'equals' option to watch for custom equality checks",
+    "state": "open",
+    "created_at": "2025-12-26T20:09:38Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "pauloappbr"
+    }
+  },
+  {
+    "number": 14253,
+    "title": "docs: fix typos in comments in the code",
+    "state": "closed",
+    "created_at": "2025-12-26T11:21:25Z",
+    "closed_at": "2025-12-29T00:33:58Z",
+    "merged_at": "2025-12-29T00:33:58Z",
+    "user": {
+      "login": "bcostaaa01"
+    }
+  },
+  {
+    "number": 14252,
+    "title": "fix(runtime-vapor): correctly check slot existence in ownKeys",
+    "state": "closed",
+    "created_at": "2025-12-26T06:12:49Z",
+    "closed_at": "2025-12-28T12:31:37Z",
+    "merged_at": "2025-12-28T12:31:37Z",
+    "user": {
+      "login": "Sdju"
+    }
+  },
+  {
+    "number": 14251,
+    "title": "fix(types): watchEffect typing does not support async callback (#14249)",
+    "state": "open",
+    "created_at": "2025-12-26T05:30:18Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "zhanghaifeng213"
+    }
+  },
+  {
+    "number": 14250,
+    "title": "chore: ensure KeepAlive and TransitionGroup treeshake properly",
+    "state": "closed",
+    "created_at": "2025-12-26T02:06:10Z",
+    "closed_at": "2025-12-26T05:37:59Z",
+    "merged_at": "2025-12-26T05:37:59Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14248,
+    "title": "refactor(shared): clarify normalizeCssVarValue control flow and intent",
+    "state": "closed",
+    "created_at": "2025-12-25T20:18:16Z",
+    "closed_at": "2025-12-25T21:21:22Z",
+    "merged_at": null,
+    "user": {
+      "login": "bcostaaa01"
+    }
+  },
+  {
+    "number": 14247,
+    "title": "refactor(runtime-core): unify lifecycle hook triggering via enum",
+    "state": "closed",
+    "created_at": "2025-12-25T16:31:12Z",
+    "closed_at": "2025-12-26T02:45:24Z",
+    "merged_at": null,
+    "user": {
+      "login": "snowbitx"
+    }
+  },
+  {
+    "number": 14246,
+    "title": "fix(compiler-vapor): cache optional call expression",
+    "state": "closed",
+    "created_at": "2025-12-25T13:28:00Z",
+    "closed_at": "2025-12-25T13:30:40Z",
+    "merged_at": "2025-12-25T13:30:40Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14245,
+    "title": "fix(compiler-vapor): avoid declarations for member expressions directly parented by call expressions",
+    "state": "closed",
+    "created_at": "2025-12-25T10:57:31Z",
+    "closed_at": "2025-12-25T13:17:15Z",
+    "merged_at": "2025-12-25T13:17:15Z",
+    "user": {
+      "login": "KazariEX"
+    }
+  },
+  {
+    "number": 14243,
+    "title": "fix(vdomInterop): handling template ref on vdom child with insertion state",
+    "state": "closed",
+    "created_at": "2025-12-25T07:04:20Z",
+    "closed_at": "2025-12-25T13:21:26Z",
+    "merged_at": "2025-12-25T13:21:26Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14240,
+    "title": "build: use rolldown",
+    "state": "closed",
+    "created_at": "2025-12-24T08:46:57Z",
+    "closed_at": "2026-01-27T09:06:51Z",
+    "merged_at": "2026-01-27T09:06:51Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14239,
+    "title": "chore(deps): update vite to version v8",
+    "state": "closed",
+    "created_at": "2025-12-24T06:13:18Z",
+    "closed_at": "2026-01-27T02:51:46Z",
+    "merged_at": "2026-01-27T02:51:46Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14238,
+    "title": "chore(style): migrate code formatter from Prettier to oxfmt",
+    "state": "closed",
+    "created_at": "2025-12-23T13:46:34Z",
+    "closed_at": "2025-12-25T00:27:47Z",
+    "merged_at": "2025-12-25T00:27:47Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14237,
+    "title": "types(jsx): improve autocomplete type",
+    "state": "closed",
+    "created_at": "2025-12-22T14:34:23Z",
+    "closed_at": "2026-01-19T01:03:37Z",
+    "merged_at": "2026-01-19T01:03:37Z",
+    "user": {
+      "login": "rzzf"
+    }
+  },
+  {
+    "number": 14235,
+    "title": "fix(deps): update all non-major dependencies",
+    "state": "closed",
+    "created_at": "2025-12-22T02:51:12Z",
+    "closed_at": "2026-01-29T07:32:18Z",
+    "merged_at": "2026-01-29T07:32:17Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14234,
+    "title": "chore(deps): update test",
+    "state": "closed",
+    "created_at": "2025-12-22T02:50:51Z",
+    "closed_at": "2026-01-29T07:37:47Z",
+    "merged_at": "2026-01-29T07:37:47Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14233,
+    "title": "refactor(test): stabilize vapor e2e transition tests",
+    "state": "closed",
+    "created_at": "2025-12-22T02:30:40Z",
+    "closed_at": "2025-12-22T02:49:46Z",
+    "merged_at": "2025-12-22T02:49:46Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14232,
+    "title": "chore(deps): update compiler",
+    "state": "closed",
+    "created_at": "2025-12-22T01:40:38Z",
+    "closed_at": "2026-01-28T08:25:06Z",
+    "merged_at": "2026-01-28T08:25:06Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14231,
+    "title": "chore(deps): update build",
+    "state": "closed",
+    "created_at": "2025-12-22T01:40:23Z",
+    "closed_at": "2026-01-29T07:40:20Z",
+    "merged_at": "2026-01-29T07:40:20Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14230,
+    "title": " fix(compiler-core): reject v-for with unmatched parentheses",
+    "state": "closed",
+    "created_at": "2025-12-21T12:31:09Z",
+    "closed_at": "2025-12-23T00:20:08Z",
+    "merged_at": null,
+    "user": {
+      "login": "OlTrenin"
+    }
+  },
+  {
+    "number": 14229,
+    "title": "fix(compiler-vapor): merge component v-model onUpdate handlers",
+    "state": "closed",
+    "created_at": "2025-12-21T03:26:20Z",
+    "closed_at": "2025-12-22T02:54:07Z",
+    "merged_at": "2025-12-22T02:54:07Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14225,
+    "title": "fix(transition): optimize prop handling in VaporTransition using Proxy",
+    "state": "closed",
+    "created_at": "2025-12-19T03:39:36Z",
+    "closed_at": "2025-12-22T09:47:23Z",
+    "merged_at": "2025-12-22T09:47:23Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14223,
+    "title": "fix(runtime-core): remove constructor props for defineComponent",
+    "state": "closed",
+    "created_at": "2025-12-18T09:02:06Z",
+    "closed_at": "2025-12-18T13:03:13Z",
+    "merged_at": "2025-12-18T13:03:13Z",
+    "user": {
+      "login": "zhiyuanzmj"
+    }
+  },
+  {
+    "number": 14222,
+    "title": "perf(compiler-core): use binary-search to get the line and column.",
+    "state": "closed",
+    "created_at": "2025-12-18T07:09:38Z",
+    "closed_at": "2025-12-18T08:19:36Z",
+    "merged_at": "2025-12-18T08:19:36Z",
+    "user": {
+      "login": "skyfeiz"
+    }
+  },
+  {
+    "number": 14221,
+    "title": "fix(runtime-core): pass component instance to flushPreFlushCbs on unmount",
+    "state": "closed",
+    "created_at": "2025-12-18T03:44:08Z",
+    "closed_at": "2025-12-18T08:31:08Z",
+    "merged_at": "2025-12-18T08:31:08Z",
+    "user": {
+      "login": "linzhe141"
+    }
+  },
+  {
+    "number": 14218,
+    "title": "fix(compiler-vapor): wrap handler values in functions for dynamic v-on",
+    "state": "closed",
+    "created_at": "2025-12-17T14:05:44Z",
+    "closed_at": "2025-12-18T00:30:32Z",
+    "merged_at": "2025-12-18T00:30:32Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14217,
+    "title": "fix(runtime-vapor): simplify KeepAlive caching logic by removing redundant checks",
+    "state": "closed",
+    "created_at": "2025-12-17T10:01:09Z",
+    "closed_at": "2025-12-17T10:05:01Z",
+    "merged_at": "2025-12-17T10:05:01Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14214,
+    "title": "fix(compiler-sfc): demote const reactive bindings used in v-model",
+    "state": "closed",
+    "created_at": "2025-12-17T08:47:27Z",
+    "closed_at": "2025-12-18T08:24:08Z",
+    "merged_at": "2025-12-18T08:24:08Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14213,
+    "title": "feat(runtime-vapor): support render block in createDynamicComponent",
+    "state": "closed",
+    "created_at": "2025-12-17T07:35:23Z",
+    "closed_at": "2025-12-17T10:05:29Z",
+    "merged_at": "2025-12-17T10:05:29Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14212,
+    "title": "fix(KeepAlive): use resolved component name for async components in cache pruning",
+    "state": "closed",
+    "created_at": "2025-12-17T02:25:59Z",
+    "closed_at": "2025-12-18T08:14:23Z",
+    "merged_at": "2025-12-18T08:14:23Z",
+    "user": {
+      "login": "huangxiuqi"
+    }
+  },
+  {
+    "number": 14211,
+    "title": "fix(compiler-vapor): camelize kebab-case component event handlers",
+    "state": "closed",
+    "created_at": "2025-12-17T01:51:00Z",
+    "closed_at": "2025-12-17T01:58:09Z",
+    "merged_at": "2025-12-17T01:58:09Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14208,
+    "title": "perf(runtime-vapor): implement dynamic props/slots source caching",
+    "state": "closed",
+    "created_at": "2025-12-16T06:40:13Z",
+    "closed_at": "2025-12-16T08:48:21Z",
+    "merged_at": "2025-12-16T08:48:21Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14207,
+    "title": "fix(runtime-vapor): implement v-once caching for props and attrs",
+    "state": "closed",
+    "created_at": "2025-12-16T03:55:03Z",
+    "closed_at": "2025-12-16T05:54:40Z",
+    "merged_at": "2025-12-16T05:54:40Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14205,
+    "title": "test: update test coverage",
+    "state": "closed",
+    "created_at": "2025-12-16T01:14:18Z",
+    "closed_at": "2025-12-16T02:11:13Z",
+    "merged_at": "2025-12-16T02:11:13Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14203,
+    "title": "fix(compat): handle v-model deprecation warning with missing appContext",
+    "state": "closed",
+    "created_at": "2025-12-15T06:46:53Z",
+    "closed_at": "2025-12-18T08:14:54Z",
+    "merged_at": "2025-12-18T08:14:54Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14200,
+    "title": "refactor(runtime-vapor): optimize `child` helper call by omitting redundant index 0",
+    "state": "closed",
+    "created_at": "2025-12-15T03:08:14Z",
+    "closed_at": "2025-12-15T05:45:30Z",
+    "merged_at": "2025-12-15T05:45:30Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14198,
+    "title": "types(runtime-core): export DirectiveModifiers type",
+    "state": "closed",
+    "created_at": "2025-12-14T15:28:50Z",
+    "closed_at": "2025-12-18T08:24:44Z",
+    "merged_at": "2025-12-18T08:24:44Z",
+    "user": {
+      "login": "michaelcozzolino"
+    }
+  },
+  {
+    "number": 14196,
+    "title": "fix(runtime-dom): handle activeElement check in Shadow DOM for v-model",
+    "state": "closed",
+    "created_at": "2025-12-12T16:58:48Z",
+    "closed_at": "2026-03-25T06:29:50Z",
+    "merged_at": "2026-03-25T06:29:50Z",
+    "user": {
+      "login": "LordSalmon"
+    }
+  },
+  {
+    "number": 14195,
+    "title": "fix(hmr): suppress provide warning during HMR updates for mounted instances",
+    "state": "closed",
+    "created_at": "2025-12-12T10:03:14Z",
+    "closed_at": "2025-12-15T02:39:46Z",
+    "merged_at": "2025-12-15T02:39:46Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14194,
+    "title": "Revert \"perf(runtime-vapor): cache dynamic prop/attr and slot function sources using computed to prevent redundant calls.\"",
+    "state": "closed",
+    "created_at": "2025-12-12T07:54:28Z",
+    "closed_at": "2025-12-12T07:55:28Z",
+    "merged_at": "2025-12-12T07:55:28Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14193,
+    "title": "fix(runtime-vapor): track and restore slot owner context for DynamicFragment rendering",
+    "state": "closed",
+    "created_at": "2025-12-12T01:28:05Z",
+    "closed_at": "2025-12-12T03:29:49Z",
+    "merged_at": "2025-12-12T03:29:49Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14190,
+    "title": "chore(reactivity): remove redundant IS_SHALLOW default in RefImpl",
+    "state": "closed",
+    "created_at": "2025-12-10T16:04:47Z",
+    "closed_at": "2025-12-11T02:18:35Z",
+    "merged_at": null,
+    "user": {
+      "login": "micaiguai"
+    }
+  },
+  {
+    "number": 14187,
+    "title": "fix(hmr): track original `__vapor` state during component mode switching",
+    "state": "closed",
+    "created_at": "2025-12-10T08:02:14Z",
+    "closed_at": "2025-12-11T07:27:51Z",
+    "merged_at": "2025-12-11T07:27:51Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14186,
+    "title": "chore: update warning message for missing temp dts files",
+    "state": "closed",
+    "created_at": "2025-12-09T15:17:08Z",
+    "closed_at": "2025-12-15T01:22:24Z",
+    "merged_at": "2025-12-15T01:22:24Z",
+    "user": {
+      "login": "linzhe141"
+    }
+  },
+  {
+    "number": 14185,
+    "title": "Realize",
+    "state": "closed",
+    "created_at": "2025-12-09T09:04:28Z",
+    "closed_at": "2025-12-09T09:04:34Z",
+    "merged_at": null,
+    "user": {
+      "login": "Stan-BK"
+    }
+  },
+  {
+    "number": 14184,
+    "title": "fix(hmr): reset scope to avoid stale effects during hmr rerender",
+    "state": "closed",
+    "created_at": "2025-12-09T07:13:30Z",
+    "closed_at": "2025-12-09T13:39:06Z",
+    "merged_at": "2025-12-09T13:39:06Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14183,
+    "title": "feat(runtime-vapor): implement `defineVaporCustomElement` type inference",
+    "state": "closed",
+    "created_at": "2025-12-09T01:23:47Z",
+    "closed_at": "2025-12-11T07:28:15Z",
+    "merged_at": "2025-12-11T07:28:15Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14182,
+    "title": "fix(runtime-core): ensure correct anchor el for deeper unresolved async components",
+    "state": "closed",
+    "created_at": "2025-12-08T15:00:09Z",
+    "closed_at": "2025-12-18T08:15:26Z",
+    "merged_at": "2025-12-18T08:15:26Z",
+    "user": {
+      "login": "linzhe141"
+    }
+  },
+  {
+    "number": 14179,
+    "title": "feat(runtime-vapor): support setup fn and render fn co-usage for expose",
+    "state": "open",
+    "created_at": "2025-12-08T08:27:43Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "zhiyuanzmj"
+    }
+  },
+  {
+    "number": 14178,
+    "title": "perf(runtime-vapor): cache dynamic prop/attr and slot function sources using computed to prevent redundant calls.",
+    "state": "closed",
+    "created_at": "2025-12-08T01:18:52Z",
+    "closed_at": "2025-12-08T01:34:44Z",
+    "merged_at": "2025-12-08T01:34:44Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14177,
+    "title": "fix(runtime-core): correctly propagate placeholder for async component",
+    "state": "closed",
+    "created_at": "2025-12-06T18:03:58Z",
+    "closed_at": "2025-12-09T02:33:36Z",
+    "merged_at": null,
+    "user": {
+      "login": "rzzf"
+    }
+  },
+  {
+    "number": 14176,
+    "title": "pref(slots): use computed to cache the result of dynamic slot function to avoid redundant calls",
+    "state": "closed",
+    "created_at": "2025-12-06T13:46:13Z",
+    "closed_at": "2025-12-08T00:35:36Z",
+    "merged_at": "2025-12-08T00:35:36Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14175,
+    "title": "ci: `pkg-pr-new` publish add pm option",
+    "state": "closed",
+    "created_at": "2025-12-06T01:33:22Z",
+    "closed_at": "2025-12-08T02:47:00Z",
+    "merged_at": "2025-12-08T02:47:00Z",
+    "user": {
+      "login": "btea"
+    }
+  },
+  {
+    "number": 14172,
+    "title": "chore(runtime-vapor): render fallback at the deepest invalid fragment",
+    "state": "closed",
+    "created_at": "2025-12-05T09:40:38Z",
+    "closed_at": "2025-12-05T12:57:08Z",
+    "merged_at": "2025-12-05T12:57:08Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14169,
+    "title": "chore(deps): update @vue/repl to version 4.7.1",
+    "state": "closed",
+    "created_at": "2025-12-04T12:46:09Z",
+    "closed_at": "2025-12-04T12:49:55Z",
+    "merged_at": "2025-12-04T12:49:55Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14167,
+    "title": "fix(runtime-vapor): enable injection from VDOM parent to slotted vapor child",
+    "state": "closed",
+    "created_at": "2025-12-04T08:58:31Z",
+    "closed_at": "2025-12-04T09:05:14Z",
+    "merged_at": "2025-12-04T09:05:14Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14166,
+    "title": "refactor(runtime-vapor): use dedicated currentSlotOwner instead of changing currentInstance in withVaporCtx",
+    "state": "closed",
+    "created_at": "2025-12-04T04:03:50Z",
+    "closed_at": "2025-12-04T07:30:35Z",
+    "merged_at": "2025-12-04T07:30:35Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14165,
+    "title": "fix(slot): enhance v-slot prop destructuring support",
+    "state": "closed",
+    "created_at": "2025-12-03T14:14:07Z",
+    "closed_at": "2025-12-04T00:33:57Z",
+    "merged_at": "2025-12-04T00:33:57Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14162,
+    "title": "fix(runtime-vapor): add dev-only warning for non-existent property access during render",
+    "state": "closed",
+    "created_at": "2025-12-03T09:02:30Z",
+    "closed_at": "2025-12-03T09:06:04Z",
+    "merged_at": "2025-12-03T09:06:04Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14161,
+    "title": "fix(templateRef): prevent duplicate onScopeDispose registrations for dynamic template refs",
+    "state": "closed",
+    "created_at": "2025-12-03T03:49:23Z",
+    "closed_at": "2025-12-03T07:12:57Z",
+    "merged_at": "2025-12-03T07:12:57Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14160,
+    "title": "chore(deps): update entities to latest for Node.js 24 compatibility",
+    "state": "closed",
+    "created_at": "2025-12-02T20:04:49Z",
+    "closed_at": "2025-12-15T07:47:56Z",
+    "merged_at": "2025-12-15T07:47:56Z",
+    "user": {
+      "login": "kTelyakov"
+    }
+  },
+  {
+    "number": 14158,
+    "title": "fix(compiler-vapor): prevent nested components from inheriting parent slots",
+    "state": "closed",
+    "created_at": "2025-12-02T08:24:59Z",
+    "closed_at": "2025-12-02T08:36:29Z",
+    "merged_at": "2025-12-02T08:36:29Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14157,
+    "title": "feat(suspense): support rendering of Vapor components",
+    "state": "closed",
+    "created_at": "2025-12-02T01:57:28Z",
+    "closed_at": "2025-12-04T02:10:53Z",
+    "merged_at": "2025-12-04T02:10:53Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14155,
+    "title": "refactor(runtime-vapor): pass vapor slot fallback directly to `renderSlot`",
+    "state": "closed",
+    "created_at": "2025-12-01T08:48:35Z",
+    "closed_at": "2025-12-01T09:02:56Z",
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14153,
+    "title": "refactor: introduce `setAsyncRef` on DynamicFragment for explicit async component ref assignment",
+    "state": "closed",
+    "created_at": "2025-12-01T06:56:50Z",
+    "closed_at": "2025-12-01T07:20:57Z",
+    "merged_at": "2025-12-01T07:20:57Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14152,
+    "title": "refactor: extract Teleport mount and mountToTarget logic into private methods",
+    "state": "closed",
+    "created_at": "2025-12-01T01:22:39Z",
+    "closed_at": "2025-12-01T01:27:39Z",
+    "merged_at": "2025-12-01T01:27:39Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14150,
+    "title": "fix(types): enable proper type narrowing for defineEmits (#13935)",
+    "state": "open",
+    "created_at": "2025-11-30T11:30:35Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "tuzixiangs"
+    }
+  },
+  {
+    "number": 14147,
+    "title": "refactor(build): extract shared build helpers into build-shared.js",
+    "state": "open",
+    "created_at": "2025-11-28T17:17:55Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Hamed-Ajaj"
+    }
+  },
+  {
+    "number": 14144,
+    "title": "feat: attrs fallthrough",
+    "state": "closed",
+    "created_at": "2025-11-27T07:18:40Z",
+    "closed_at": "2025-12-01T01:13:49Z",
+    "merged_at": "2025-12-01T01:13:49Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14143,
+    "title": "feat(runtime-vapor): support custom directives on vapor components",
+    "state": "closed",
+    "created_at": "2025-11-26T08:43:02Z",
+    "closed_at": "2025-11-27T00:28:56Z",
+    "merged_at": "2025-11-27T00:28:56Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14142,
+    "title": "test(scopeId): add tests for slot wrapping with `withVaporCtx`",
+    "state": "closed",
+    "created_at": "2025-11-26T06:59:22Z",
+    "closed_at": "2025-11-26T07:04:23Z",
+    "merged_at": "2025-11-26T07:04:23Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14141,
+    "title": "feat(vapor): implement `v-once` support for slot outlets",
+    "state": "closed",
+    "created_at": "2025-11-26T03:13:05Z",
+    "closed_at": "2025-11-26T05:39:53Z",
+    "merged_at": "2025-11-26T05:39:53Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14140,
+    "title": "test(vIf): add tests and refactor comment node check to use `isCommentOrWhitespace` utility.",
+    "state": "closed",
+    "created_at": "2025-11-26T01:26:26Z",
+    "closed_at": "2025-11-26T01:59:31Z",
+    "merged_at": "2025-11-26T01:59:31Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14139,
+    "title": "test(compiler-vapor): add test for .prop modifier with dynamic arg and prefixIdentifiers",
+    "state": "closed",
+    "created_at": "2025-11-25T08:36:33Z",
+    "closed_at": "2025-11-25T08:51:22Z",
+    "merged_at": "2025-11-25T08:51:22Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14138,
+    "title": "fix(compiler-vapor): prevent `camelize` from receiving nullish value for dynamic `v-bind` keys with `.camel` modifier.",
+    "state": "closed",
+    "created_at": "2025-11-25T08:22:08Z",
+    "closed_at": "2025-11-25T08:23:59Z",
+    "merged_at": "2025-11-25T08:23:59Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14137,
+    "title": "fix(compiler-vapor): support merging multiple event handlers on components",
+    "state": "closed",
+    "created_at": "2025-11-25T07:42:24Z",
+    "closed_at": "2025-11-25T07:51:36Z",
+    "merged_at": "2025-11-25T07:51:36Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14136,
+    "title": "fix(compiler-vapor): only apply v-on key modifiers to keyboard events",
+    "state": "closed",
+    "created_at": "2025-11-25T05:47:03Z",
+    "closed_at": "2025-11-25T05:49:24Z",
+    "merged_at": "2025-11-25T05:49:24Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14135,
+    "title": "Remove content from README.md",
+    "state": "closed",
+    "created_at": "2025-11-24T16:06:44Z",
+    "closed_at": "2025-11-24T16:25:59Z",
+    "merged_at": null,
+    "user": {
+      "login": "Cguedia"
+    }
+  },
+  {
+    "number": 14134,
+    "title": "fix(hmr): handle cached text node update",
+    "state": "closed",
+    "created_at": "2025-11-24T13:38:53Z",
+    "closed_at": "2025-12-18T08:23:25Z",
+    "merged_at": "2025-12-18T08:23:25Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14133,
+    "title": "fix(types): remove unused helpers property from CodegenResult interface",
+    "state": "closed",
+    "created_at": "2025-11-24T12:56:08Z",
+    "closed_at": "2025-11-24T13:01:18Z",
+    "merged_at": "2025-11-24T13:01:18Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14132,
+    "title": "fix(compiler-vapor): improve expression caching for shared member roots",
+    "state": "closed",
+    "created_at": "2025-11-24T09:54:22Z",
+    "closed_at": "2025-11-24T12:10:45Z",
+    "merged_at": "2025-11-24T12:10:45Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14131,
+    "title": "chore(deps): update actions/checkout action to v6",
+    "state": "closed",
+    "created_at": "2025-11-24T01:17:20Z",
+    "closed_at": "2025-12-15T07:46:45Z",
+    "merged_at": "2025-12-15T07:46:45Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14130,
+    "title": "fix(deps): update dependency monaco-editor to ^0.55.1",
+    "state": "closed",
+    "created_at": "2025-11-24T01:17:15Z",
+    "closed_at": "2025-12-15T07:29:15Z",
+    "merged_at": "2025-12-15T07:29:15Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14120,
+    "title": "fix(reactivity): correctly wrap iterated array items to preserve their readonly status",
+    "state": "closed",
+    "created_at": "2025-11-20T00:49:53Z",
+    "closed_at": "2025-11-24T07:20:24Z",
+    "merged_at": "2025-11-24T07:20:24Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14113,
+    "title": "fix(Transition): fixed transition completing too early when slowing down animation speed in browser dev tools",
+    "state": "open",
+    "created_at": "2025-11-18T11:13:12Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "AchoDev"
+    }
+  },
+  {
+    "number": 14110,
+    "title": "feat(compiler-core): support false prop shorthand",
+    "state": "open",
+    "created_at": "2025-11-18T10:16:57Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "KazariEX"
+    }
+  },
+  {
+    "number": 14109,
+    "title": "test(hmr): port hmr tests",
+    "state": "closed",
+    "created_at": "2025-11-18T08:04:13Z",
+    "closed_at": "2025-11-24T01:16:09Z",
+    "merged_at": "2025-11-24T01:16:09Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14080,
+    "title": "fix(suspense): defer clearing fallback vnode el in case it has dirs",
+    "state": "closed",
+    "created_at": "2025-11-12T07:21:53Z",
+    "closed_at": "2025-11-24T07:20:45Z",
+    "merged_at": "2025-11-24T07:20:45Z",
+    "user": {
+      "login": "linzhe141"
+    }
+  },
+  {
+    "number": 14075,
+    "title": "chore(ts): remove `baseUrl`, make `paths` relative",
+    "state": "closed",
+    "created_at": "2025-11-10T21:27:31Z",
+    "closed_at": "2025-12-18T08:29:38Z",
+    "merged_at": "2025-12-18T08:29:38Z",
+    "user": {
+      "login": "camc314"
+    }
+  },
+  {
+    "number": 14073,
+    "title": "chore(deps): update dependency jsdom to v28 - autoclosed",
+    "state": "closed",
+    "created_at": "2025-11-10T03:03:28Z",
+    "closed_at": "2026-02-09T06:23:55Z",
+    "merged_at": "2026-02-09T06:23:55Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14072,
+    "title": "chore(deps): update dependency @types/node to v24",
+    "state": "closed",
+    "created_at": "2025-11-10T03:03:09Z",
+    "closed_at": "2025-12-15T07:01:34Z",
+    "merged_at": "2025-12-15T07:01:34Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14071,
+    "title": "chore(deps): update build (major)",
+    "state": "closed",
+    "created_at": "2025-11-10T02:31:52Z",
+    "closed_at": "2025-12-15T07:28:10Z",
+    "merged_at": "2025-12-15T07:28:10Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14070,
+    "title": "fix(deps): update all non-major dependencies",
+    "state": "closed",
+    "created_at": "2025-11-10T02:31:36Z",
+    "closed_at": "2025-12-15T07:15:08Z",
+    "merged_at": "2025-12-15T07:15:08Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14069,
+    "title": "chore(deps): update build",
+    "state": "closed",
+    "created_at": "2025-11-10T01:24:59Z",
+    "closed_at": "2025-12-15T07:07:17Z",
+    "merged_at": "2025-12-15T07:07:17Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14068,
+    "title": "chore(deps): update test",
+    "state": "closed",
+    "created_at": "2025-11-10T01:24:46Z",
+    "closed_at": "2025-12-15T07:46:00Z",
+    "merged_at": "2025-12-15T07:46:00Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 14059,
+    "title": "types(defineProps): avoid never props becoming boolean flags",
+    "state": "closed",
+    "created_at": "2025-11-06T03:52:15Z",
+    "closed_at": "2025-12-18T08:30:07Z",
+    "merged_at": "2025-12-18T08:30:07Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 14058,
+    "title": "fix(reactivity): support Set composition methods",
+    "state": "closed",
+    "created_at": "2025-11-05T14:08:28Z",
+    "closed_at": "2025-11-06T02:53:13Z",
+    "merged_at": null,
+    "user": {
+      "login": "naramdash"
+    }
+  },
+  {
+    "number": 14042,
+    "title": "fix(runtime-core): guard prop validator against invalid types to avoid instanceof crash (fix #14041)",
+    "state": "open",
+    "created_at": "2025-10-31T03:41:24Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "ZKunZhang"
+    }
+  },
+  {
+    "number": 14026,
+    "title": "chore: bump node version to lts",
+    "state": "closed",
+    "created_at": "2025-10-28T02:11:50Z",
+    "closed_at": "2026-02-12T07:35:46Z",
+    "merged_at": "2026-02-12T07:35:46Z",
+    "user": {
+      "login": "iiio2"
+    }
+  },
+  {
+    "number": 14017,
+    "title": "feat: implement defineVaporCustomElement",
+    "state": "closed",
+    "created_at": "2025-10-24T03:53:49Z",
+    "closed_at": "2025-11-10T03:49:15Z",
+    "merged_at": "2025-11-10T03:49:15Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 13973,
+    "title": "chore: fix casing",
+    "state": "closed",
+    "created_at": "2025-10-07T05:36:31Z",
+    "closed_at": "2025-10-09T01:28:26Z",
+    "merged_at": "2025-10-09T01:28:26Z",
+    "user": {
+      "login": "iiio2"
+    }
+  },
+  {
+    "number": 13954,
+    "title": "fix(provide): warn when using `provide` after mounting",
+    "state": "closed",
+    "created_at": "2025-09-30T19:37:18Z",
+    "closed_at": "2025-11-24T06:54:12Z",
+    "merged_at": "2025-11-24T06:54:12Z",
+    "user": {
+      "login": "skirtles-code"
+    }
+  },
+  {
+    "number": 13952,
+    "title": "fix(compiler-core): handle unexpected characters in attribute names",
+    "state": "open",
+    "created_at": "2025-09-30T03:42:40Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "linzhe141"
+    }
+  },
+  {
+    "number": 13934,
+    "title": "test(vapor): use browser mode instead of pupeteer to run tests",
+    "state": "closed",
+    "created_at": "2025-09-26T15:21:44Z",
+    "closed_at": "2026-03-23T02:27:58Z",
+    "merged_at": "2026-03-23T02:27:58Z",
+    "user": {
+      "login": "sheremet-va"
+    }
+  },
+  {
+    "number": 13924,
+    "title": "Dependency Injection Inheritance: Solution A",
+    "state": "closed",
+    "created_at": "2025-09-24T08:00:41Z",
+    "closed_at": "2025-11-24T06:54:14Z",
+    "merged_at": null,
+    "user": {
+      "login": "benjamin-larsen"
+    }
+  },
+  {
+    "number": 13845,
+    "title": "fix(runtime-core): add slot security assessment",
+    "state": "closed",
+    "created_at": "2025-09-04T04:33:51Z",
+    "closed_at": "2025-09-04T05:03:53Z",
+    "merged_at": null,
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 13844,
+    "title": "fix(runtime-vapor): VNode render cannot be executed in vapor mode",
+    "state": "closed",
+    "created_at": "2025-09-04T03:41:45Z",
+    "closed_at": "2025-09-04T05:06:56Z",
+    "merged_at": null,
+    "user": {
+      "login": "jackma9604"
+    }
+  },
+  {
+    "number": 13842,
+    "title": "refactor(templateRef): simplify template ref handling and remove old ref declarations",
+    "state": "closed",
+    "created_at": "2025-09-03T03:41:20Z",
+    "closed_at": "2026-01-12T01:50:18Z",
+    "merged_at": "2026-01-12T01:50:18Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 13831,
+    "title": "feat(runtime-vapor): implement defineVaporComponent types",
+    "state": "closed",
+    "created_at": "2025-08-30T14:51:50Z",
+    "closed_at": "2025-12-08T13:31:49Z",
+    "merged_at": "2025-12-08T13:31:49Z",
+    "user": {
+      "login": "zhiyuanzmj"
+    }
+  },
+  {
+    "number": 13772,
+    "title": "fix(teleport): fix teleport with v-if to avoid null nextSibling error",
+    "state": "closed",
+    "created_at": "2025-08-17T17:20:10Z",
+    "closed_at": "2025-08-20T12:50:01Z",
+    "merged_at": null,
+    "user": {
+      "login": "OlTrenin"
+    }
+  },
+  {
+    "number": 13770,
+    "title": "fix(types): fix generic inference in defineComponent",
+    "state": "closed",
+    "created_at": "2025-08-17T06:41:00Z",
+    "closed_at": "2025-12-21T12:13:48Z",
+    "merged_at": null,
+    "user": {
+      "login": "OlTrenin"
+    }
+  },
+  {
+    "number": 13707,
+    "title": "fix(runtime-dom): allow custom element prop overrides via prototype",
+    "state": "open",
+    "created_at": "2025-07-26T08:49:35Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "OlTrenin"
+    }
+  },
+  {
+    "number": 13673,
+    "title": "refactor(compiler-vapor): skip unnecessary attribute quoting in templates",
+    "state": "closed",
+    "created_at": "2025-07-21T07:50:39Z",
+    "closed_at": "2026-01-04T07:00:36Z",
+    "merged_at": "2026-01-04T07:00:36Z",
+    "user": {
+      "login": "mary-ext"
+    }
+  },
+  {
+    "number": 13671,
+    "title": "chore(deps): update lint",
+    "state": "closed",
+    "created_at": "2025-07-21T00:45:10Z",
+    "closed_at": "2025-12-15T07:37:30Z",
+    "merged_at": "2025-12-15T07:37:30Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 13667,
+    "title": "refactor(compile-vapor): skip unnecessary closing tags in templates",
+    "state": "closed",
+    "created_at": "2025-07-20T20:26:17Z",
+    "closed_at": "2026-01-04T05:53:26Z",
+    "merged_at": "2026-01-04T05:53:26Z",
+    "user": {
+      "login": "cyyynthia"
+    }
+  },
+  {
+    "number": 13659,
+    "title": "fix(runtime-vapor): add __vapor flag for dynamic component",
+    "state": "closed",
+    "created_at": "2025-07-19T02:10:57Z",
+    "closed_at": "2025-12-11T08:52:19Z",
+    "merged_at": null,
+    "user": {
+      "login": "zhiyuanzmj"
+    }
+  },
+  {
+    "number": 13599,
+    "title": "build: use rolldown",
+    "state": "closed",
+    "created_at": "2025-07-09T08:15:10Z",
+    "closed_at": "2025-12-24T08:46:23Z",
+    "merged_at": "2025-12-24T08:46:23Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 13584,
+    "title": "docs: add docs for `timeout` prop",
+    "state": "closed",
+    "created_at": "2025-07-07T11:24:19Z",
+    "closed_at": "2026-03-25T06:30:35Z",
+    "merged_at": "2026-03-25T06:30:35Z",
+    "user": {
+      "login": "simon04"
+    }
+  },
+  {
+    "number": 13573,
+    "title": "feat: allow slot prop vars as components",
+    "state": "open",
+    "created_at": "2025-07-05T16:02:41Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Fuzzyma"
+    }
+  },
+  {
+    "number": 13556,
+    "title": "chore(deps): update dependency vite to v5.4.21 [security]",
+    "state": "closed",
+    "created_at": "2025-07-02T14:46:28Z",
+    "closed_at": "2025-12-15T07:48:22Z",
+    "merged_at": "2025-12-15T07:48:22Z",
+    "user": {
+      "login": "renovate[bot]"
+    }
+  },
+  {
+    "number": 13550,
+    "title": "fix(compiler): share logic for comments and whitespace",
+    "state": "closed",
+    "created_at": "2025-07-01T14:33:23Z",
+    "closed_at": "2025-11-24T03:18:11Z",
+    "merged_at": "2025-11-24T03:18:11Z",
+    "user": {
+      "login": "skirtles-code"
+    }
+  },
+  {
+    "number": 13514,
+    "title": "refactor(runtime-core): check `props` rather than `propsOptions[0]`",
+    "state": "closed",
+    "created_at": "2025-06-23T01:03:15Z",
+    "closed_at": "2025-11-24T06:38:04Z",
+    "merged_at": "2025-11-24T06:38:03Z",
+    "user": {
+      "login": "skirtles-code"
+    }
+  },
+  {
+    "number": 13513,
+    "title": "fix(compiler-core): preserve start/end whitespace nodes in whitespace: 'preserve' mode",
+    "state": "open",
+    "created_at": "2025-06-23T00:58:45Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "alex-snezhko"
+    }
+  },
+  {
+    "number": 13383,
+    "title": "test vapor(DO NOT MERGE)",
+    "state": "closed",
+    "created_at": "2025-05-26T06:29:54Z",
+    "closed_at": "2026-03-09T08:48:27Z",
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 13377,
+    "title": "fix(compat): watch arrays as deep: 1",
+    "state": "open",
+    "created_at": "2025-05-25T20:51:11Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "skirtles-code"
+    }
+  },
+  {
+    "number": 13374,
+    "title": "fix(custom-element): ensure child component styles are injected in correct order before parent styles",
+    "state": "closed",
+    "created_at": "2025-05-23T03:32:56Z",
+    "closed_at": "2026-03-09T08:12:13Z",
+    "merged_at": "2026-03-09T08:12:13Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 13355,
+    "title": "feat(vapor): vdom Suspense render Vapor components",
+    "state": "closed",
+    "created_at": "2025-05-19T03:37:07Z",
+    "closed_at": "2025-12-02T02:01:24Z",
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 13326,
+    "title": "chore(style): migrate linting to oxlint",
+    "state": "closed",
+    "created_at": "2025-05-14T10:07:20Z",
+    "closed_at": "2025-12-25T00:16:56Z",
+    "merged_at": "2025-12-25T00:16:56Z",
+    "user": {
+      "login": "camc314"
+    }
+  },
+  {
+    "number": 13272,
+    "title": "test: enable gc tests",
+    "state": "open",
+    "created_at": "2025-05-03T11:07:30Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "ferferga"
+    }
+  },
+  {
+    "number": 13262,
+    "title": "feat: handle nested defineEmits",
+    "state": "open",
+    "created_at": "2025-04-30T11:14:42Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "ST-DDT"
+    }
+  },
+  {
+    "number": 13226,
+    "title": "feat(vapor): hydration",
+    "state": "closed",
+    "created_at": "2025-04-21T07:45:25Z",
+    "closed_at": "2025-10-21T00:29:08Z",
+    "merged_at": "2025-10-21T00:29:08Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 13119,
+    "title": "fix(types): make generics with runtime props in defineComponent work (fix #11374)",
+    "state": "closed",
+    "created_at": "2025-03-30T23:59:12Z",
+    "closed_at": "2026-03-06T07:34:23Z",
+    "merged_at": "2026-03-06T07:34:23Z",
+    "user": {
+      "login": "danyadev"
+    }
+  },
+  {
+    "number": 13045,
+    "title": "fix(compiler-sfc): allow Node.js subpath imports patterns in asset urls",
+    "state": "closed",
+    "created_at": "2025-03-16T12:43:19Z",
+    "closed_at": "2026-03-25T08:30:55Z",
+    "merged_at": "2026-03-25T08:30:55Z",
+    "user": {
+      "login": "haoqunjiang"
+    }
+  },
+  {
+    "number": 12975,
+    "title": "feat(hydration): defer loading of async components until actual hydrate",
+    "state": "open",
+    "created_at": "2025-03-02T07:15:07Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 12935,
+    "title": "feat(types): enhanced defineComponent inference",
+    "state": "open",
+    "created_at": "2025-02-24T08:40:09Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "johnsoncodehk"
+    }
+  },
+  {
+    "number": 12922,
+    "title": "fix(suspense): update suspense vnode's el during branch self-update",
+    "state": "closed",
+    "created_at": "2025-02-20T15:05:10Z",
+    "closed_at": "2026-03-25T08:28:45Z",
+    "merged_at": "2026-03-25T08:28:45Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 12847,
+    "title": "perf(vapor): use nthChild instead of nextn",
+    "state": "closed",
+    "created_at": "2025-02-11T06:22:31Z",
+    "closed_at": "2025-02-12T08:43:26Z",
+    "merged_at": "2025-02-12T08:43:26Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 12832,
+    "title": "fix(reactivity): handle objects with custom Symbol.toStringTag",
+    "state": "closed",
+    "created_at": "2025-02-09T14:52:29Z",
+    "closed_at": "2026-02-22T21:48:57Z",
+    "merged_at": null,
+    "user": {
+      "login": "ddoemonn"
+    }
+  },
+  {
+    "number": 12825,
+    "title": "fix(runtime-core): prevent child component updates when style remains unchanged",
+    "state": "closed",
+    "created_at": "2025-02-08T03:30:37Z",
+    "closed_at": "2026-02-09T08:08:40Z",
+    "merged_at": "2026-02-09T08:08:40Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 12823,
+    "title": "fix(compiler-sfc): no params were generated when using withDefaults",
+    "state": "closed",
+    "created_at": "2025-02-07T15:45:31Z",
+    "closed_at": "2026-02-09T08:06:23Z",
+    "merged_at": "2026-02-09T08:06:23Z",
+    "user": {
+      "login": "inottn"
+    }
+  },
+  {
+    "number": 12767,
+    "title": "feat: v-skip",
+    "state": "open",
+    "created_at": "2025-01-22T07:05:50Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 12756,
+    "title": "fix(useTemplateRef): don't update setup ref for useTemplateRef key",
+    "state": "closed",
+    "created_at": "2025-01-21T02:25:50Z",
+    "closed_at": "2026-02-09T07:54:42Z",
+    "merged_at": "2026-02-09T07:54:42Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 12737,
+    "title": "fix(reactivity): fix reduce on reactive arrays to preserve reactivity",
+    "state": "closed",
+    "created_at": "2025-01-18T09:33:09Z",
+    "closed_at": "2026-03-09T06:37:48Z",
+    "merged_at": "2026-03-09T06:37:48Z",
+    "user": {
+      "login": "inottn"
+    }
+  },
+  {
+    "number": 12710,
+    "title": "fix(vMemo/vFor): add cacheIndex to v-for items for clean renderCache during unmounting",
+    "state": "closed",
+    "created_at": "2025-01-14T13:55:54Z",
+    "closed_at": "2026-03-25T06:29:35Z",
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 12644,
+    "title": "fix(reactivity): collection iteration should inherit iterator instance methods",
+    "state": "closed",
+    "created_at": "2025-01-03T08:26:07Z",
+    "closed_at": "2026-01-19T00:50:36Z",
+    "merged_at": "2026-01-19T00:50:35Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 12641,
+    "title": "fix(reactivity): ensure multiple effectScope on() and off() calls maintains correct active scope",
+    "state": "closed",
+    "created_at": "2025-01-03T01:32:58Z",
+    "closed_at": "2025-01-08T10:03:40Z",
+    "merged_at": "2025-01-08T10:03:40Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 12514,
+    "title": "fix(compat): add `entities` to `@vue/compat` deps to fix CJS edge cases",
+    "state": "closed",
+    "created_at": "2024-12-09T09:21:09Z",
+    "closed_at": "2026-03-04T13:58:57Z",
+    "merged_at": "2026-03-04T13:58:56Z",
+    "user": {
+      "login": "haoqunjiang"
+    }
+  },
+  {
+    "number": 12505,
+    "title": "fix(hydration): don't error if data-allow-mismatch provided for fragment",
+    "state": "open",
+    "created_at": "2024-12-06T09:25:50Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dmitryuk"
+    }
+  },
+  {
+    "number": 12480,
+    "title": "fix(custom-element): properly locate parent when slotted in shadow dom",
+    "state": "closed",
+    "created_at": "2024-11-27T13:02:58Z",
+    "closed_at": "2026-03-09T06:13:22Z",
+    "merged_at": "2026-03-09T06:13:22Z",
+    "user": {
+      "login": "lejunyang"
+    }
+  },
+  {
+    "number": 12445,
+    "title": "fix(compat): fix compat handler of draggable",
+    "state": "closed",
+    "created_at": "2024-11-20T10:19:20Z",
+    "closed_at": "2025-12-18T08:26:16Z",
+    "merged_at": "2025-12-18T08:26:16Z",
+    "user": {
+      "login": "yangxiuxiu1115"
+    }
+  },
+  {
+    "number": 12431,
+    "title": "fix(reactivity):  trigger the ref that is created by toRef from a reactive array",
+    "state": "closed",
+    "created_at": "2024-11-18T11:10:27Z",
+    "closed_at": "2026-03-25T06:30:11Z",
+    "merged_at": null,
+    "user": {
+      "login": "noootwo"
+    }
+  },
+  {
+    "number": 12420,
+    "title": "fix(reactivity): toRef edge cases for ref unwrapping",
+    "state": "closed",
+    "created_at": "2024-11-17T17:01:50Z",
+    "closed_at": "2025-11-24T07:19:41Z",
+    "merged_at": "2025-11-24T07:19:41Z",
+    "user": {
+      "login": "skirtles-code"
+    }
+  },
+  {
+    "number": 12411,
+    "title": "fix(runtime-core): handle patch stable fragment edge case",
+    "state": "closed",
+    "created_at": "2024-11-16T08:53:23Z",
+    "closed_at": "2025-12-18T08:28:24Z",
+    "merged_at": "2025-12-18T08:28:24Z",
+    "user": {
+      "login": "linzhe141"
+    }
+  },
+  {
+    "number": 12409,
+    "title": "fix(custom-element): should properly patch as props for vue custom elements",
+    "state": "closed",
+    "created_at": "2024-11-15T15:22:39Z",
+    "closed_at": "2026-03-09T06:14:54Z",
+    "merged_at": "2026-03-09T06:14:54Z",
+    "user": {
+      "login": "lejunyang"
+    }
+  },
+  {
+    "number": 12393,
+    "title": "fix(reactivity): handle `Set` with initial reactive values edge case",
+    "state": "closed",
+    "created_at": "2024-11-14T15:26:39Z",
+    "closed_at": "2026-03-09T06:28:02Z",
+    "merged_at": "2026-03-09T06:28:02Z",
+    "user": {
+      "login": "shengxj1"
+    }
+  },
+  {
+    "number": 12308,
+    "title": "fix(runtime-core): warn about negative number in v-for",
+    "state": "closed",
+    "created_at": "2024-11-01T12:21:54Z",
+    "closed_at": "2026-03-09T08:48:54Z",
+    "merged_at": "2026-03-09T08:48:54Z",
+    "user": {
+      "login": "cyrilf"
+    }
+  },
+  {
+    "number": 12304,
+    "title": "fix(compiler-ssr): handle ssr attr fallthrough when preserve whitespace",
+    "state": "closed",
+    "created_at": "2024-11-01T03:11:19Z",
+    "closed_at": "2025-12-18T08:25:24Z",
+    "merged_at": "2025-12-18T08:25:23Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 12244,
+    "title": "fix(compiler-sfc): improve scoped style rewriting for nested and non-pseudo :is/:where selectors",
+    "state": "open",
+    "created_at": "2024-10-23T10:02:09Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 12133,
+    "title": "fix(transition): cancel the delayed execution of the transition enter hook",
+    "state": "closed",
+    "created_at": "2024-10-09T08:21:51Z",
+    "closed_at": "2026-02-24T03:38:30Z",
+    "merged_at": null,
+    "user": {
+      "login": "yangxiuxiu1115"
+    }
+  },
+  {
+    "number": 11946,
+    "title": "Add lazy to watch function ",
+    "state": "closed",
+    "created_at": "2024-09-16T20:38:59Z",
+    "closed_at": "2026-02-21T23:09:13Z",
+    "merged_at": null,
+    "user": {
+      "login": "ghost"
+    }
+  },
+  {
+    "number": 11826,
+    "title": "fix(scheduler): prevent duplicate jobs being queued",
+    "state": "closed",
+    "created_at": "2024-09-05T09:50:52Z",
+    "closed_at": "2024-09-05T12:51:26Z",
+    "merged_at": "2024-09-05T12:51:26Z",
+    "user": {
+      "login": "skirtles-code"
+    }
+  },
+  {
+    "number": 11619,
+    "title": "fix(runtime-core): properly handle async component update before resolve",
+    "state": "closed",
+    "created_at": "2024-08-15T03:30:25Z",
+    "closed_at": "2026-02-09T08:12:14Z",
+    "merged_at": "2026-02-09T08:12:14Z",
+    "user": {
+      "login": "linzhe141"
+    }
+  },
+  {
+    "number": 11283,
+    "title": "fix(runtime-core): do not warn `Symbol.unscopables` access",
+    "state": "open",
+    "created_at": "2024-07-02T13:25:43Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Ilanaya"
+    }
+  },
+  {
+    "number": 11275,
+    "title": "fix(compiler-sfc): The constant properties returned by setup cannot be modified",
+    "state": "closed",
+    "created_at": "2024-07-02T02:40:45Z",
+    "closed_at": "2025-12-18T08:24:09Z",
+    "merged_at": null,
+    "user": {
+      "login": "linzhe141"
+    }
+  },
+  {
+    "number": 11234,
+    "title": "fix(reactivity): preventing resetScheudling recursive calls",
+    "state": "closed",
+    "created_at": "2024-06-26T12:11:20Z",
+    "closed_at": "2024-06-26T12:20:48Z",
+    "merged_at": null,
+    "user": {
+      "login": "cc-hearts"
+    }
+  },
+  {
+    "number": 11160,
+    "title": "feat: Support default values for v-bind in CSS",
+    "state": "open",
+    "created_at": "2024-06-17T08:13:01Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "leemotive"
+    }
+  },
+  {
+    "number": 10982,
+    "title": "fix(compat): ensure functional component is not null in `$children`",
+    "state": "closed",
+    "created_at": "2024-05-20T11:51:17Z",
+    "closed_at": "2026-03-09T08:34:40Z",
+    "merged_at": null,
+    "user": {
+      "login": "andreww2012"
+    }
+  },
+  {
+    "number": 10875,
+    "title": "fix(compat): do not auto invoke scoped slots when accessed via `$slots`",
+    "state": "open",
+    "created_at": "2024-05-06T13:38:14Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "andreww2012"
+    }
+  },
+  {
+    "number": 9883,
+    "title": "feat(v-model): add support for custom element form bindings with cust…",
+    "state": "closed",
+    "created_at": "2023-12-20T15:30:21Z",
+    "closed_at": "2024-08-07T14:28:02Z",
+    "merged_at": null,
+    "user": {
+      "login": "jcbond92"
+    }
+  },
+  {
+    "number": 9733,
+    "title": "fix(runtime-dom): fix TransitionGroup bug when parent has scale CSS property",
+    "state": "closed",
+    "created_at": "2023-12-01T10:50:23Z",
+    "closed_at": "2025-12-03T06:46:51Z",
+    "merged_at": null,
+    "user": {
+      "login": "DragonnZhang"
+    }
+  },
+  {
+    "number": 9392,
+    "title": "fix(suspense): avoid unmount activeBranch twice if wrapped in transition",
+    "state": "closed",
+    "created_at": "2023-10-13T01:31:41Z",
+    "closed_at": "2026-03-25T06:31:28Z",
+    "merged_at": "2026-03-25T06:31:28Z",
+    "user": {
+      "login": "edison1105"
+    }
+  },
+  {
+    "number": 9373,
+    "title": "fix(compiler-core): TS: add default return type for wrapped stmt, user typed params for function expressions",
+    "state": "open",
+    "created_at": "2023-10-10T23:44:58Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "xesxen"
+    }
+  },
+  {
+    "number": 8803,
+    "title": "fix(runtime-dom): inconsistent behaviour on nested transition groups",
+    "state": "open",
+    "created_at": "2023-07-18T10:54:17Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "daniser"
+    }
+  },
+  {
+    "number": 8801,
+    "title": "feat(app): support app level effect scope",
+    "state": "open",
+    "created_at": "2023-07-17T18:12:35Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Mini-ghost"
+    }
+  },
+  {
+    "number": 8619,
+    "title": "fix(runtime-dom): defer teleport mount/update until suspense resolves",
+    "state": "closed",
+    "created_at": "2023-06-21T05:26:14Z",
+    "closed_at": "2026-03-25T06:57:00Z",
+    "merged_at": "2026-03-25T06:56:59Z",
+    "user": {
+      "login": "baiwusanyu-c"
+    }
+  },
+  {
+    "number": 7829,
+    "title": "fix(compiler-core): preserve whitespaces in texts full of whitespaces",
+    "state": "open",
+    "created_at": "2023-03-05T14:06:46Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "rudyxu1102"
+    }
+  },
+  {
+    "number": 7359,
+    "title": "dx(compiler-core): warn for `:v-`",
+    "state": "open",
+    "created_at": "2022-12-16T17:48:14Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "skirtles-code"
+    }
+  },
+  {
+    "number": 7220,
+    "title": "dx(runtime-core): check current and parent components in formatComponentName",
+    "state": "closed",
+    "created_at": "2022-11-27T02:39:38Z",
+    "closed_at": "2025-11-24T06:50:43Z",
+    "merged_at": "2025-11-24T06:50:43Z",
+    "user": {
+      "login": "skirtles-code"
+    }
+  },
+  {
+    "number": 6908,
+    "title": "Safer isAsyncWrapper check (fix #4002)",
+    "state": "open",
+    "created_at": "2022-10-18T18:07:50Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "walmon"
+    }
+  },
+  {
+    "number": 6026,
+    "title": "fix(keep-alive): ignore comment nodes",
+    "state": "open",
+    "created_at": "2022-05-29T18:44:56Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "amirkian007"
+    }
+  },
+  {
+    "number": 5105,
+    "title": "feat(keepAlive): expose pruneCacheEntry and add key match support on exclude/include changed in pruneCache.",
+    "state": "open",
+    "created_at": "2021-12-14T06:53:29Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Riant"
+    }
+  },
+  {
+    "number": 4339,
+    "title": "feat(KeepAlive): support matchBy + allow custom caching strategy ",
+    "state": "closed",
+    "created_at": "2021-08-15T04:24:01Z",
+    "closed_at": "2025-05-17T14:25:09Z",
+    "merged_at": null,
+    "user": {
+      "login": "HcySunYang"
+    }
+  },
+  {
+    "number": 2179,
+    "title": "feat(types): add utility types (#2094)",
+    "state": "open",
+    "created_at": "2020-09-21T05:35:15Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "wonderful-panda"
+    }
+  }
+]

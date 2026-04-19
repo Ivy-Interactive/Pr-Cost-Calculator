@@ -1,0 +1,2895 @@
+[
+  {
+    "number": 19938,
+    "title": "docs(postcss): remove duplicated optimize example from README",
+    "state": "open",
+    "created_at": "2026-04-18T07:45:43Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "pavan-sh"
+    }
+  },
+  {
+    "number": 19936,
+    "title": "Update turbo 2.7.6 → 2.9.6 (minor)",
+    "state": "open",
+    "created_at": "2026-04-17T13:40:34Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19928,
+    "title": "Fix negation of theme() in arbitrary values",
+    "state": "open",
+    "created_at": "2026-04-13T18:12:09Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "snaptopixel"
+    }
+  },
+  {
+    "number": 19922,
+    "title": "🚨 [security] Update next 16.2.2 → 16.2.3 (patch)",
+    "state": "open",
+    "created_at": "2026-04-10T16:07:32Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19921,
+    "title": "Add safe area utilities for mobile app usage",
+    "state": "open",
+    "created_at": "2026-04-09T13:11:23Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "riderx"
+    }
+  },
+  {
+    "number": 19918,
+    "title": "[@tailwindcss/upgrade] Don’t migrate inline style properties",
+    "state": "open",
+    "created_at": "2026-04-08T00:59:02Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dbpolito"
+    }
+  },
+  {
+    "number": 19917,
+    "title": "Update @playwright/test 1.58.0 → 1.59.1 (minor)",
+    "state": "open",
+    "created_at": "2026-04-08T00:40:33Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19913,
+    "title": "docs/fix-lightning-css-typo-postcss-readme",
+    "state": "closed",
+    "created_at": "2026-04-07T02:53:53Z",
+    "closed_at": "2026-04-07T09:31:10Z",
+    "merged_at": "2026-04-07T09:31:10Z",
+    "user": {
+      "login": "pavan-sh"
+    }
+  },
+  {
+    "number": 19912,
+    "title": "tét",
+    "state": "closed",
+    "created_at": "2026-04-06T11:50:23Z",
+    "closed_at": "2026-04-06T11:55:20Z",
+    "merged_at": null,
+    "user": {
+      "login": "daotuan05"
+    }
+  },
+  {
+    "number": 19909,
+    "title": "fix: add parameterized queries in index.ts...",
+    "state": "closed",
+    "created_at": "2026-04-06T05:42:38Z",
+    "closed_at": "2026-04-06T09:26:53Z",
+    "merged_at": null,
+    "user": {
+      "login": "orbisai0security"
+    }
+  },
+  {
+    "number": 19907,
+    "title": "fix(node): use Module.registerHooks instead of deprecated Module.register for Node v26+",
+    "state": "open",
+    "created_at": "2026-04-05T13:27:25Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "cyphercodes"
+    }
+  },
+  {
+    "number": 19904,
+    "title": "Avoid full reload when CSS-like HMR is handled by another plugin",
+    "state": "open",
+    "created_at": "2026-04-05T00:32:51Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "benpsnyder"
+    }
+  },
+  {
+    "number": 19899,
+    "title": "Update dedent 1.7.1 → 1.7.2 (patch)",
+    "state": "open",
+    "created_at": "2026-04-03T20:35:24Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19898,
+    "title": "Bump Next.js and drop ESLint",
+    "state": "closed",
+    "created_at": "2026-04-03T19:01:54Z",
+    "closed_at": "2026-04-03T19:07:27Z",
+    "merged_at": "2026-04-03T19:07:27Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19897,
+    "title": "Update globby 15.0.0 → 16.2.0 (major)",
+    "state": "open",
+    "created_at": "2026-04-03T17:44:34Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19891,
+    "title": "Bump pnpm, and ensure packages are 7 days old",
+    "state": "open",
+    "created_at": "2026-04-02T13:15:27Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19884,
+    "title": "feat: allow using @variant with stacked variants",
+    "state": "open",
+    "created_at": "2026-03-31T21:33:46Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "ArrayKnight"
+    }
+  },
+  {
+    "number": 19881,
+    "title": "fix: preserve default background on form inputs in preflight",
+    "state": "open",
+    "created_at": "2026-03-31T00:45:13Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "marco-carvalho"
+    }
+  },
+  {
+    "number": 19879,
+    "title": "fix(oxide): simplify @source pattern handling and ensure gitignore negation",
+    "state": "closed",
+    "created_at": "2026-03-30T22:13:00Z",
+    "closed_at": "2026-04-03T09:49:22Z",
+    "merged_at": null,
+    "user": {
+      "login": "JBR-0100"
+    }
+  },
+  {
+    "number": 19878,
+    "title": "docs: fix various typos in comments and documentation",
+    "state": "open",
+    "created_at": "2026-03-30T20:18:41Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Abhi3975"
+    }
+  },
+  {
+    "number": 19877,
+    "title": "docs: fix typos in markdown documentation",
+    "state": "open",
+    "created_at": "2026-03-30T17:50:16Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "Goldyvaiiii"
+    }
+  },
+  {
+    "number": 19876,
+    "title": "Append harmless comment to README",
+    "state": "closed",
+    "created_at": "2026-03-30T12:30:20Z",
+    "closed_at": "2026-03-30T12:37:50Z",
+    "merged_at": null,
+    "user": {
+      "login": "JBR-0100"
+    }
+  },
+  {
+    "number": 19872,
+    "title": "fix: pin 14 unpinned action(s)",
+    "state": "open",
+    "created_at": "2026-03-30T03:28:10Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "dagecko"
+    }
+  },
+  {
+    "number": 19871,
+    "title": "docs: clarify that PRs are also for documentation fixes",
+    "state": "closed",
+    "created_at": "2026-03-29T17:10:17Z",
+    "closed_at": "2026-03-29T17:37:54Z",
+    "merged_at": null,
+    "user": {
+      "login": "HidzzY"
+    }
+  },
+  {
+    "number": 19870,
+    "title": "docs: Add Chinese README",
+    "state": "closed",
+    "created_at": "2026-03-29T12:13:53Z",
+    "closed_at": "2026-03-30T09:07:04Z",
+    "merged_at": null,
+    "user": {
+      "login": "CJstate"
+    }
+  },
+  {
+    "number": 19869,
+    "title": "Remove :-moz-focusring rule from preflight",
+    "state": "closed",
+    "created_at": "2026-03-29T09:48:01Z",
+    "closed_at": "2026-03-29T09:53:00Z",
+    "merged_at": null,
+    "user": {
+      "login": "jmlee9707"
+    }
+  },
+  {
+    "number": 19867,
+    "title": "Update eslint 9.39.2 → 10.1.0 (major)",
+    "state": "closed",
+    "created_at": "2026-03-27T15:41:23Z",
+    "closed_at": "2026-04-03T19:07:28Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19866,
+    "title": "fix(preflight): exclude iframes from :-moz-focusring outline",
+    "state": "open",
+    "created_at": "2026-03-27T07:57:39Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "cyphercodes"
+    }
+  },
+  {
+    "number": 19865,
+    "title": "This is my first job, please forgive me if I made a mistake",
+    "state": "closed",
+    "created_at": "2026-03-27T06:28:26Z",
+    "closed_at": "2026-03-27T09:00:11Z",
+    "merged_at": null,
+    "user": {
+      "login": "sindor05"
+    }
+  },
+  {
+    "number": 19864,
+    "title": "Update index.css",
+    "state": "closed",
+    "created_at": "2026-03-27T02:38:21Z",
+    "closed_at": "2026-03-27T08:56:44Z",
+    "merged_at": null,
+    "user": {
+      "login": "azzzzzzzzzz853-oss"
+    }
+  },
+  {
+    "number": 19862,
+    "title": "Use `json` preprocessor for new-line delimited JSON files",
+    "state": "closed",
+    "created_at": "2026-03-26T16:32:48Z",
+    "closed_at": "2026-03-26T22:42:03Z",
+    "merged_at": "2026-03-26T22:42:03Z",
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19861,
+    "title": "fix: pin 14 unpinned action(s)",
+    "state": "closed",
+    "created_at": "2026-03-26T15:58:54Z",
+    "closed_at": "2026-03-26T21:22:53Z",
+    "merged_at": null,
+    "user": {
+      "login": "dagecko"
+    }
+  },
+  {
+    "number": 19859,
+    "title": "fix error serving with older vite versions when config.css was not defined",
+    "state": "closed",
+    "created_at": "2026-03-26T15:46:23Z",
+    "closed_at": "2026-04-03T12:35:36Z",
+    "merged_at": null,
+    "user": {
+      "login": "mruthh"
+    }
+  },
+  {
+    "number": 19858,
+    "title": "Canonicalize negative arbitrary values",
+    "state": "closed",
+    "created_at": "2026-03-26T13:20:44Z",
+    "closed_at": "2026-03-26T13:44:09Z",
+    "merged_at": "2026-03-26T13:44:09Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19857,
+    "title": "Update turbo 2.7.6 → 2.8.20 (minor)",
+    "state": "closed",
+    "created_at": "2026-03-26T11:55:32Z",
+    "closed_at": "2026-04-17T13:54:27Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19852,
+    "title": "🚨 [security] Update all of nextjs 16.1.6 → 16.2.1 (minor)",
+    "state": "closed",
+    "created_at": "2026-03-25T17:40:43Z",
+    "closed_at": "2026-04-03T19:07:29Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19851,
+    "title": "Small refactor of canonicalization tests",
+    "state": "closed",
+    "created_at": "2026-03-25T14:10:18Z",
+    "closed_at": "2026-03-25T14:18:15Z",
+    "merged_at": "2026-03-25T14:18:14Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19849,
+    "title": "Add more canonicalization rules for deprecated utilities",
+    "state": "closed",
+    "created_at": "2026-03-25T10:30:15Z",
+    "closed_at": "2026-03-25T10:38:28Z",
+    "merged_at": "2026-03-25T10:38:28Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19846,
+    "title": "Make upgrade tooling more stable",
+    "state": "closed",
+    "created_at": "2026-03-24T12:05:53Z",
+    "closed_at": "2026-03-24T16:24:13Z",
+    "merged_at": "2026-03-24T16:24:13Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19845,
+    "title": "Update enhanced-resolve 5.19.0 → 5.20.1 (minor)",
+    "state": "open",
+    "created_at": "2026-03-23T22:55:33Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19843,
+    "title": "Use `--placeholder-color` instead of `--background-color` for `placeholder-*` utilities",
+    "state": "closed",
+    "created_at": "2026-03-23T14:51:18Z",
+    "closed_at": "2026-03-23T14:57:20Z",
+    "merged_at": "2026-03-23T14:57:20Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19842,
+    "title": "Collapse more utilities by expanding their declarations",
+    "state": "closed",
+    "created_at": "2026-03-23T14:12:04Z",
+    "closed_at": "2026-03-23T14:33:45Z",
+    "merged_at": "2026-03-23T14:33:44Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19837,
+    "title": "fix(canonicalize): collapse arbitrary values into shorthand utilities",
+    "state": "closed",
+    "created_at": "2026-03-22T00:35:51Z",
+    "closed_at": "2026-03-23T10:32:25Z",
+    "merged_at": "2026-03-23T10:32:25Z",
+    "user": {
+      "login": "aptinio"
+    }
+  },
+  {
+    "number": 19836,
+    "title": "Fix neutral colors to use powerless hue (none) instead of 0",
+    "state": "open",
+    "created_at": "2026-03-21T19:03:19Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "nmurrell07"
+    }
+  },
+  {
+    "number": 19833,
+    "title": "Fix: Set neutral, zinc, and stone color palettes to use 'none' for Hue in OKLCH",
+    "state": "open",
+    "created_at": "2026-03-21T04:10:11Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "nmurrell07"
+    }
+  },
+  {
+    "number": 19832,
+    "title": "🚨 [security] Update h3 1.15.5 → 1.15.9 (patch)",
+    "state": "open",
+    "created_at": "2026-03-20T22:05:30Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19829,
+    "title": "Fix crash due to invalid characters in candidate",
+    "state": "closed",
+    "created_at": "2026-03-20T12:42:01Z",
+    "closed_at": "2026-03-20T13:51:38Z",
+    "merged_at": "2026-03-20T13:51:37Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19827,
+    "title": "Add canonicalizations for `tracking-*` utilities",
+    "state": "closed",
+    "created_at": "2026-03-19T18:08:20Z",
+    "closed_at": "2026-03-19T18:53:16Z",
+    "merged_at": "2026-03-19T18:53:16Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19826,
+    "title": "Update @vitejs/plugin-react 5.1.3 → 5.2.0 (minor)",
+    "state": "closed",
+    "created_at": "2026-03-19T14:40:49Z",
+    "closed_at": "2026-04-03T19:28:21Z",
+    "merged_at": "2026-04-03T19:28:21Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19824,
+    "title": "Replace custom brace expansion with brace-expansion library for faster pattern matching",
+    "state": "closed",
+    "created_at": "2026-03-18T18:10:03Z",
+    "closed_at": "2026-03-18T20:02:33Z",
+    "merged_at": null,
+    "user": {
+      "login": "marco-carvalho"
+    }
+  },
+  {
+    "number": 19823,
+    "title": "🚨 [security] Update h3 1.15.5 → 1.15.8 (patch)",
+    "state": "closed",
+    "created_at": "2026-03-18T18:06:47Z",
+    "closed_at": "2026-03-20T22:17:59Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19821,
+    "title": "4.2.2",
+    "state": "closed",
+    "created_at": "2026-03-18T15:01:15Z",
+    "closed_at": "2026-03-18T15:44:08Z",
+    "merged_at": "2026-03-18T15:44:08Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19819,
+    "title": "fix: preserve opacity values in multiple shadows using color-mix",
+    "state": "open",
+    "created_at": "2026-03-18T02:43:25Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "buyuan-dev"
+    }
+  },
+  {
+    "number": 19816,
+    "title": "🚨 [security] Update all of nextjs 16.1.6 → 16.1.7 (patch)",
+    "state": "closed",
+    "created_at": "2026-03-17T16:05:47Z",
+    "closed_at": "2026-03-25T17:53:06Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19814,
+    "title": "Kristentr",
+    "state": "closed",
+    "created_at": "2026-03-17T12:59:48Z",
+    "closed_at": "2026-03-17T15:51:39Z",
+    "merged_at": null,
+    "user": {
+      "login": "kristentr"
+    }
+  },
+  {
+    "number": 19813,
+    "title": "Main",
+    "state": "closed",
+    "created_at": "2026-03-17T12:58:13Z",
+    "closed_at": "2026-03-17T15:51:23Z",
+    "merged_at": null,
+    "user": {
+      "login": "kristentr"
+    }
+  },
+  {
+    "number": 19812,
+    "title": "Fix canonicalization resulting in empty list",
+    "state": "closed",
+    "created_at": "2026-03-17T11:49:41Z",
+    "closed_at": "2026-03-17T12:00:31Z",
+    "merged_at": "2026-03-17T12:00:31Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19811,
+    "title": "update ",
+    "state": "closed",
+    "created_at": "2026-03-17T04:26:09Z",
+    "closed_at": "2026-03-17T08:37:41Z",
+    "merged_at": null,
+    "user": {
+      "login": "kristentr"
+    }
+  },
+  {
+    "number": 19809,
+    "title": "Improve canonicalization for bare values exceeding default spacing scale suggestions",
+    "state": "closed",
+    "created_at": "2026-03-16T21:28:18Z",
+    "closed_at": "2026-03-16T21:44:29Z",
+    "merged_at": "2026-03-16T21:44:29Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19806,
+    "title": "Kristentr",
+    "state": "closed",
+    "created_at": "2026-03-16T05:13:58Z",
+    "closed_at": "2026-03-16T08:36:12Z",
+    "merged_at": null,
+    "user": {
+      "login": "kristentr"
+    }
+  },
+  {
+    "number": 19805,
+    "title": "fix: improve code quality with type annotations and error handling",
+    "state": "closed",
+    "created_at": "2026-03-15T21:57:46Z",
+    "closed_at": "2026-03-16T10:32:40Z",
+    "merged_at": null,
+    "user": {
+      "login": "N3XT3R1337"
+    }
+  },
+  {
+    "number": 19804,
+    "title": "Cleanup inconsistencies related to (regex) escapes",
+    "state": "closed",
+    "created_at": "2026-03-15T20:59:34Z",
+    "closed_at": "2026-03-15T21:04:58Z",
+    "merged_at": "2026-03-15T21:04:58Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19803,
+    "title": "fix(vite): resolve tsconfig paths in CSS and JS resolvers",
+    "state": "closed",
+    "created_at": "2026-03-15T09:29:32Z",
+    "closed_at": "2026-03-20T15:19:18Z",
+    "merged_at": "2026-03-20T15:19:18Z",
+    "user": {
+      "login": "nightah"
+    }
+  },
+  {
+    "number": 19799,
+    "title": "docs: add noopener to README external link",
+    "state": "closed",
+    "created_at": "2026-03-14T16:46:43Z",
+    "closed_at": "2026-03-14T20:30:13Z",
+    "merged_at": null,
+    "user": {
+      "login": "pavan-sh"
+    }
+  },
+  {
+    "number": 19797,
+    "title": "fix: remove unused braces dependencies",
+    "state": "closed",
+    "created_at": "2026-03-14T07:03:33Z",
+    "closed_at": "2026-03-15T21:10:54Z",
+    "merged_at": "2026-03-15T21:10:54Z",
+    "user": {
+      "login": "SidWuChou"
+    }
+  },
+  {
+    "number": 19796,
+    "title": "Add `--stream` flag to `canonicalize` subcommand",
+    "state": "closed",
+    "created_at": "2026-03-14T04:48:15Z",
+    "closed_at": "2026-03-16T15:00:12Z",
+    "merged_at": "2026-03-16T15:00:12Z",
+    "user": {
+      "login": "aptinio"
+    }
+  },
+  {
+    "number": 19790,
+    "title": "Add support for Vite 8 in `@tailwindcss/vite`",
+    "state": "closed",
+    "created_at": "2026-03-12T19:21:04Z",
+    "closed_at": "2026-03-12T19:54:34Z",
+    "merged_at": "2026-03-12T19:54:34Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19788,
+    "title": "Fix internal source map warnings",
+    "state": "closed",
+    "created_at": "2026-03-12T10:59:06Z",
+    "closed_at": "2026-03-12T11:21:00Z",
+    "merged_at": "2026-03-12T11:21:00Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19783,
+    "title": "Add `tailwindcss canonicalize` sub-command",
+    "state": "closed",
+    "created_at": "2026-03-11T19:26:40Z",
+    "closed_at": "2026-03-11T19:30:22Z",
+    "merged_at": "2026-03-11T19:30:22Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19779,
+    "title": "fix(upgrade): use v3 config content patterns when no @source is set",
+    "state": "closed",
+    "created_at": "2026-03-10T14:57:32Z",
+    "closed_at": "2026-03-24T16:24:15Z",
+    "merged_at": null,
+    "user": {
+      "login": "SychO9"
+    }
+  },
+  {
+    "number": 19777,
+    "title": "Allow multiple @utility definitions with same name but different value types",
+    "state": "open",
+    "created_at": "2026-03-10T08:18:31Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "mvanhorn"
+    }
+  },
+  {
+    "number": 19776,
+    "title": "Handle deleted files gracefully during Vite HMR compilation",
+    "state": "closed",
+    "created_at": "2026-03-10T08:12:55Z",
+    "closed_at": "2026-04-03T18:49:46Z",
+    "merged_at": null,
+    "user": {
+      "login": "mvanhorn"
+    }
+  },
+  {
+    "number": 19775,
+    "title": "Extract class candidates from inside parenthesized expressions",
+    "state": "closed",
+    "created_at": "2026-03-10T08:10:40Z",
+    "closed_at": "2026-03-10T11:07:18Z",
+    "merged_at": null,
+    "user": {
+      "login": "mvanhorn"
+    }
+  },
+  {
+    "number": 19774,
+    "title": "Fix case-sensitive file path comparison in watch mode on Windows",
+    "state": "open",
+    "created_at": "2026-03-10T07:53:38Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "mvanhorn"
+    }
+  },
+  {
+    "number": 19773,
+    "title": "Fix custom spacing values shadowing leading-none staticValues",
+    "state": "open",
+    "created_at": "2026-03-10T07:50:53Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "mvanhorn"
+    }
+  },
+  {
+    "number": 19771,
+    "title": "Bump Lightning CSS",
+    "state": "closed",
+    "created_at": "2026-03-09T23:14:30Z",
+    "closed_at": "2026-03-18T14:57:52Z",
+    "merged_at": "2026-03-18T14:57:52Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19769,
+    "title": "Canonicalize `calc(var(--spacing)*…)` expressions into `--spacing(…)`",
+    "state": "closed",
+    "created_at": "2026-03-07T18:06:46Z",
+    "closed_at": "2026-03-08T19:19:35Z",
+    "merged_at": "2026-03-08T19:19:35Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19766,
+    "title": "Update enhanced-resolve 5.19.0 → 5.20.0 (minor)",
+    "state": "closed",
+    "created_at": "2026-03-07T10:10:35Z",
+    "closed_at": "2026-03-23T23:08:22Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19761,
+    "title": "Update eslint 9.39.2 → 10.0.2 (major)",
+    "state": "closed",
+    "created_at": "2026-03-06T22:41:42Z",
+    "closed_at": "2026-03-27T15:53:56Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19759,
+    "title": "fix(node): handle character class globs in source() root check",
+    "state": "closed",
+    "created_at": "2026-03-06T04:15:35Z",
+    "closed_at": "2026-03-06T14:19:01Z",
+    "merged_at": null,
+    "user": {
+      "login": "siewcapital"
+    }
+  },
+  {
+    "number": 19754,
+    "title": "Update autoprefixer 10.4.24 → 10.4.27 (patch)",
+    "state": "open",
+    "created_at": "2026-03-04T19:55:41Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19750,
+    "title": "Fix docs: improve grammar in Vite plugin README",
+    "state": "closed",
+    "created_at": "2026-03-03T12:48:38Z",
+    "closed_at": "2026-03-10T15:39:40Z",
+    "merged_at": null,
+    "user": {
+      "login": "04cb"
+    }
+  },
+  {
+    "number": 19747,
+    "title": "docs: prefer pnpm script shorthand in contributing guide",
+    "state": "closed",
+    "created_at": "2026-03-02T17:36:14Z",
+    "closed_at": "2026-03-03T12:44:28Z",
+    "merged_at": null,
+    "user": {
+      "login": "pavan-sh"
+    }
+  },
+  {
+    "number": 19746,
+    "title": "Update @vitejs/plugin-react 5.1.3 → 5.1.4 (patch)",
+    "state": "closed",
+    "created_at": "2026-03-02T10:40:40Z",
+    "closed_at": "2026-03-19T14:53:12Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19745,
+    "title": "fix(vite): skip full reload for server only modules scanned by client css",
+    "state": "closed",
+    "created_at": "2026-03-02T08:41:09Z",
+    "closed_at": "2026-03-12T18:49:41Z",
+    "merged_at": "2026-03-12T18:49:41Z",
+    "user": {
+      "login": "hi-ogawa"
+    }
+  },
+  {
+    "number": 19738,
+    "title": "test(upgrade): enable SCSS #{!important} @apply migration test",
+    "state": "closed",
+    "created_at": "2026-02-28T15:55:08Z",
+    "closed_at": "2026-03-03T12:42:53Z",
+    "merged_at": null,
+    "user": {
+      "login": "pavan-sh"
+    }
+  },
+  {
+    "number": 19730,
+    "title": "Extract classes from interpolated expressions in Ruby",
+    "state": "closed",
+    "created_at": "2026-02-26T11:17:57Z",
+    "closed_at": "2026-02-26T11:23:50Z",
+    "merged_at": "2026-02-26T11:23:50Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19727,
+    "title": "fix(canonicalize): handle utilities with empty property maps in collapse",
+    "state": "closed",
+    "created_at": "2026-02-26T00:23:10Z",
+    "closed_at": "2026-03-10T15:48:07Z",
+    "merged_at": "2026-03-10T15:48:07Z",
+    "user": {
+      "login": "kirkouimet"
+    }
+  },
+  {
+    "number": 19725,
+    "title": "Guard object lookups against inherited prototype properties",
+    "state": "closed",
+    "created_at": "2026-02-25T14:46:06Z",
+    "closed_at": "2026-02-25T15:16:09Z",
+    "merged_at": "2026-02-25T15:16:09Z",
+    "user": {
+      "login": "adamwathan"
+    }
+  },
+  {
+    "number": 19724,
+    "title": "Update globby 15.0.0 → 16.1.1 (major)",
+    "state": "closed",
+    "created_at": "2026-02-25T08:10:33Z",
+    "closed_at": "2026-04-03T17:56:44Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19723,
+    "title": "Fix webpack loader cache key for resource queries",
+    "state": "closed",
+    "created_at": "2026-02-25T06:48:18Z",
+    "closed_at": "2026-03-20T16:34:11Z",
+    "merged_at": "2026-03-20T16:34:11Z",
+    "user": {
+      "login": "colinaaa"
+    }
+  },
+  {
+    "number": 19714,
+    "title": "4.2.1",
+    "state": "closed",
+    "created_at": "2026-02-23T10:40:55Z",
+    "closed_at": "2026-02-23T10:45:12Z",
+    "merged_at": "2026-02-23T10:45:12Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19712,
+    "title": "Update turbo 2.7.6 → 2.8.10 (minor)",
+    "state": "closed",
+    "created_at": "2026-02-22T04:10:36Z",
+    "closed_at": "2026-03-26T12:07:39Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19711,
+    "title": "Fix missing extracted classes in mdx files",
+    "state": "closed",
+    "created_at": "2026-02-22T00:27:23Z",
+    "closed_at": "2026-02-22T12:02:05Z",
+    "merged_at": "2026-02-22T12:02:05Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19708,
+    "title": "Update @playwright/test 1.58.0 → 1.58.2 (patch)",
+    "state": "closed",
+    "created_at": "2026-02-20T12:10:34Z",
+    "closed_at": "2026-04-08T00:52:09Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19707,
+    "title": "Fix TS2742 error when inferring exported Config type",
+    "state": "open",
+    "created_at": "2026-02-20T07:33:21Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "silverwind"
+    }
+  },
+  {
+    "number": 19705,
+    "title": "docs: improve contributing commands and playground instructions",
+    "state": "closed",
+    "created_at": "2026-02-20T02:36:08Z",
+    "closed_at": "2026-02-20T10:43:11Z",
+    "merged_at": null,
+    "user": {
+      "login": "pavan-sh"
+    }
+  },
+  {
+    "number": 19701,
+    "title": "docs: use main branch for README logo assets",
+    "state": "closed",
+    "created_at": "2026-02-19T11:48:17Z",
+    "closed_at": "2026-02-19T13:04:21Z",
+    "merged_at": null,
+    "user": {
+      "login": "pavan-sh"
+    }
+  },
+  {
+    "number": 19700,
+    "title": "Correct CHANGELOG to mention inset not inline",
+    "state": "closed",
+    "created_at": "2026-02-19T02:29:20Z",
+    "closed_at": "2026-02-19T13:05:38Z",
+    "merged_at": "2026-02-19T13:05:38Z",
+    "user": {
+      "login": "ginnyTheCat"
+    }
+  },
+  {
+    "number": 19696,
+    "title": "Allow trailing dash in functional utility names",
+    "state": "closed",
+    "created_at": "2026-02-18T16:44:33Z",
+    "closed_at": "2026-02-19T14:40:38Z",
+    "merged_at": "2026-02-19T14:40:38Z",
+    "user": {
+      "login": "kirkouimet"
+    }
+  },
+  {
+    "number": 19695,
+    "title": "4.2.0",
+    "state": "closed",
+    "created_at": "2026-02-18T13:52:26Z",
+    "closed_at": "2026-02-18T14:45:07Z",
+    "merged_at": "2026-02-18T14:45:07Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19692,
+    "title": "docs: update package README CI badge to main",
+    "state": "closed",
+    "created_at": "2026-02-18T06:03:28Z",
+    "closed_at": "2026-02-18T10:52:07Z",
+    "merged_at": "2026-02-18T10:52:07Z",
+    "user": {
+      "login": "pavan-sh"
+    }
+  },
+  {
+    "number": 19691,
+    "title": "Fix @utility to accept already-escaped utility names",
+    "state": "closed",
+    "created_at": "2026-02-17T20:30:58Z",
+    "closed_at": "2026-02-17T21:08:15Z",
+    "merged_at": null,
+    "user": {
+      "login": "shtse8"
+    }
+  },
+  {
+    "number": 19689,
+    "title": "Update @types/bun 1.3.7 → 1.3.9 (patch)",
+    "state": "closed",
+    "created_at": "2026-02-17T17:40:37Z",
+    "closed_at": "2026-02-18T10:59:30Z",
+    "merged_at": "2026-02-18T10:59:30Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19688,
+    "title": "Allow multiples of `.25` in `aspect-*` fractions",
+    "state": "closed",
+    "created_at": "2026-02-17T17:32:12Z",
+    "closed_at": "2026-02-17T18:32:31Z",
+    "merged_at": "2026-02-17T18:32:31Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19687,
+    "title": "Add '.jj' to ignored content directories",
+    "state": "closed",
+    "created_at": "2026-02-17T12:44:24Z",
+    "closed_at": "2026-02-17T17:09:59Z",
+    "merged_at": "2026-02-17T17:09:59Z",
+    "user": {
+      "login": "bb"
+    }
+  },
+  {
+    "number": 19686,
+    "title": "docs: fix GitHub links to tailwindlabs org",
+    "state": "closed",
+    "created_at": "2026-02-17T11:54:58Z",
+    "closed_at": "2026-02-17T12:06:49Z",
+    "merged_at": "2026-02-17T12:06:49Z",
+    "user": {
+      "login": "pavan-sh"
+    }
+  },
+  {
+    "number": 19681,
+    "title": "Update @types/react 19.2.10 → 19.2.14 (patch)",
+    "state": "closed",
+    "created_at": "2026-02-15T10:10:36Z",
+    "closed_at": "2026-02-18T10:58:33Z",
+    "merged_at": "2026-02-18T10:58:33Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19680,
+    "title": "Allow decimal values in aspect ratio utilities",
+    "state": "closed",
+    "created_at": "2026-02-15T10:07:34Z",
+    "closed_at": "2026-02-17T18:32:33Z",
+    "merged_at": null,
+    "user": {
+      "login": "veeceey"
+    }
+  },
+  {
+    "number": 19679,
+    "title": "Fallback to `config.createResolver` for `client` and `ssr` environments in `@tailwindcss/vite`",
+    "state": "closed",
+    "created_at": "2026-02-15T10:04:00Z",
+    "closed_at": "2026-02-17T19:59:57Z",
+    "merged_at": "2026-02-17T19:59:57Z",
+    "user": {
+      "login": "4ndv"
+    }
+  },
+  {
+    "number": 19678,
+    "title": "Update bun 1.3.7 → 1.3.9 (patch)",
+    "state": "closed",
+    "created_at": "2026-02-15T09:55:39Z",
+    "closed_at": "2026-02-18T11:00:11Z",
+    "merged_at": "2026-02-18T11:00:11Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19675,
+    "title": "fix(canonicalize): prevent collapse cache pollution across calls",
+    "state": "closed",
+    "created_at": "2026-02-14T14:54:59Z",
+    "closed_at": "2026-02-18T12:17:00Z",
+    "merged_at": "2026-02-18T12:16:59Z",
+    "user": {
+      "login": "camc314"
+    }
+  },
+  {
+    "number": 19673,
+    "title": "Update eslint 9.39.2 → 10.0.0 (major)",
+    "state": "closed",
+    "created_at": "2026-02-13T22:41:43Z",
+    "closed_at": "2026-03-06T22:54:41Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19670,
+    "title": "fix: restore full page reload for watched external files on Vite 7.1+",
+    "state": "closed",
+    "created_at": "2026-02-13T01:18:34Z",
+    "closed_at": "2026-02-17T19:04:17Z",
+    "merged_at": "2026-02-17T19:04:17Z",
+    "user": {
+      "login": "Arxsher"
+    }
+  },
+  {
+    "number": 19669,
+    "title": "fix: support decimal values in aspect ratio utilities",
+    "state": "closed",
+    "created_at": "2026-02-12T23:44:26Z",
+    "closed_at": "2026-02-17T19:07:40Z",
+    "merged_at": null,
+    "user": {
+      "login": "shtse8"
+    }
+  },
+  {
+    "number": 19667,
+    "title": "Update semver 7.7.3 → 7.7.4 (patch)",
+    "state": "closed",
+    "created_at": "2026-02-12T17:40:43Z",
+    "closed_at": "2026-02-18T10:58:49Z",
+    "merged_at": "2026-02-18T10:58:49Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19665,
+    "title": "security: update micromatch dependency to address CVE",
+    "state": "open",
+    "created_at": "2026-02-12T13:00:40Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "stecurran-est-tech"
+    }
+  },
+  {
+    "number": 19658,
+    "title": "Update enhanced-resolve 5.18.4 → 5.19.0 (minor)",
+    "state": "closed",
+    "created_at": "2026-02-10T13:10:37Z",
+    "closed_at": "2026-02-18T10:59:12Z",
+    "merged_at": "2026-02-18T10:59:12Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19653,
+    "title": " fix(compat): map maxWidth to max-width namespace in v4 migration",
+    "state": "open",
+    "created_at": "2026-02-09T11:53:14Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "NssGourav"
+    }
+  },
+  {
+    "number": 19652,
+    "title": "Fix/misc docs and tests",
+    "state": "closed",
+    "created_at": "2026-02-09T11:19:45Z",
+    "closed_at": "2026-02-18T12:23:49Z",
+    "merged_at": "2026-02-18T12:23:49Z",
+    "user": {
+      "login": "pavan-sh"
+    }
+  },
+  {
+    "number": 19651,
+    "title": "Update @vitejs/plugin-react 5.1.2 → 5.1.3 (patch)",
+    "state": "closed",
+    "created_at": "2026-02-09T10:45:01Z",
+    "closed_at": "2026-02-09T17:20:46Z",
+    "merged_at": "2026-02-09T17:20:46Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19644,
+    "title": "Fix Tailwind CSS package README GitHub links",
+    "state": "closed",
+    "created_at": "2026-02-07T08:20:43Z",
+    "closed_at": "2026-02-08T00:26:38Z",
+    "merged_at": "2026-02-08T00:26:38Z",
+    "user": {
+      "login": "pavan-sh"
+    }
+  },
+  {
+    "number": 19642,
+    "title": "Update autoprefixer 10.4.23 → 10.4.24 (patch)",
+    "state": "closed",
+    "created_at": "2026-02-06T20:10:40Z",
+    "closed_at": "2026-02-09T17:20:25Z",
+    "merged_at": "2026-02-09T17:20:25Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19641,
+    "title": "Fix README links to use main branch",
+    "state": "closed",
+    "created_at": "2026-02-06T10:36:58Z",
+    "closed_at": "2026-02-06T15:51:07Z",
+    "merged_at": "2026-02-06T15:51:07Z",
+    "user": {
+      "login": "pavan-sh"
+    }
+  },
+  {
+    "number": 19638,
+    "title": "Fix README license badge link",
+    "state": "closed",
+    "created_at": "2026-02-05T15:33:34Z",
+    "closed_at": "2026-02-05T15:59:10Z",
+    "merged_at": "2026-02-05T15:59:10Z",
+    "user": {
+      "login": "pavan-sh"
+    }
+  },
+  {
+    "number": 19633,
+    "title": "Fix infinite loop when using `@variant` inside `@custom-variant` that points to another `@custom-variant`",
+    "state": "closed",
+    "created_at": "2026-02-02T12:15:53Z",
+    "closed_at": "2026-02-02T13:42:31Z",
+    "merged_at": "2026-02-02T13:42:31Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19632,
+    "title": "Improve performance in bigger projects",
+    "state": "closed",
+    "created_at": "2026-02-02T11:28:34Z",
+    "closed_at": "2026-02-17T19:15:21Z",
+    "merged_at": "2026-02-17T19:15:21Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19631,
+    "title": "docs: Add compatible agents section with AdaL",
+    "state": "closed",
+    "created_at": "2026-02-02T02:22:44Z",
+    "closed_at": "2026-02-02T03:33:03Z",
+    "merged_at": null,
+    "user": {
+      "login": "liyin2015"
+    }
+  },
+  {
+    "number": 19630,
+    "title": "docs: add community links to README",
+    "state": "closed",
+    "created_at": "2026-02-01T04:23:14Z",
+    "closed_at": "2026-02-01T19:54:53Z",
+    "merged_at": null,
+    "user": {
+      "login": "njg7194"
+    }
+  },
+  {
+    "number": 19627,
+    "title": "Add mauve, olive, mist, and taupe color palettes",
+    "state": "closed",
+    "created_at": "2026-01-31T13:59:32Z",
+    "closed_at": "2026-02-18T10:52:35Z",
+    "merged_at": "2026-02-18T10:52:35Z",
+    "user": {
+      "login": "adamwathan"
+    }
+  },
+  {
+    "number": 19626,
+    "title": "feat: handle backslash in `@utility` name",
+    "state": "closed",
+    "created_at": "2026-01-30T21:42:25Z",
+    "closed_at": "2026-02-17T21:12:20Z",
+    "merged_at": "2026-02-17T21:12:20Z",
+    "user": {
+      "login": "rozsazoltan"
+    }
+  },
+  {
+    "number": 19625,
+    "title": "Simplify logical sizing utility theme namespaces",
+    "state": "closed",
+    "created_at": "2026-01-30T15:03:29Z",
+    "closed_at": "2026-01-30T15:40:51Z",
+    "merged_at": "2026-01-30T15:40:51Z",
+    "user": {
+      "login": "adamwathan"
+    }
+  },
+  {
+    "number": 19623,
+    "title": "Add `font-features-*` utility for font-feature-settings",
+    "state": "closed",
+    "created_at": "2026-01-30T11:47:51Z",
+    "closed_at": "2026-01-30T14:21:16Z",
+    "merged_at": "2026-01-30T14:21:16Z",
+    "user": {
+      "login": "adamwathan"
+    }
+  },
+  {
+    "number": 19620,
+    "title": "Update @parcel/watcher-darwin-arm64 2.5.1 → 2.5.6 (patch)",
+    "state": "closed",
+    "created_at": "2026-01-30T07:40:33Z",
+    "closed_at": "2026-02-04T11:39:14Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19619,
+    "title": "Update @parcel/watcher-darwin-x64 2.5.1 → 2.5.6 (patch)",
+    "state": "closed",
+    "created_at": "2026-01-30T07:25:33Z",
+    "closed_at": "2026-02-04T11:39:16Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19617,
+    "title": "support NODE_PATH in standalone build",
+    "state": "closed",
+    "created_at": "2026-01-29T18:06:51Z",
+    "closed_at": "2026-04-17T16:29:18Z",
+    "merged_at": "2026-04-17T16:29:18Z",
+    "user": {
+      "login": "SteffenDE"
+    }
+  },
+  {
+    "number": 19614,
+    "title": "Improve walk performance",
+    "state": "closed",
+    "created_at": "2026-01-29T14:42:36Z",
+    "closed_at": "2026-01-29T14:49:31Z",
+    "merged_at": "2026-01-29T14:49:31Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19613,
+    "title": "Add logical inset utilities (inset-s, inset-e, inset-bs, inset-be)",
+    "state": "closed",
+    "created_at": "2026-01-29T14:38:48Z",
+    "closed_at": "2026-01-30T14:13:56Z",
+    "merged_at": "2026-01-30T14:13:56Z",
+    "user": {
+      "login": "adamwathan"
+    }
+  },
+  {
+    "number": 19612,
+    "title": "Add logical sizing utilities (inline-size, block-size)",
+    "state": "closed",
+    "created_at": "2026-01-29T12:57:28Z",
+    "closed_at": "2026-01-30T13:46:37Z",
+    "merged_at": "2026-01-30T13:46:37Z",
+    "user": {
+      "login": "adamwathan"
+    }
+  },
+  {
+    "number": 19611,
+    "title": "[tailwindcss-vite] Add Register dependency messages logline",
+    "state": "closed",
+    "created_at": "2026-01-29T12:08:14Z",
+    "closed_at": "2026-01-29T14:17:50Z",
+    "merged_at": "2026-01-29T14:17:50Z",
+    "user": {
+      "login": "timneutkens"
+    }
+  },
+  {
+    "number": 19610,
+    "title": "Add @tailwindcss/webpack loader for Tailwind CSS v4",
+    "state": "closed",
+    "created_at": "2026-01-28T19:44:57Z",
+    "closed_at": "2026-01-29T14:16:32Z",
+    "merged_at": "2026-01-29T14:16:32Z",
+    "user": {
+      "login": "timneutkens"
+    }
+  },
+  {
+    "number": 19609,
+    "title": "🚨 [security] Update all of nextjs 16.1.0 → 16.1.6 (patch)",
+    "state": "closed",
+    "created_at": "2026-01-28T16:06:57Z",
+    "closed_at": "2026-02-04T11:39:07Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19608,
+    "title": "Bump dependencies",
+    "state": "closed",
+    "created_at": "2026-01-28T16:00:09Z",
+    "closed_at": "2026-02-04T11:38:51Z",
+    "merged_at": "2026-02-04T11:38:51Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19604,
+    "title": "Update all of nextjs 16.1.0 → 16.1.4 (patch)",
+    "state": "closed",
+    "created_at": "2026-01-27T20:25:46Z",
+    "closed_at": "2026-01-28T16:21:07Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19603,
+    "title": "🚨 [security] Update all of nextjs 16.1.0 → 16.1.5 (patch)",
+    "state": "closed",
+    "created_at": "2026-01-27T20:07:43Z",
+    "closed_at": "2026-01-28T16:21:10Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19601,
+    "title": "Add logical block-start/block-end border, margin, and padding utilities",
+    "state": "closed",
+    "created_at": "2026-01-27T13:24:00Z",
+    "closed_at": "2026-01-30T13:37:51Z",
+    "merged_at": "2026-01-30T13:37:51Z",
+    "user": {
+      "login": "adamwathan"
+    }
+  },
+  {
+    "number": 19600,
+    "title": "Update vulnerable dependencies",
+    "state": "closed",
+    "created_at": "2026-01-26T17:39:53Z",
+    "closed_at": "2026-01-26T17:46:13Z",
+    "merged_at": null,
+    "user": {
+      "login": "stecurran-est-tech"
+    }
+  },
+  {
+    "number": 19596,
+    "title": "Add files via upload",
+    "state": "closed",
+    "created_at": "2026-01-23T23:30:11Z",
+    "closed_at": "2026-01-23T23:30:47Z",
+    "merged_at": null,
+    "user": {
+      "login": "wattswolf"
+    }
+  },
+  {
+    "number": 19588,
+    "title": "fix: handle invalid UTF-8 in Ruby and Vue preprocessors",
+    "state": "open",
+    "created_at": "2026-01-21T22:52:27Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "khasinski"
+    }
+  },
+  {
+    "number": 19587,
+    "title": "Fix utility generaFix utility generation for escaped theme keystion for escaped theme keys",
+    "state": "closed",
+    "created_at": "2026-01-21T16:43:27Z",
+    "closed_at": "2026-02-17T20:27:17Z",
+    "merged_at": null,
+    "user": {
+      "login": "KashviYadav09"
+    }
+  },
+  {
+    "number": 19581,
+    "title": "Upgrade lightningcss to 1.31.0",
+    "state": "closed",
+    "created_at": "2026-01-20T08:46:50Z",
+    "closed_at": "2026-02-04T11:40:09Z",
+    "merged_at": null,
+    "user": {
+      "login": "t0byman"
+    }
+  },
+  {
+    "number": 19577,
+    "title": "chore: Update outdated GitHub Actions versions",
+    "state": "closed",
+    "created_at": "2026-01-19T16:39:33Z",
+    "closed_at": "2026-02-18T12:27:14Z",
+    "merged_at": "2026-02-18T12:27:14Z",
+    "user": {
+      "login": "pgoslatara"
+    }
+  },
+  {
+    "number": 19576,
+    "title": "Update @parcel/watcher-darwin-x64 2.5.1 → 2.5.4 (patch)",
+    "state": "closed",
+    "created_at": "2026-01-18T19:40:35Z",
+    "closed_at": "2026-01-30T07:37:45Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19575,
+    "title": "Update @parcel/watcher-darwin-arm64 2.5.1 → 2.5.4 (patch)",
+    "state": "closed",
+    "created_at": "2026-01-18T19:25:34Z",
+    "closed_at": "2026-01-30T07:52:29Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19573,
+    "title": "Update @types/react 19.2.7 → 19.2.8 (patch)",
+    "state": "closed",
+    "created_at": "2026-01-17T09:55:47Z",
+    "closed_at": "2026-02-04T11:39:09Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19565,
+    "title": "🚨 [security] Update h3 1.15.4 → 1.15.5 (patch)",
+    "state": "closed",
+    "created_at": "2026-01-15T22:05:37Z",
+    "closed_at": "2026-02-04T11:39:04Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19547,
+    "title": "Update emnapi 1.7.1 → 1.8.1 (minor)",
+    "state": "closed",
+    "created_at": "2026-01-10T14:00:29Z",
+    "closed_at": "2026-02-04T11:39:21Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19546,
+    "title": "Update @emnapi/core 1.7.1 → 1.8.1 (minor)",
+    "state": "closed",
+    "created_at": "2026-01-10T13:45:32Z",
+    "closed_at": "2026-02-04T11:39:19Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19545,
+    "title": "Update @emnapi/runtime 1.7.1 → 1.8.1 (minor)",
+    "state": "closed",
+    "created_at": "2026-01-10T13:25:33Z",
+    "closed_at": "2026-02-04T11:39:12Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19539,
+    "title": "display: none !important; #19538",
+    "state": "closed",
+    "created_at": "2026-01-09T17:05:16Z",
+    "closed_at": "2026-01-09T18:51:55Z",
+    "merged_at": null,
+    "user": {
+      "login": "Lucifer007-max"
+    }
+  },
+  {
+    "number": 19534,
+    "title": "Add funding info to package.json",
+    "state": "open",
+    "created_at": "2026-01-08T09:29:32Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "jeffreyvr"
+    }
+  },
+  {
+    "number": 19528,
+    "title": "Update @napi-rs/cli 3.4.1 → 3.5.1 (minor)",
+    "state": "closed",
+    "created_at": "2026-01-06T08:45:32Z",
+    "closed_at": "2026-01-06T11:44:28Z",
+    "merged_at": "2026-01-06T11:44:28Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19527,
+    "title": "Update @napi-rs/wasm-runtime 1.1.0 → 1.1.1 (patch)",
+    "state": "closed",
+    "created_at": "2026-01-06T08:25:34Z",
+    "closed_at": "2026-01-06T11:49:42Z",
+    "merged_at": "2026-01-06T11:49:42Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19526,
+    "title": "feat: allow using @variant with multiple comma-separated variants",
+    "state": "open",
+    "created_at": "2026-01-06T03:07:52Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "orteth01"
+    }
+  },
+  {
+    "number": 19525,
+    "title": "Fix class extraction for Rails' strict locals",
+    "state": "closed",
+    "created_at": "2026-01-05T18:57:02Z",
+    "closed_at": "2026-01-06T11:46:14Z",
+    "merged_at": "2026-01-06T11:46:14Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19524,
+    "title": "Improve `@utility` name validation",
+    "state": "closed",
+    "created_at": "2026-01-05T17:48:48Z",
+    "closed_at": "2026-01-06T11:54:43Z",
+    "merged_at": "2026-01-06T11:54:43Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19515,
+    "title": "Add radius utilities and deprecate rounded",
+    "state": "closed",
+    "created_at": "2026-01-03T22:39:01Z",
+    "closed_at": "2026-01-30T12:30:31Z",
+    "merged_at": null,
+    "user": {
+      "login": "adamwathan"
+    }
+  },
+  {
+    "number": 19509,
+    "title": "Update turbo 2.6.3 → 2.7.2 (minor)",
+    "state": "closed",
+    "created_at": "2026-01-01T17:25:35Z",
+    "closed_at": "2026-01-05T12:46:49Z",
+    "merged_at": "2026-01-05T12:46:49Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19507,
+    "title": "Change display style to flex for media elements",
+    "state": "closed",
+    "created_at": "2025-12-31T06:40:33Z",
+    "closed_at": "2025-12-31T08:51:31Z",
+    "merged_at": null,
+    "user": {
+      "login": "nitin01924"
+    }
+  },
+  {
+    "number": 19506,
+    "title": "aligning item in display block",
+    "state": "closed",
+    "created_at": "2025-12-31T06:15:33Z",
+    "closed_at": "2025-12-31T08:50:40Z",
+    "merged_at": null,
+    "user": {
+      "login": "nitin01924"
+    }
+  },
+  {
+    "number": 19499,
+    "title": "chore: remove duplicate esbuild devDependencies",
+    "state": "open",
+    "created_at": "2025-12-29T14:58:28Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "43081j"
+    }
+  },
+  {
+    "number": 19497,
+    "title": "Update globby 15.0.0 → 16.1.0 (major)",
+    "state": "closed",
+    "created_at": "2025-12-28T15:10:32Z",
+    "closed_at": "2025-12-28T16:06:45Z",
+    "merged_at": null,
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19493,
+    "title": "Fix typo in comment",
+    "state": "closed",
+    "created_at": "2025-12-27T11:30:09Z",
+    "closed_at": "2025-12-27T16:56:29Z",
+    "merged_at": "2025-12-27T16:56:29Z",
+    "user": {
+      "login": "akash191095"
+    }
+  },
+  {
+    "number": 19492,
+    "title": "Update prettier-plugin-embed 0.5.0 → 0.5.1 (minor)",
+    "state": "closed",
+    "created_at": "2025-12-26T00:55:34Z",
+    "closed_at": "2025-12-26T17:36:51Z",
+    "merged_at": "2025-12-26T17:36:51Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19491,
+    "title": "Update @types/bun 1.3.3 → 1.3.5 (patch)",
+    "state": "closed",
+    "created_at": "2025-12-25T18:55:32Z",
+    "closed_at": "2025-12-25T23:22:14Z",
+    "merged_at": "2025-12-25T23:22:13Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19490,
+    "title": "Update @tailwindcss/forms 0.5.10 → 0.5.11 (minor)",
+    "state": "closed",
+    "created_at": "2025-12-24T19:40:33Z",
+    "closed_at": "2025-12-24T22:20:21Z",
+    "merged_at": "2025-12-24T22:20:21Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19489,
+    "title": "Update bun 1.3.3 → 1.3.5 (patch)",
+    "state": "closed",
+    "created_at": "2025-12-24T18:55:34Z",
+    "closed_at": "2025-12-24T22:20:02Z",
+    "merged_at": "2025-12-24T22:20:02Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19484,
+    "title": "Update dedent 1.7.0 → 1.7.1 (patch)",
+    "state": "closed",
+    "created_at": "2025-12-24T10:10:32Z",
+    "closed_at": "2025-12-24T15:31:02Z",
+    "merged_at": "2025-12-24T15:31:02Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19480,
+    "title": "Allow `@variant` to be used inside `addBase`",
+    "state": "open",
+    "created_at": "2025-12-23T16:40:08Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19477,
+    "title": "wip: fix integration tests on macOS",
+    "state": "closed",
+    "created_at": "2025-12-22T19:04:17Z",
+    "closed_at": "2025-12-22T20:04:55Z",
+    "merged_at": null,
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19475,
+    "title": "chore: fix some typos in comments",
+    "state": "closed",
+    "created_at": "2025-12-22T07:58:10Z",
+    "closed_at": "2025-12-22T13:09:19Z",
+    "merged_at": "2025-12-22T13:09:19Z",
+    "user": {
+      "login": "xibeiyoumian"
+    }
+  },
+  {
+    "number": 19473,
+    "title": "Update autoprefixer 10.4.22 → 10.4.23 (patch)",
+    "state": "closed",
+    "created_at": "2025-12-21T17:40:36Z",
+    "closed_at": "2025-12-23T03:59:08Z",
+    "merged_at": "2025-12-23T03:59:08Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19469,
+    "title": "Update eslint 9.39.1 → 9.39.2 (patch)",
+    "state": "closed",
+    "created_at": "2025-12-19T22:56:02Z",
+    "closed_at": "2025-12-21T15:03:00Z",
+    "merged_at": "2025-12-21T15:02:59Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19468,
+    "title": "Update all of nextjs 16.0.10 → 16.1.0 (minor)",
+    "state": "closed",
+    "created_at": "2025-12-19T20:05:50Z",
+    "closed_at": "2025-12-19T21:20:03Z",
+    "merged_at": "2025-12-19T21:20:03Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19465,
+    "title": "Detect utilities when containing capital letters followed by numbers",
+    "state": "closed",
+    "created_at": "2025-12-19T01:39:36Z",
+    "closed_at": "2025-12-19T10:45:16Z",
+    "merged_at": "2025-12-19T10:45:16Z",
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19464,
+    "title": "Update all of react 19.2.1 → 19.2.3 (patch)",
+    "state": "closed",
+    "created_at": "2025-12-18T23:10:48Z",
+    "closed_at": "2025-12-19T01:28:49Z",
+    "merged_at": "2025-12-19T01:28:49Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19462,
+    "title": "Update enhanced-resolve 5.18.3 → 5.18.4 (patch)",
+    "state": "closed",
+    "created_at": "2025-12-18T19:40:35Z",
+    "closed_at": "2025-12-18T20:03:51Z",
+    "merged_at": "2025-12-18T20:03:51Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19461,
+    "title": "Allow whitespace around `@source inline()` arg",
+    "state": "closed",
+    "created_at": "2025-12-18T15:31:29Z",
+    "closed_at": "2025-12-18T15:51:00Z",
+    "merged_at": "2025-12-18T15:51:00Z",
+    "user": {
+      "login": "wongjn"
+    }
+  },
+  {
+    "number": 19457,
+    "title": "Clarify the `replaceAlpha` function comment",
+    "state": "closed",
+    "created_at": "2025-12-17T10:06:20Z",
+    "closed_at": "2025-12-18T03:15:42Z",
+    "merged_at": "2025-12-18T03:15:42Z",
+    "user": {
+      "login": "hirasso"
+    }
+  },
+  {
+    "number": 19456,
+    "title": "feat: only polyfill internal, intentional usages of `color-mix`",
+    "state": "closed",
+    "created_at": "2025-12-17T09:53:52Z",
+    "closed_at": "2025-12-17T17:08:19Z",
+    "merged_at": null,
+    "user": {
+      "login": "hirasso"
+    }
+  },
+  {
+    "number": 19450,
+    "title": "Do not wrap `color-mix` in a `@supports` rule if one already exists",
+    "state": "closed",
+    "created_at": "2025-12-16T13:40:57Z",
+    "closed_at": "2025-12-16T21:57:36Z",
+    "merged_at": "2025-12-16T21:57:36Z",
+    "user": {
+      "login": "hirasso"
+    }
+  },
+  {
+    "number": 19448,
+    "title": "Update @types/react 19.2.6 → 19.2.7 (patch)",
+    "state": "closed",
+    "created_at": "2025-12-16T02:40:43Z",
+    "closed_at": "2025-12-16T04:33:16Z",
+    "merged_at": "2025-12-16T04:33:16Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19447,
+    "title": "CLI: Emit comment when source maps are saved to files",
+    "state": "closed",
+    "created_at": "2025-12-15T18:15:15Z",
+    "closed_at": "2025-12-18T20:02:27Z",
+    "merged_at": "2025-12-18T20:02:27Z",
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19440,
+    "title": "Update @vitejs/plugin-react 5.1.1 → 5.1.2 (patch)",
+    "state": "closed",
+    "created_at": "2025-12-15T09:55:39Z",
+    "closed_at": "2025-12-15T14:35:08Z",
+    "merged_at": "2025-12-15T14:35:08Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19436,
+    "title": "Fix failing `postcss` integration test",
+    "state": "closed",
+    "created_at": "2025-12-12T14:23:21Z",
+    "closed_at": "2025-12-12T14:38:08Z",
+    "merged_at": "2025-12-12T14:38:08Z",
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19434,
+    "title": "🚨 [security] Update all of nextjs 16.0.7 → 16.0.10 (patch)",
+    "state": "closed",
+    "created_at": "2025-12-12T00:08:00Z",
+    "closed_at": "2025-12-12T14:52:15Z",
+    "merged_at": "2025-12-12T14:52:15Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19432,
+    "title": "Update turbo 2.6.1 → 2.6.3 (patch)",
+    "state": "closed",
+    "created_at": "2025-12-11T17:25:34Z",
+    "closed_at": "2025-12-11T18:08:25Z",
+    "merged_at": "2025-12-11T18:08:25Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19431,
+    "title": "Release v4.1.18",
+    "state": "closed",
+    "created_at": "2025-12-10T18:48:13Z",
+    "closed_at": "2025-12-11T15:55:26Z",
+    "merged_at": "2025-12-11T15:55:26Z",
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19430,
+    "title": "Update all of react 19.2.0 → 19.2.1 (patch)",
+    "state": "closed",
+    "created_at": "2025-12-10T15:41:01Z",
+    "closed_at": "2025-12-10T15:53:21Z",
+    "merged_at": "2025-12-10T15:53:21Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19429,
+    "title": "Fix provenance setup for v3",
+    "state": "closed",
+    "created_at": "2025-12-09T17:00:49Z",
+    "closed_at": "2025-12-09T17:19:22Z",
+    "merged_at": "2025-12-09T17:19:22Z",
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19427,
+    "title": "v4: Allow `@apply` to be used with CSS mixins",
+    "state": "open",
+    "created_at": "2025-12-09T15:58:45Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19425,
+    "title": "Update @napi-rs/cli 3.4.1 → 3.5.0 (minor)",
+    "state": "closed",
+    "created_at": "2025-12-09T09:55:36Z",
+    "closed_at": "2025-12-09T10:54:19Z",
+    "merged_at": "2025-12-09T10:54:19Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19424,
+    "title": "Update @napi-rs/wasm-runtime 1.0.7 → 1.1.0 (minor)",
+    "state": "closed",
+    "created_at": "2025-12-09T09:40:46Z",
+    "closed_at": "2025-12-09T10:36:53Z",
+    "merged_at": "2025-12-09T10:36:53Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19421,
+    "title": "Don’t try reading from pipes or special file descriptors",
+    "state": "closed",
+    "created_at": "2025-12-08T21:51:51Z",
+    "closed_at": "2025-12-08T22:04:51Z",
+    "merged_at": "2025-12-08T22:04:51Z",
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19419,
+    "title": "Don’t emit color-mix fallback rules inside `@keyframes`",
+    "state": "closed",
+    "created_at": "2025-12-08T14:31:19Z",
+    "closed_at": "2025-12-08T14:40:16Z",
+    "merged_at": "2025-12-08T14:40:16Z",
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19416,
+    "title": "Only use the last value when parsing duplicate cli arguments",
+    "state": "closed",
+    "created_at": "2025-12-07T13:24:40Z",
+    "closed_at": "2025-12-07T17:26:22Z",
+    "merged_at": "2025-12-07T17:26:22Z",
+    "user": {
+      "login": "adamroyle"
+    }
+  },
+  {
+    "number": 19414,
+    "title": "Update @types/bun 1.3.2 → 1.3.3 (patch)",
+    "state": "closed",
+    "created_at": "2025-12-06T08:55:32Z",
+    "closed_at": "2025-12-06T13:42:20Z",
+    "merged_at": "2025-12-06T13:42:20Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19413,
+    "title": "Update bun 1.3.2 → 1.3.3 (patch)",
+    "state": "closed",
+    "created_at": "2025-12-06T08:10:40Z",
+    "closed_at": "2025-12-06T13:29:17Z",
+    "merged_at": "2025-12-06T13:29:17Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19410,
+    "title": "Safe UTF-8 Extraction and Robust <style> Block Detection in Upgrade Codemods",
+    "state": "closed",
+    "created_at": "2025-12-04T16:45:57Z",
+    "closed_at": "2025-12-04T17:08:04Z",
+    "merged_at": null,
+    "user": {
+      "login": "Saniya777-byte"
+    }
+  },
+  {
+    "number": 19408,
+    "title": "Update postcss-selector-parser 7.1.0 → 7.1.1 (patch)",
+    "state": "closed",
+    "created_at": "2025-12-04T14:55:38Z",
+    "closed_at": "2025-12-04T15:55:11Z",
+    "merged_at": "2025-12-04T15:55:11Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19407,
+    "title": "Fix formatting of path in README.md",
+    "state": "closed",
+    "created_at": "2025-12-04T09:46:15Z",
+    "closed_at": "2025-12-04T13:25:51Z",
+    "merged_at": "2025-12-04T13:25:51Z",
+    "user": {
+      "login": "andresin87"
+    }
+  },
+  {
+    "number": 19405,
+    "title": "Expose `candidatesToAst` to the language server ",
+    "state": "closed",
+    "created_at": "2025-12-03T23:56:44Z",
+    "closed_at": "2025-12-08T15:54:42Z",
+    "merged_at": "2025-12-08T15:54:42Z",
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19404,
+    "title": "🚨 [security] Update all of nextjs 16.0.3 → 16.0.7 (patch)",
+    "state": "closed",
+    "created_at": "2025-12-03T20:06:10Z",
+    "closed_at": "2025-12-03T20:19:40Z",
+    "merged_at": "2025-12-03T20:19:40Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19402,
+    "title": "vite: fix SVG watch ignore regex for query/hash(#issue 19401)",
+    "state": "closed",
+    "created_at": "2025-12-02T22:37:12Z",
+    "closed_at": "2025-12-02T23:10:50Z",
+    "merged_at": null,
+    "user": {
+      "login": "kshitij2212"
+    }
+  },
+  {
+    "number": 19400,
+    "title": "Fix invalid template tags in tests",
+    "state": "closed",
+    "created_at": "2025-12-02T18:21:17Z",
+    "closed_at": "2025-12-02T19:51:21Z",
+    "merged_at": "2025-12-02T19:51:21Z",
+    "user": {
+      "login": "KirtiGautam620"
+    }
+  },
+  {
+    "number": 19399,
+    "title": "Update @playwright/test 1.56.1 → 1.57.0 (minor)",
+    "state": "closed",
+    "created_at": "2025-12-02T11:40:38Z",
+    "closed_at": "2025-12-02T12:09:28Z",
+    "merged_at": "2025-12-02T12:09:28Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19397,
+    "title": "Validate named values in candidate parser",
+    "state": "closed",
+    "created_at": "2025-12-01T16:13:33Z",
+    "closed_at": "2025-12-03T20:06:25Z",
+    "merged_at": "2025-12-03T20:06:25Z",
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19396,
+    "title": "Canonicalization: combine `text-*` and `leading-*` classes",
+    "state": "closed",
+    "created_at": "2025-12-01T12:09:32Z",
+    "closed_at": "2025-12-01T15:01:24Z",
+    "merged_at": "2025-12-01T15:01:24Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19391,
+    "title": "Don't inline all env vars in Standalone CLI",
+    "state": "closed",
+    "created_at": "2025-11-30T13:46:52Z",
+    "closed_at": "2025-12-08T16:23:20Z",
+    "merged_at": "2025-12-08T16:23:20Z",
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19385,
+    "title": "[v3 Changelog] Fix date",
+    "state": "closed",
+    "created_at": "2025-11-28T10:57:00Z",
+    "closed_at": "2025-11-28T11:40:13Z",
+    "merged_at": null,
+    "user": {
+      "login": "hebbet"
+    }
+  },
+  {
+    "number": 19381,
+    "title": "Handle backwards compatibility for `content` theme from JS configs",
+    "state": "closed",
+    "created_at": "2025-11-26T13:06:55Z",
+    "closed_at": "2025-11-29T16:19:37Z",
+    "merged_at": "2025-11-29T16:19:37Z",
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19380,
+    "title": "fix: add empty transform to vite scan plugin for Vite 7.0+ compatibility",
+    "state": "closed",
+    "created_at": "2025-11-26T11:20:08Z",
+    "closed_at": "2025-11-26T11:55:21Z",
+    "merged_at": null,
+    "user": {
+      "login": "ath1614"
+    }
+  },
+  {
+    "number": 19379,
+    "title": "Try to canonicalize any arbitrary utility to a bare value",
+    "state": "closed",
+    "created_at": "2025-11-26T10:45:17Z",
+    "closed_at": "2025-11-26T11:07:21Z",
+    "merged_at": "2025-11-26T11:07:21Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19377,
+    "title": "Fix content-slash migration in @tailwindcss/upgrade tool",
+    "state": "closed",
+    "created_at": "2025-11-26T07:38:41Z",
+    "closed_at": "2025-11-26T10:36:14Z",
+    "merged_at": null,
+    "user": {
+      "login": "ath1614"
+    }
+  },
+  {
+    "number": 19373,
+    "title": "Fix source map generation during when watching files on the CLI",
+    "state": "closed",
+    "created_at": "2025-11-25T15:02:46Z",
+    "closed_at": "2025-11-25T17:22:58Z",
+    "merged_at": "2025-11-25T17:22:58Z",
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19369,
+    "title": "Add `text-align` and `text-transform` to inherited properties of `button`, `input`, etc.",
+    "state": "closed",
+    "created_at": "2025-11-24T20:59:38Z",
+    "closed_at": "2025-11-28T20:51:50Z",
+    "merged_at": null,
+    "user": {
+      "login": "benface"
+    }
+  },
+  {
+    "number": 19368,
+    "title": "Preserve aspect ratio of `svg` elements when changing their width",
+    "state": "closed",
+    "created_at": "2025-11-24T20:45:31Z",
+    "closed_at": "2025-12-08T18:40:36Z",
+    "merged_at": null,
+    "user": {
+      "login": "benface"
+    }
+  },
+  {
+    "number": 19364,
+    "title": "Fix: Remove iOS Safari dialog max-width/max-height constraints in Preflight",
+    "state": "closed",
+    "created_at": "2025-11-23T18:44:23Z",
+    "closed_at": "2025-12-08T20:04:01Z",
+    "merged_at": null,
+    "user": {
+      "login": "swarnim02"
+    }
+  },
+  {
+    "number": 19361,
+    "title": "fix(ring-utility): remove extra comma after --tw-ring-inset (fixes #18923)\"",
+    "state": "closed",
+    "created_at": "2025-11-22T22:27:19Z",
+    "closed_at": "2025-11-23T18:33:22Z",
+    "merged_at": null,
+    "user": {
+      "login": "saranganet"
+    }
+  },
+  {
+    "number": 19357,
+    "title": "Update globby 15.0.0 → 16.0.0 (major)",
+    "state": "closed",
+    "created_at": "2025-11-22T11:10:41Z",
+    "closed_at": "2025-11-25T14:27:58Z",
+    "merged_at": "2025-11-25T14:27:58Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19355,
+    "title": "Update @vitejs/plugin-react 5.1.0 → 5.1.1 (patch)",
+    "state": "closed",
+    "created_at": "2025-11-21T09:25:39Z",
+    "closed_at": "2025-11-21T14:41:12Z",
+    "merged_at": "2025-11-21T14:41:12Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19351,
+    "title": "Update emnapi 1.6.0 → 1.7.1 (minor)",
+    "state": "closed",
+    "created_at": "2025-11-21T07:25:30Z",
+    "closed_at": "2025-11-21T14:41:20Z",
+    "merged_at": "2025-11-21T14:41:20Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19350,
+    "title": "Update @emnapi/core 1.6.0 → 1.7.1 (minor)",
+    "state": "closed",
+    "created_at": "2025-11-21T07:10:38Z",
+    "closed_at": "2025-11-21T14:57:54Z",
+    "merged_at": "2025-11-21T14:57:54Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19349,
+    "title": "Update @emnapi/runtime 1.6.0 → 1.7.1 (minor)",
+    "state": "closed",
+    "created_at": "2025-11-21T06:55:36Z",
+    "closed_at": "2025-11-21T14:40:52Z",
+    "merged_at": "2025-11-21T14:40:51Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19348,
+    "title": "Improve compatibility with special default values in JS configs",
+    "state": "closed",
+    "created_at": "2025-11-20T23:46:36Z",
+    "closed_at": "2025-11-28T20:45:10Z",
+    "merged_at": "2025-11-28T20:45:10Z",
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19346,
+    "title": "Update @types/bun 1.3.0 → 1.3.2 (patch)",
+    "state": "closed",
+    "created_at": "2025-11-20T21:55:38Z",
+    "closed_at": "2025-11-20T22:08:27Z",
+    "merged_at": "2025-11-20T22:08:27Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  },
+  {
+    "number": 19344,
+    "title": "Handle `future` and `experimental` config keys during upgrade",
+    "state": "closed",
+    "created_at": "2025-11-20T21:42:27Z",
+    "closed_at": "2025-11-20T22:11:43Z",
+    "merged_at": "2025-11-20T22:11:43Z",
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19337,
+    "title": "Don’t unconditionally convert config keys to `kebab-case`",
+    "state": "closed",
+    "created_at": "2025-11-19T20:58:58Z",
+    "closed_at": "2025-11-20T22:39:55Z",
+    "merged_at": "2025-11-20T22:39:55Z",
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19299,
+    "title": "Fix @scope variant output and add test for scoped variant",
+    "state": "open",
+    "created_at": "2025-11-12T14:21:15Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "SHARMA1525"
+    }
+  },
+  {
+    "number": 19298,
+    "title": "Add `corner-shape` utility classes (`corner-*`)",
+    "state": "open",
+    "created_at": "2025-11-12T14:01:58Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "baptisthecht"
+    }
+  },
+  {
+    "number": 19254,
+    "title": "Handle utilities with `1` keys in a JS config",
+    "state": "open",
+    "created_at": "2025-11-03T17:36:51Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 19228,
+    "title": "Add reference CSS syntax showcase",
+    "state": "open",
+    "created_at": "2025-10-29T11:15:48Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "philipp-spiess"
+    }
+  },
+  {
+    "number": 19216,
+    "title": "Bump Vitest to v4",
+    "state": "closed",
+    "created_at": "2025-10-27T10:14:14Z",
+    "closed_at": "2025-11-20T23:16:20Z",
+    "merged_at": "2025-11-20T23:16:20Z",
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 19149,
+    "title": "Remove Oxide postinstall script",
+    "state": "closed",
+    "created_at": "2025-10-19T08:42:05Z",
+    "closed_at": "2025-10-19T08:50:21Z",
+    "merged_at": "2025-10-19T08:50:21Z",
+    "user": {
+      "login": "philipp-spiess"
+    }
+  },
+  {
+    "number": 19057,
+    "title": "Add agentic workflow issue-triage",
+    "state": "closed",
+    "created_at": "2025-10-06T09:12:26Z",
+    "closed_at": "2025-10-06T10:24:51Z",
+    "merged_at": "2025-10-06T10:24:51Z",
+    "user": {
+      "login": "philipp-spiess"
+    }
+  },
+  {
+    "number": 18994,
+    "title": "Use custom implementation of canonicalize for wasi",
+    "state": "open",
+    "created_at": "2025-09-25T17:50:15Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 18808,
+    "title": "Improve error messages when migrating a JS config file goes wrong",
+    "state": "open",
+    "created_at": "2025-08-27T17:40:19Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "RobinMalfait"
+    }
+  },
+  {
+    "number": 18766,
+    "title": "Prototype loading `@plugin` and `@config` from non-default exports",
+    "state": "open",
+    "created_at": "2025-08-19T19:27:08Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 18732,
+    "title": "Drop warning from browser build",
+    "state": "closed",
+    "created_at": "2025-08-14T05:45:11Z",
+    "closed_at": "2025-08-14T16:20:19Z",
+    "merged_at": "2025-08-14T16:20:19Z",
+    "user": {
+      "login": "zhe-he"
+    }
+  },
+  {
+    "number": 18292,
+    "title": "Feat: Adds rust config options to detect threading support in oxide",
+    "state": "open",
+    "created_at": "2025-06-12T00:29:15Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "jlukic"
+    }
+  },
+  {
+    "number": 18115,
+    "title": "Fix lowercase+uppercase keys (camelCase/PascalCase) unexpectedly treated to kebab-case when using JavaScript config file",
+    "state": "closed",
+    "created_at": "2025-05-22T16:37:36Z",
+    "closed_at": "2025-11-20T22:39:56Z",
+    "merged_at": null,
+    "user": {
+      "login": "woohm402"
+    }
+  },
+  {
+    "number": 17945,
+    "title": "Adds default styles for `[popover]`",
+    "state": "open",
+    "created_at": "2025-05-09T07:42:54Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "brandonmcconnell"
+    }
+  },
+  {
+    "number": 16295,
+    "title": "Bun plugin",
+    "state": "open",
+    "created_at": "2025-02-06T04:16:40Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "zackradisic"
+    }
+  },
+  {
+    "number": 14183,
+    "title": "Add `scrollbar-width` utilities",
+    "state": "open",
+    "created_at": "2024-08-13T16:57:57Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "lukewarlow"
+    }
+  },
+  {
+    "number": 13391,
+    "title": "Add `container` utility class (default, centered & with padding)",
+    "state": "closed",
+    "created_at": "2024-03-28T15:27:17Z",
+    "closed_at": "2024-03-28T17:53:43Z",
+    "merged_at": null,
+    "user": {
+      "login": "francoismassart"
+    }
+  },
+  {
+    "number": 13389,
+    "title": "Add first-class support for height media/container queries",
+    "state": "open",
+    "created_at": "2024-03-28T10:29:27Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "brandonmcconnell"
+    }
+  },
+  {
+    "number": 11692,
+    "title": "Add `prefers-reduced-transparency` variants",
+    "state": "open",
+    "created_at": "2023-07-26T14:01:54Z",
+    "closed_at": null,
+    "merged_at": null,
+    "user": {
+      "login": "lukewarlow"
+    }
+  },
+  {
+    "number": 9558,
+    "title": "Add new `min` and `max` variants",
+    "state": "closed",
+    "created_at": "2022-10-14T17:59:25Z",
+    "closed_at": "2022-10-14T18:25:25Z",
+    "merged_at": "2022-10-14T18:25:25Z",
+    "user": {
+      "login": "thecrypticace"
+    }
+  },
+  {
+    "number": 8962,
+    "title": "Don't use `cursor: pointer` for buttons by default",
+    "state": "closed",
+    "created_at": "2022-07-27T00:36:42Z",
+    "closed_at": "2022-07-27T00:55:09Z",
+    "merged_at": "2022-07-27T00:55:09Z",
+    "user": {
+      "login": "adamwathan"
+    }
+  },
+  {
+    "number": 4272,
+    "title": "[JIT] Add support for \"raw\" purge content",
+    "state": "closed",
+    "created_at": "2021-05-07T11:36:33Z",
+    "closed_at": "2021-05-07T12:58:59Z",
+    "merged_at": "2021-05-07T12:58:58Z",
+    "user": {
+      "login": "bradlc"
+    }
+  },
+  {
+    "number": 4187,
+    "title": "Account for Svelte class bindings at the start of a line",
+    "state": "closed",
+    "created_at": "2021-04-26T14:31:48Z",
+    "closed_at": "2021-04-30T12:59:04Z",
+    "merged_at": "2021-04-30T12:59:04Z",
+    "user": {
+      "login": "bradlc"
+    }
+  },
+  {
+    "number": 4044,
+    "title": "use href to get the full path of the file",
+    "state": "closed",
+    "created_at": "2021-04-11T20:46:01Z",
+    "closed_at": "2021-05-07T18:48:10Z",
+    "merged_at": "2021-05-07T18:48:09Z",
+    "user": {
+      "login": "void-mAlex"
+    }
+  },
+  {
+    "number": 3482,
+    "title": "Update eslint: 7.17.0 → 7.18.0 (minor)",
+    "state": "closed",
+    "created_at": "2021-01-30T02:56:56Z",
+    "closed_at": "2021-01-30T03:02:46Z",
+    "merged_at": "2021-01-30T03:02:46Z",
+    "user": {
+      "login": "depfu[bot]"
+    }
+  }
+]

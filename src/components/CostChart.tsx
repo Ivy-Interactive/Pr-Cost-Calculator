@@ -10,6 +10,7 @@ import {
   Filler,
 } from "chart.js";
 import { Line } from "react-chartjs-2";
+import annotationPlugin from "chartjs-plugin-annotation";
 import type { RollingDataPoint } from "../lib/types";
 
 ChartJS.register(
@@ -21,31 +22,94 @@ ChartJS.register(
   Tooltip,
   Legend,
   Filler,
+  annotationPlugin,
 );
 
 interface CostChartProps {
-  data: RollingDataPoint[];
   title: string;
   dataKey: keyof RollingDataPoint;
-  color: string;
   yAxisLabel: string;
+  ivyData?: RollingDataPoint[];
+  againstData?: RollingDataPoint[];
+  predictionData?: RollingDataPoint[];
+  againstLabel?: string;
+  /** Legacy single-dataset mode */
+  data?: RollingDataPoint[];
+  color?: string;
 }
 
-export function CostChart({ data, title, dataKey, color, yAxisLabel }: CostChartProps) {
-  const chartData = {
-    labels: data.map((d) => d.date),
-    datasets: [
-      {
-        label: title,
-        data: data.map((d) => d[dataKey] as number),
-        borderColor: color,
-        backgroundColor: color + "20",
-        fill: true,
-        tension: 0.3,
-        pointRadius: 3,
-        pointHoverRadius: 6,
-      },
-    ],
+export function CostChart({
+  title,
+  dataKey,
+  yAxisLabel,
+  ivyData,
+  againstData,
+  predictionData,
+  againstLabel = "Against",
+  data,
+  color,
+}: CostChartProps) {
+  // Multi-dataset mode
+  const isMulti = !!(ivyData && againstData);
+  const labels = isMulti
+    ? ivyData.map((d) => d.date)
+    : (data ?? []).map((d) => d.date);
+
+  const datasets = isMulti
+    ? [
+        {
+          label: `Ivy-Framework`,
+          data: ivyData.map((d) => d[dataKey] as number),
+          borderColor: "#4fc3f7",
+          backgroundColor: "transparent",
+          tension: 0.3,
+          pointRadius: 2,
+          borderWidth: 2,
+        },
+        {
+          label: againstLabel,
+          data: againstData.map((d) => d[dataKey] as number),
+          borderColor: "#ff7043",
+          backgroundColor: "transparent",
+          tension: 0.3,
+          pointRadius: 2,
+          borderWidth: 2,
+        },
+        ...(predictionData
+          ? [
+              {
+                label: `${againstLabel} + Ivy-Tendril`,
+                data: predictionData.map((d) => d[dataKey] as number),
+                borderColor: "#66bb6a",
+                backgroundColor: "#66bb6a15",
+                fill: true,
+                borderDash: [6, 3],
+                tension: 0.3,
+                pointRadius: 2,
+                borderWidth: 2,
+              },
+            ]
+          : []),
+      ]
+    : [
+        {
+          label: title,
+          data: (data ?? []).map((d) => d[dataKey] as number),
+          borderColor: color ?? "#4fc3f7",
+          backgroundColor: (color ?? "#4fc3f7") + "20",
+          fill: true,
+          tension: 0.3,
+          pointRadius: 3,
+          pointHoverRadius: 6,
+        },
+      ];
+
+  const chartData = { labels, datasets };
+
+  const formatValue = (value: number) => {
+    if (dataKey === "denialRate") return `${value.toFixed(1)}%`;
+    if (dataKey === "costPerPR") return `$${value.toFixed(0)}`;
+    return value.toFixed(1);
   };
 
   const options = {
@@ -53,7 +117,9 @@ export function CostChart({ data, title, dataKey, color, yAxisLabel }: CostChart
     maintainAspectRatio: false,
     plugins: {
       legend: {
-        display: false,
+        display: isMulti,
+        position: "bottom" as const,
+        labels: { color: "#999", boxWidth: 16, font: { size: 11 } },
       },
       title: {
         display: true,
@@ -63,14 +129,38 @@ export function CostChart({ data, title, dataKey, color, yAxisLabel }: CostChart
       },
       tooltip: {
         callbacks: {
-          label: (context: { parsed: { y: number | null } }) => {
+          label: (context: { dataset: { label?: string }; parsed: { y: number | null } }) => {
+            const label = context.dataset.label ?? "";
             const value = context.parsed.y ?? 0;
-            if (dataKey === "denialRate") return `${value.toFixed(1)}%`;
-            if (dataKey === "costPerPR") return `$${value.toFixed(0)}`;
-            return value.toFixed(1);
+            return `${label}: ${formatValue(value)}`;
           },
         },
       },
+      ...(isMulti
+        ? {
+            annotation: {
+              annotations: {
+                tendrilLine: {
+                  type: "line" as const,
+                  xMin: labels.findIndex((l) => l >= "Mar 02"),
+                  xMax: labels.findIndex((l) => l >= "Mar 02"),
+                  borderColor: "#66bb6a80",
+                  borderWidth: 2,
+                  borderDash: [6, 4],
+                  label: {
+                    display: true,
+                    content: "Ivy-Tendril start",
+                    position: "end" as const,
+                    backgroundColor: "#66bb6a30",
+                    color: "#66bb6a",
+                    font: { size: 11 },
+                    padding: 4,
+                  },
+                },
+              },
+            },
+          }
+        : {}),
     },
     scales: {
       y: {

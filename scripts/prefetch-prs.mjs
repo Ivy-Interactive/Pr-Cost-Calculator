@@ -3,10 +3,9 @@
 const REPOS = [
   "Ivy-Interactive/Ivy-Framework",
   "facebook/react",
-  "microsoft/vscode",
-  "goldfire/howler.js",
-  "googlecreativelab/teachablemachine-community",
-  "Vanilagy/mediabunny",
+  "angular/angular",
+  "vuejs/core",
+  "tailwindlabs/tailwindcss",
 ];
 
 const GITHUB_API = "https://api.github.com";

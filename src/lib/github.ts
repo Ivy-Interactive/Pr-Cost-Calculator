@@ -3,7 +3,9 @@ import type { PullRequest } from "./types";
 export const PREFETCHED_REPOS = [
   { key: "Ivy-Interactive-Ivy-Framework", label: "Ivy-Interactive/Ivy-Framework" },
   { key: "facebook-react", label: "facebook/react" },
-  { key: "torvalds-linux", label: "torvalds/linux" },
+  { key: "angular-angular", label: "angular/angular" },
+  { key: "vuejs-core", label: "vuejs/core" },
+  { key: "tailwindlabs-tailwindcss", label: "tailwindlabs/tailwindcss" },
 ];
 
 export async function loadPrefetchedPRs(repoKey: string): Promise<PullRequest[]> {
