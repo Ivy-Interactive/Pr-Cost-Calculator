@@ -84,7 +84,8 @@ export function GitHubAuth({ onAuthChange }: GitHubAuthProps) {
           <div className="gh-modal" onClick={(e) => e.stopPropagation()}>
             <h3>Connect GitHub Account</h3>
             <p className="gh-modal-desc">
-              To access private repositories, create a Personal Access Token with <strong>repo</strong> scope.
+              To access private repositories, create a Personal Access Token with{" "}
+              <strong>repo</strong> scope.
             </p>
 
             <a

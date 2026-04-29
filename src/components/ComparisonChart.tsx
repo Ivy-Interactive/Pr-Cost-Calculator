@@ -14,10 +14,25 @@ import {
 import { Line } from "react-chartjs-2";
 import annotationPlugin from "chartjs-plugin-annotation";
 import { PREFETCHED_REPOS, loadPrefetchedPRs, fetchAllPRs, categorizePR } from "../lib/github";
-import { getRollingAverages, getMonthlyStats, computeTendrilPrediction, computeTendrilMonthlyPrediction, filterByContributor } from "../lib/calculations";
+import {
+  getRollingAverages,
+  getMonthlyStats,
+  computeTendrilPrediction,
+  computeTendrilMonthlyPrediction,
+  filterByContributor,
+} from "../lib/calculations";
 import type { PullRequest, RollingDataPoint } from "../lib/types";
 
-ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, annotationPlugin);
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+  annotationPlugin,
+);
 
 interface RepoSummary {
   label: string;
@@ -39,9 +54,7 @@ function computeSummary(prs: PullRequest[], label: string): RepoSummary {
   const recentPRs = prs.filter((pr) => new Date(pr.created_at).getTime() >= fiveMonthsAgo);
   const recentMerged = recentPRs.filter((pr) => categorizePR(pr) === "merged").length;
 
-  const dates = recentPRs
-    .map((pr) => new Date(pr.created_at).getTime())
-    .filter((t) => !isNaN(t));
+  const dates = recentPRs.map((pr) => new Date(pr.created_at).getTime()).filter((t) => !isNaN(t));
   const daySpan =
     dates.length > 1
       ? Math.max(1, (Math.max(...dates) - Math.min(...dates)) / (1000 * 60 * 60 * 24))
@@ -51,13 +64,7 @@ function computeSummary(prs: PullRequest[], label: string): RepoSummary {
   return { label, totalPRs: total, merged, denied, denialRate, avgMergedPerDay };
 }
 
-function SummaryCard({
-  stats,
-  variant,
-}: {
-  stats: RepoSummary;
-  variant: "primary" | "secondary";
-}) {
+function SummaryCard({ stats, variant }: { stats: RepoSummary; variant: "primary" | "secondary" }) {
   return (
     <div className={`summary-card summary-card--${variant}`}>
       <h3 className="summary-card-title">{stats.label}</h3>
@@ -115,7 +122,9 @@ export function ComparisonChart() {
   // Always keep Ivy-Framework data loaded for bottom charts
   const [ivyPRs, setIvyPRs] = useState<PullRequest[]>([]);
   useEffect(() => {
-    loadPrefetchedPRs("Ivy-Interactive-Ivy-Framework").then(setIvyPRs).catch(() => setIvyPRs([]));
+    loadPrefetchedPRs("Ivy-Interactive-Ivy-Framework")
+      .then(setIvyPRs)
+      .catch(() => setIvyPRs([]));
   }, []);
 
   // Load compare data
@@ -127,8 +136,7 @@ export function ComparisonChart() {
       .finally(() => setIsLoading(false));
 
     // Check for duplicate after compare changes
-    const newCompareLabel =
-      PREFETCHED_REPOS.find((r) => r.key === compareKey)?.label ?? compareKey;
+    const newCompareLabel = PREFETCHED_REPOS.find((r) => r.key === compareKey)?.label ?? compareKey;
     if (newCompareLabel.toLowerCase() === againstLabel.toLowerCase()) {
       setAgainstError("Cannot compare a repository against itself.");
     } else {
@@ -152,8 +160,7 @@ export function ComparisonChart() {
     const input = againstInput.trim();
     if (!input.includes("/")) return;
 
-    const compareLabel =
-      PREFETCHED_REPOS.find((r) => r.key === compareKey)?.label ?? compareKey;
+    const compareLabel = PREFETCHED_REPOS.find((r) => r.key === compareKey)?.label ?? compareKey;
 
     if (input.toLowerCase() === compareLabel.toLowerCase()) {
       setAgainstError("Cannot compare a repository against itself.");
@@ -187,11 +194,16 @@ export function ComparisonChart() {
     return filterByContributor(againstPRs, detailContributor);
   }, [againstPRs, detailContributor]);
 
-  const compareData = useMemo(() => getRollingAverages(comparePRs, detailSalary, detailTokens), [comparePRs, detailSalary, detailTokens]);
-  const againstData = useMemo(() => getRollingAverages(filteredAgainstPRs, detailSalary, detailTokens), [filteredAgainstPRs, detailSalary, detailTokens]);
+  const compareData = useMemo(
+    () => getRollingAverages(comparePRs, detailSalary, detailTokens),
+    [comparePRs, detailSalary, detailTokens],
+  );
+  const againstData = useMemo(
+    () => getRollingAverages(filteredAgainstPRs, detailSalary, detailTokens),
+    [filteredAgainstPRs, detailSalary, detailTokens],
+  );
 
-  const compareLabel =
-    PREFETCHED_REPOS.find((r) => r.key === compareKey)?.label ?? compareKey;
+  const compareLabel = PREFETCHED_REPOS.find((r) => r.key === compareKey)?.label ?? compareKey;
 
   const isDuplicate = compareLabel.toLowerCase() === againstLabel.toLowerCase();
 
@@ -200,13 +212,23 @@ export function ComparisonChart() {
     [comparePRs, compareLabel],
   );
   const againstSummary = useMemo(
-    () => computeSummary(filteredAgainstPRs, againstLabel + (detailContributor !== "all" ? ` (${detailContributor})` : "")),
+    () =>
+      computeSummary(
+        filteredAgainstPRs,
+        againstLabel + (detailContributor !== "all" ? ` (${detailContributor})` : ""),
+      ),
     [filteredAgainstPRs, againstLabel, detailContributor],
   );
 
   // Ivy rolling data (always available for bottom charts)
-  const ivyRolling = useMemo(() => getRollingAverages(ivyPRs, detailSalary, detailTokens), [ivyPRs, detailSalary, detailTokens]);
-  const ivyMonthlyStats = useMemo(() => getMonthlyStats(ivyPRs, detailSalary, detailTokens), [ivyPRs, detailSalary, detailTokens]);
+  const ivyRolling = useMemo(
+    () => getRollingAverages(ivyPRs, detailSalary, detailTokens),
+    [ivyPRs, detailSalary, detailTokens],
+  );
+  const ivyMonthlyStats = useMemo(
+    () => getMonthlyStats(ivyPRs, detailSalary, detailTokens),
+    [ivyPRs, detailSalary, detailTokens],
+  );
 
   // Against monthly stats
   const againstMonthlyStats = useMemo(
@@ -427,7 +449,8 @@ export function ComparisonChart() {
           <section className="summary">
             <h2>{againstLabel} — Detailed Analysis</h2>
             <p>
-              3 datasets: Ivy-Framework (real) · {againstLabel} (real) · {againstLabel} + Ivy-Tendril (prediction from Mar 2)
+              3 datasets: Ivy-Framework (real) · {againstLabel} (real) · {againstLabel} +
+              Ivy-Tendril (prediction from Mar 2)
             </p>
           </section>
 
@@ -470,7 +493,9 @@ export function ComparisonChart() {
               >
                 <option value="all">All contributors</option>
                 {againstContributors.map((c) => (
-                  <option key={c} value={c}>{c}</option>
+                  <option key={c} value={c}>
+                    {c}
+                  </option>
                 ))}
               </select>
             </div>

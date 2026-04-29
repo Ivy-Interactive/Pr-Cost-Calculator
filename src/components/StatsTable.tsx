@@ -21,7 +21,9 @@ export function StatsTable({
         <thead>
           <tr>
             <th rowSpan={2}>Month</th>
-            <th colSpan={4} style={{ textAlign: "center" }}>{againstLabel}</th>
+            <th colSpan={4} style={{ textAlign: "center" }}>
+              {againstLabel}
+            </th>
             {hasPrediction && (
               <th colSpan={4} className="prediction-header">
                 {againstLabel} + Ivy-Tendril

@@ -51,58 +51,56 @@ export function CostChart({
 }: CostChartProps) {
   // Multi-dataset mode
   const isMulti = !!(ivyData && againstData);
-  const labels = isMulti
-    ? ivyData.map((d) => d.date)
-    : (data ?? []).map((d) => d.date);
+  const labels = isMulti ? ivyData.map((d) => d.date) : (data ?? []).map((d) => d.date);
 
   const datasets = isMulti
     ? [
-      {
-        label: `Ivy-Framework`,
-        data: ivyData.map((d) => d[dataKey] as number),
-        borderColor: "#4fc3f7",
-        backgroundColor: "transparent",
-        tension: 0.3,
-        pointRadius: 2,
-        borderWidth: 2,
-      },
-      {
-        label: againstLabel,
-        data: againstData.map((d) => d[dataKey] as number),
-        borderColor: "#ff7043",
-        backgroundColor: "transparent",
-        tension: 0.3,
-        pointRadius: 2,
-        borderWidth: 2,
-      },
-      ...(predictionData
-        ? [
-          {
-            label: `${againstLabel} + Ivy-Tendril`,
-            data: predictionData.map((d) => d[dataKey] as number),
-            borderColor: "#66bb6a",
-            backgroundColor: "#66bb6a15",
-            fill: true,
-            borderDash: [6, 3],
-            tension: 0.3,
-            pointRadius: 2,
-            borderWidth: 2,
-          },
-        ]
-        : []),
-    ]
+        {
+          label: `Ivy-Framework`,
+          data: ivyData.map((d) => d[dataKey] as number),
+          borderColor: "#4fc3f7",
+          backgroundColor: "transparent",
+          tension: 0.3,
+          pointRadius: 2,
+          borderWidth: 2,
+        },
+        {
+          label: againstLabel,
+          data: againstData.map((d) => d[dataKey] as number),
+          borderColor: "#ff7043",
+          backgroundColor: "transparent",
+          tension: 0.3,
+          pointRadius: 2,
+          borderWidth: 2,
+        },
+        ...(predictionData
+          ? [
+              {
+                label: `${againstLabel} + Ivy-Tendril`,
+                data: predictionData.map((d) => d[dataKey] as number),
+                borderColor: "#66bb6a",
+                backgroundColor: "#66bb6a15",
+                fill: true,
+                borderDash: [6, 3],
+                tension: 0.3,
+                pointRadius: 2,
+                borderWidth: 2,
+              },
+            ]
+          : []),
+      ]
     : [
-      {
-        label: title,
-        data: (data ?? []).map((d) => d[dataKey] as number),
-        borderColor: color ?? "#4fc3f7",
-        backgroundColor: (color ?? "#4fc3f7") + "20",
-        fill: true,
-        tension: 0.3,
-        pointRadius: 3,
-        pointHoverRadius: 6,
-      },
-    ];
+        {
+          label: title,
+          data: (data ?? []).map((d) => d[dataKey] as number),
+          borderColor: color ?? "#4fc3f7",
+          backgroundColor: (color ?? "#4fc3f7") + "20",
+          fill: true,
+          tension: 0.3,
+          pointRadius: 3,
+          pointHoverRadius: 6,
+        },
+      ];
 
   const chartData = { labels, datasets };
 
@@ -138,49 +136,49 @@ export function CostChart({
       },
       ...(isMulti
         ? (() => {
-          const cutoffIdx = labels.findIndex((l) => l >= "Mar 02");
-          return {
-            annotation: {
-              annotations: {
-                tendrilLine: {
-                  type: "line" as const,
-                  xMin: cutoffIdx,
-                  xMax: cutoffIdx,
-                  borderColor: "#66bb6a80",
-                  borderWidth: 2,
-                  borderDash: [6, 4],
-                  label: {
-                    display: true,
-                    content: "Ivy-Tendril",
-                    position: "end" as const,
-                    backgroundColor: "#66bb6a20",
-                    color: "#66bb6a",
-                    font: { size: 13 },
-                    padding: 6,
-                    xAdjust: 45,
+            const cutoffIdx = labels.findIndex((l) => l >= "Mar 02");
+            return {
+              annotation: {
+                annotations: {
+                  tendrilLine: {
+                    type: "line" as const,
+                    xMin: cutoffIdx,
+                    xMax: cutoffIdx,
+                    borderColor: "#66bb6a80",
+                    borderWidth: 2,
+                    borderDash: [6, 4],
+                    label: {
+                      display: true,
+                      content: "Ivy-Tendril",
+                      position: "end" as const,
+                      backgroundColor: "#66bb6a20",
+                      color: "#66bb6a",
+                      font: { size: 13 },
+                      padding: 6,
+                      xAdjust: 45,
+                    },
                   },
-                },
-                cliLabel: {
-                  type: "line" as const,
-                  xMin: cutoffIdx,
-                  xMax: cutoffIdx,
-                  borderColor: "transparent",
-                  borderWidth: 0,
-                  label: {
-                    display: true,
-                    content: "Claude Code CLI",
-                    position: "end" as const,
-                    backgroundColor: "#4fc3f720",
-                    color: "#4fc3f7",
-                    font: { size: 13 },
-                    padding: 6,
-                    xAdjust: -65,
+                  cliLabel: {
+                    type: "line" as const,
+                    xMin: cutoffIdx,
+                    xMax: cutoffIdx,
+                    borderColor: "transparent",
+                    borderWidth: 0,
+                    label: {
+                      display: true,
+                      content: "Claude Code CLI",
+                      position: "end" as const,
+                      backgroundColor: "#4fc3f720",
+                      color: "#4fc3f7",
+                      font: { size: 13 },
+                      padding: 6,
+                      xAdjust: -65,
+                    },
                   },
                 },
               },
-            },
-          };
-        })()
+            };
+          })()
         : {}),
     },
     scales: {

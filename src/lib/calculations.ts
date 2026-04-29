@@ -127,10 +127,8 @@ export function computeTendrilPrediction(
   // Compute Ivy baseline = average of Ivy values BEFORE cutoff
   const ivyBefore = ivyData.slice(0, cutoffIdx);
 
-  const avgIvyPRs =
-    ivyBefore.reduce((s, d) => s + d.prsCreated, 0) / ivyBefore.length || 1;
-  const avgIvyDenial =
-    ivyBefore.reduce((s, d) => s + d.denialRate, 0) / ivyBefore.length || 1;
+  const avgIvyPRs = ivyBefore.reduce((s, d) => s + d.prsCreated, 0) / ivyBefore.length || 1;
+  const avgIvyDenial = ivyBefore.reduce((s, d) => s + d.denialRate, 0) / ivyBefore.length || 1;
 
   return againstData.map((point, i) => {
     if (i < cutoffIdx) return { ...point };
@@ -186,8 +184,8 @@ export function computeTendrilMonthlyPrediction(
     const predDenied = Math.max(0, Math.round(month.denied * denialCoeff));
     const predTotal = predMerged + predDenied;
     const predDenialRate = predTotal > 0 ? (predDenied / predTotal) * 100 : 0;
-    const predDevCost = predTotal > 0 ? month.devCostPerPR * month.totalPRs / predTotal : 0;
-    const predTokenCost = predTotal > 0 ? month.tokenCostPerPR * month.totalPRs / predTotal : 0;
+    const predDevCost = predTotal > 0 ? (month.devCostPerPR * month.totalPRs) / predTotal : 0;
+    const predTokenCost = predTotal > 0 ? (month.tokenCostPerPR * month.totalPRs) / predTotal : 0;
 
     return {
       ...month,

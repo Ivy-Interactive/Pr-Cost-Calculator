@@ -18,8 +18,7 @@ export function QuickCalculator() {
   const effectiveMultiplier = canCalculate ? 1 / (1 - denialRate / 100) : 0;
   const effectiveTotalCost = baseTotalCost * effectiveMultiplier;
 
-  const fmt = (value: number) =>
-    canCalculate ? `$${value.toFixed(2)}` : "—";
+  const fmt = (value: number) => (canCalculate ? `$${value.toFixed(2)}` : "—");
 
   return (
     <div className="quick-calculator">
@@ -45,12 +44,7 @@ export function QuickCalculator() {
         </div>
         <div className="form-group">
           <label>PRs per Month</label>
-          <input
-            type="number"
-            value={prsStr}
-            onChange={(e) => setPrsStr(e.target.value)}
-            min={0}
-          />
+          <input type="number" value={prsStr} onChange={(e) => setPrsStr(e.target.value)} min={0} />
         </div>
         <div className="form-group">
           <label>Denial Rate ({denialRate}%)</label>
@@ -76,7 +70,9 @@ export function QuickCalculator() {
         {denialRate > 0 && (
           <div className="calc-row calc-denial-info">
             <span>Denial overhead</span>
-            <span className="calc-value denial-value">+{((effectiveMultiplier - 1) * 100).toFixed(0)}%</span>
+            <span className="calc-value denial-value">
+              +{((effectiveMultiplier - 1) * 100).toFixed(0)}%
+            </span>
           </div>
         )}
         <div className="calc-row calc-total">
