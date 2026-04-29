@@ -289,6 +289,32 @@ export function ComparisonChart() {
         pointRadius: 2,
         yAxisID: "y1",
       },
+      ...(predictionData
+        ? [
+            {
+              label: `${againstLabel} + Ivy-Tendril — Denial Rate`,
+              data: predictionData.map((d: RollingDataPoint) => d.denialRate),
+              borderColor: "#ce93d8",
+              backgroundColor: "transparent",
+              borderDash: [6, 3],
+              tension: 0.3,
+              pointRadius: 2,
+              borderWidth: 2,
+              yAxisID: "y",
+            },
+            {
+              label: `${againstLabel} + Ivy-Tendril — PRs Merged`,
+              data: predictionData.map((d: RollingDataPoint) => d.prsMerged),
+              borderColor: "#66bb6a",
+              backgroundColor: "transparent",
+              borderDash: [6, 3],
+              tension: 0.3,
+              pointRadius: 2,
+              borderWidth: 2,
+              yAxisID: "y1",
+            },
+          ]
+        : []),
     ],
   };
 
