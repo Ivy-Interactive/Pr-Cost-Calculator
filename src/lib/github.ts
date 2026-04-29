@@ -14,8 +14,7 @@ export async function loadPrefetchedPRs(repoKey: string): Promise<PullRequest[]>
   return res.json();
 }
 
-const GITHUB_API = "https://api.github.com";
-const GITHUB_PAT = import.meta.env.VITE_GITHUB_PAT as string | undefined;
+import { getAuthHeaders } from "./auth";
 
 export async function fetchPrefetchedPRs(
   owner: string,
@@ -35,16 +34,10 @@ async function fetchLivePRs(owner: string, repo: string): Promise<PullRequest[]>
   const allPRs: PullRequest[] = [];
   let page = 1;
   const perPage = 100;
-
-  const headers: Record<string, string> = {
-    Accept: "application/vnd.github.v3+json",
-  };
-  if (GITHUB_PAT) {
-    headers.Authorization = `Bearer ${GITHUB_PAT}`;
-  }
+  const headers = getAuthHeaders();
 
   while (true) {
-    const url = `${GITHUB_API}/repos/${owner}/${repo}/pulls?state=all&per_page=${perPage}&page=${page}`;
+    const url = `https://api.github.com/repos/${owner}/${repo}/pulls?state=all&per_page=${perPage}&page=${page}`;
     const response = await fetch(url, { headers });
 
     if (!response.ok) {

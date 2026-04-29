@@ -12,11 +12,12 @@ import {
   Legend,
 } from "chart.js";
 import { Line } from "react-chartjs-2";
+import annotationPlugin from "chartjs-plugin-annotation";
 import { PREFETCHED_REPOS, loadPrefetchedPRs, fetchAllPRs, categorizePR } from "../lib/github";
 import { getRollingAverages, getMonthlyStats, computeTendrilPrediction, computeTendrilMonthlyPrediction, filterByContributor } from "../lib/calculations";
 import type { PullRequest, RollingDataPoint } from "../lib/types";
 
-ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
+ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, annotationPlugin);
 
 interface RepoSummary {
   label: string;
@@ -295,6 +296,48 @@ export function ComparisonChart() {
           },
         },
       },
+      annotation: (() => {
+        const cutoffIdx = compareData.findIndex((d: RollingDataPoint) => d.date >= "Mar 02");
+        return {
+          annotations: {
+            tendrilLine: {
+              type: "line" as const,
+              xMin: cutoffIdx,
+              xMax: cutoffIdx,
+              borderColor: "#66bb6a80",
+              borderWidth: 2,
+              borderDash: [6, 4],
+              label: {
+                display: true,
+                content: "Ivy-Tendril",
+                position: "end" as const,
+                backgroundColor: "#66bb6a20",
+                color: "#66bb6a",
+                font: { size: 13 },
+                padding: 6,
+                xAdjust: 45,
+              },
+            },
+            cliLabel: {
+              type: "line" as const,
+              xMin: cutoffIdx,
+              xMax: cutoffIdx,
+              borderColor: "transparent",
+              borderWidth: 0,
+              label: {
+                display: true,
+                content: "Claude Code CLI",
+                position: "end" as const,
+                backgroundColor: "#4fc3f720",
+                color: "#4fc3f7",
+                font: { size: 13 },
+                padding: 6,
+                xAdjust: -65,
+              },
+            },
+          },
+        };
+      })(),
     },
     scales: {
       y: {
