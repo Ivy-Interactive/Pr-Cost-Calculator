@@ -682,6 +682,107 @@ th.prediction-col:nth-child(5) {
   font-weight: 500;
 }
 
+/* ─── Tendril Impact ──────────────────────────────────── */
+
+.tendril-impact {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--success);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tendril-impact-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.tendril-impact-badge {
+  background: #1b3a2a;
+  color: var(--success);
+  border: 1px solid #2a5a3a;
+  border-radius: 20px;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.tendril-impact-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.tendril-impact-repo {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-left: auto;
+}
+
+.tendril-impact-tiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.tendril-tile {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.tendril-tile-label {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+.tendril-tile-values {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.tendril-tile-delta {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.tendril-tile-delta.positive {
+  color: var(--success);
+}
+
+.tendril-tile-delta.negative {
+  color: var(--danger);
+}
+
+.tendril-tile-skeleton {
+  display: block;
+  height: 1.5rem;
+  width: 80px;
+  background: var(--border);
+  border-radius: 4px;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
 /* ─── Responsive ──────────────────────────────────────── */
 
 @media (max-width: 768px) {
@@ -703,5 +804,13 @@ th.prediction-col:nth-child(5) {
 
   .summary-card-grid {
     grid-template-columns: repeat(5, 1fr);
+  }
+
+  .tendril-impact-tiles {
+    grid-template-columns: 1fr;
+  }
+
+  .tendril-impact-repo {
+    display: none;
   }
 }
