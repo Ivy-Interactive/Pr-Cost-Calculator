@@ -682,6 +682,89 @@ th.prediction-col:nth-child(5) {
   font-weight: 500;
 }
 
+/* ─── Tendril Impact Section ──────────────────────────── */
+
+.tendril-impact {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--success);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tendril-impact-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.tendril-impact-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--success);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.tendril-impact-repo {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.tendril-impact-tiles {
+  display: flex;
+  gap: 1rem;
+}
+
+.tendril-impact-tile {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.85rem 1.1rem;
+  min-width: 160px;
+}
+
+.tendril-tile-label {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.4rem;
+}
+
+.tendril-tile-values {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.tendril-tile-before {
+  color: var(--text-secondary);
+}
+
+.tendril-tile-arrow {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.tendril-tile-after {
+  color: var(--text);
+}
+
+.tendril-tile-delta {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.tendril-delta-positive {
+  color: var(--success);
+}
+
 /* ─── Responsive ──────────────────────────────────────── */
 
 @media (max-width: 768px) {
