@@ -9,7 +9,7 @@ function App() {
       <header>
         <div className="header-row">
           <div>
-            <h1>PR Cost Calculator</h1>
+            <h1>PR Cost Calculator 😊</h1>
             <p>Estimate development and AI token costs per pull request</p>
           </div>
           <GitHubAuth />
