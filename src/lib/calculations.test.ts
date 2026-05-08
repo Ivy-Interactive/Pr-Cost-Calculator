@@ -1,5 +1,10 @@
 import { describe, it, expect } from "vitest";
-import { filterByContributor, getMonthlyStats, getRollingAverages } from "./calculations";
+import {
+  filterByContributor,
+  filterPRsByDateRange,
+  getMonthlyStats,
+  getRollingAverages,
+} from "./calculations";
 import type { PullRequest } from "./types";
 import { format } from "date-fns";
 
@@ -30,6 +35,52 @@ describe("filterByContributor", () => {
   it("returns empty array when no match", () => {
     const prs = [makePR({ user: { login: "alice" } })];
     expect(filterByContributor(prs, "charlie")).toHaveLength(0);
+  });
+});
+
+describe("filterPRsByDateRange", () => {
+  it("filters PRs within the date range", () => {
+    const prs = [
+      makePR({ user: { login: "alice" }, created_at: "2025-11-15T00:00:00Z" }),
+      makePR({ user: { login: "bob" }, created_at: "2025-12-15T00:00:00Z" }),
+      makePR({ user: { login: "charlie" }, created_at: "2026-01-15T00:00:00Z" }),
+      makePR({ user: { login: "dave" }, created_at: "2026-05-15T00:00:00Z" }),
+    ];
+    const result = filterPRsByDateRange(
+      prs,
+      new Date("2025-11-01"),
+      new Date("2026-04-30"),
+    );
+    expect(result).toHaveLength(3);
+    expect(result.map((pr) => pr.user.login)).toEqual(["alice", "bob", "charlie"]);
+  });
+
+  it("includes PRs exactly at boundary dates", () => {
+    const prs = [
+      makePR({ user: { login: "alice" }, created_at: "2025-11-01T00:00:00Z" }),
+      makePR({ user: { login: "bob" }, created_at: "2026-04-30T23:59:59Z" }),
+      makePR({ user: { login: "charlie" }, created_at: "2025-10-31T23:59:59Z" }),
+    ];
+    const result = filterPRsByDateRange(
+      prs,
+      new Date("2025-11-01"),
+      new Date("2026-04-30T23:59:59Z"),
+    );
+    expect(result).toHaveLength(2);
+    expect(result.map((pr) => pr.user.login)).toEqual(["alice", "bob"]);
+  });
+
+  it("returns empty array when no PRs in range", () => {
+    const prs = [
+      makePR({ user: { login: "alice" }, created_at: "2025-10-15T00:00:00Z" }),
+      makePR({ user: { login: "bob" }, created_at: "2026-05-15T00:00:00Z" }),
+    ];
+    const result = filterPRsByDateRange(
+      prs,
+      new Date("2025-11-01"),
+      new Date("2026-04-30"),
+    );
+    expect(result).toHaveLength(0);
   });
 });
 
@@ -191,5 +242,61 @@ describe("getRollingAverages", () => {
     const pointWithPRs = data.find((d) => d.prsCreated > 0);
     expect(pointWithPRs).toBeDefined();
     expect(pointWithPRs!.prsMerged).toBeLessThan(pointWithPRs!.prsCreated);
+  });
+
+  it("respects custom date range when provided", () => {
+    const prs = [
+      makePR({
+        user: { login: "alice" },
+        merged_at: "2025-11-15T00:00:00Z",
+        created_at: "2025-11-15T00:00:00Z",
+      }),
+      makePR({
+        user: { login: "bob" },
+        merged_at: "2026-01-15T00:00:00Z",
+        created_at: "2026-01-15T00:00:00Z",
+      }),
+    ];
+    const data = getRollingAverages(
+      prs,
+      5000,
+      200,
+      5,
+      new Date("2025-11-01"),
+      new Date("2026-04-30"),
+    );
+    expect(data.length).toBeGreaterThan(0);
+    const firstDate = data[0].date;
+    const lastDate = data[data.length - 1].date;
+    expect(firstDate).toContain("Nov");
+    expect(lastDate).toContain("Apr");
+  });
+});
+
+describe("getMonthlyStats with date range", () => {
+  it("respects custom date range when provided", () => {
+    const prs = [
+      makePR({
+        user: { login: "alice" },
+        merged_at: "2025-11-15T00:00:00Z",
+        created_at: "2025-11-15T00:00:00Z",
+      }),
+      makePR({
+        user: { login: "bob" },
+        merged_at: "2026-01-15T00:00:00Z",
+        created_at: "2026-01-15T00:00:00Z",
+      }),
+    ];
+    const stats = getMonthlyStats(
+      prs,
+      5000,
+      200,
+      5,
+      new Date("2025-11-01"),
+      new Date("2026-04-30"),
+    );
+    expect(stats).toHaveLength(5);
+    const totalPRs = stats.reduce((sum, s) => sum + s.totalPRs, 0);
+    expect(totalPRs).toBe(2);
   });
 });

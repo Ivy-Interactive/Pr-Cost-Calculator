@@ -18,11 +18,24 @@ export function filterByContributor(prs: PullRequest[], contributor: string): Pu
   return prs.filter((pr) => pr.user.login === contributor);
 }
 
+export function filterPRsByDateRange(
+  prs: PullRequest[],
+  startDate: Date,
+  endDate: Date,
+): PullRequest[] {
+  return prs.filter((pr) => {
+    const createdAt = parseISO(pr.created_at);
+    return isWithinInterval(createdAt, { start: startDate, end: endDate });
+  });
+}
+
 export function getMonthlyStats(
   prs: PullRequest[],
   monthlySalary: number,
   dailyTokenSpend: number,
   months: number = 5,
+  startDate?: Date,
+  endDate?: Date,
 ): MonthlyStats[] {
   const now = new Date();
   const stats: MonthlyStats[] = [];
@@ -30,8 +43,8 @@ export function getMonthlyStats(
   for (let i = months - 1; i >= 0; i--) {
     const monthDate = subMonths(now, i);
     const interval = {
-      start: startOfMonth(monthDate),
-      end: endOfMonth(monthDate),
+      start: startDate && i === months - 1 ? startDate : startOfMonth(monthDate),
+      end: endDate && i === 0 ? endDate : endOfMonth(monthDate),
     };
     const monthLabel = format(monthDate, "yyyy-MM");
 
@@ -70,10 +83,12 @@ export function getRollingAverages(
   monthlySalary: number,
   dailyTokenSpend: number,
   months: number = 5,
+  customStartDate?: Date,
+  customEndDate?: Date,
 ): RollingDataPoint[] {
   const now = new Date();
-  const startDate = startOfMonth(subMonths(now, months - 1));
-  const endDate = new Date();
+  const startDate = customStartDate ?? startOfMonth(subMonths(now, months - 1));
+  const endDate = customEndDate ?? new Date();
   const windowDays = 14;
 
   const days = eachDayOfInterval({ start: startDate, end: endDate });

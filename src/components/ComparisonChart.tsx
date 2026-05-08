@@ -20,6 +20,7 @@ import {
   computeTendrilPrediction,
   computeTendrilMonthlyPrediction,
   filterByContributor,
+  filterPRsByDateRange,
 } from "../lib/calculations";
 import type { PullRequest, RollingDataPoint } from "../lib/types";
 
@@ -119,6 +120,11 @@ export function ComparisonChart() {
   const detailSalary = Number(detailSalaryStr) || 0;
   const detailTokens = Number(detailTokensStr) || 0;
 
+  // Date range filtering
+  const [startDateStr, setStartDateStr] = useState("2025-11-01");
+  const [endDateStr, setEndDateStr] = useState("2026-04-30");
+  const [dateRangeEnabled, setDateRangeEnabled] = useState(false);
+
   // Always keep Ivy-Framework data loaded for bottom charts
   const [ivyPRs, setIvyPRs] = useState<PullRequest[]>([]);
   useEffect(() => {
@@ -188,19 +194,44 @@ export function ComparisonChart() {
     return Array.from(logins).sort();
   }, [againstPRs]);
 
-  // Filter against PRs by contributor
+  // Filter against PRs by contributor and date range
   const filteredAgainstPRs = useMemo(() => {
-    if (detailContributor === "all") return againstPRs;
-    return filterByContributor(againstPRs, detailContributor);
-  }, [againstPRs, detailContributor]);
+    let filtered = againstPRs;
+
+    if (dateRangeEnabled && startDateStr && endDateStr) {
+      filtered = filterPRsByDateRange(filtered, new Date(startDateStr), new Date(endDateStr));
+    }
+
+    if (detailContributor !== "all") {
+      filtered = filterByContributor(filtered, detailContributor);
+    }
+
+    return filtered;
+  }, [againstPRs, detailContributor, dateRangeEnabled, startDateStr, endDateStr]);
 
   const compareData = useMemo(
-    () => getRollingAverages(comparePRs, detailSalary, detailTokens),
-    [comparePRs, detailSalary, detailTokens],
+    () =>
+      getRollingAverages(
+        comparePRs,
+        detailSalary,
+        detailTokens,
+        5,
+        dateRangeEnabled ? new Date(startDateStr) : undefined,
+        dateRangeEnabled ? new Date(endDateStr) : undefined,
+      ),
+    [comparePRs, detailSalary, detailTokens, dateRangeEnabled, startDateStr, endDateStr],
   );
   const againstData = useMemo(
-    () => getRollingAverages(filteredAgainstPRs, detailSalary, detailTokens),
-    [filteredAgainstPRs, detailSalary, detailTokens],
+    () =>
+      getRollingAverages(
+        filteredAgainstPRs,
+        detailSalary,
+        detailTokens,
+        5,
+        dateRangeEnabled ? new Date(startDateStr) : undefined,
+        dateRangeEnabled ? new Date(endDateStr) : undefined,
+      ),
+    [filteredAgainstPRs, detailSalary, detailTokens, dateRangeEnabled, startDateStr, endDateStr],
   );
 
   const compareLabel = PREFETCHED_REPOS.find((r) => r.key === compareKey)?.label ?? compareKey;
@@ -222,18 +253,42 @@ export function ComparisonChart() {
 
   // Ivy rolling data (always available for bottom charts)
   const ivyRolling = useMemo(
-    () => getRollingAverages(ivyPRs, detailSalary, detailTokens),
-    [ivyPRs, detailSalary, detailTokens],
+    () =>
+      getRollingAverages(
+        ivyPRs,
+        detailSalary,
+        detailTokens,
+        5,
+        dateRangeEnabled ? new Date(startDateStr) : undefined,
+        dateRangeEnabled ? new Date(endDateStr) : undefined,
+      ),
+    [ivyPRs, detailSalary, detailTokens, dateRangeEnabled, startDateStr, endDateStr],
   );
   const ivyMonthlyStats = useMemo(
-    () => getMonthlyStats(ivyPRs, detailSalary, detailTokens),
-    [ivyPRs, detailSalary, detailTokens],
+    () =>
+      getMonthlyStats(
+        ivyPRs,
+        detailSalary,
+        detailTokens,
+        5,
+        dateRangeEnabled ? new Date(startDateStr) : undefined,
+        dateRangeEnabled ? new Date(endDateStr) : undefined,
+      ),
+    [ivyPRs, detailSalary, detailTokens, dateRangeEnabled, startDateStr, endDateStr],
   );
 
   // Against monthly stats
   const againstMonthlyStats = useMemo(
-    () => getMonthlyStats(filteredAgainstPRs, detailSalary, detailTokens),
-    [filteredAgainstPRs, detailSalary, detailTokens],
+    () =>
+      getMonthlyStats(
+        filteredAgainstPRs,
+        detailSalary,
+        detailTokens,
+        5,
+        dateRangeEnabled ? new Date(startDateStr) : undefined,
+        dateRangeEnabled ? new Date(endDateStr) : undefined,
+      ),
+    [filteredAgainstPRs, detailSalary, detailTokens, dateRangeEnabled, startDateStr, endDateStr],
   );
 
   // Tendril prediction: against data with Ivy's growth applied from Mar 02
@@ -473,7 +528,10 @@ export function ComparisonChart() {
       {againstPRs.length > 0 && (
         <>
           <section className="summary">
-            <h2>{againstLabel} — Detailed Analysis</h2>
+            <h2>
+              {againstLabel} — Detailed Analysis
+              {dateRangeEnabled && ` (${startDateStr} to ${endDateStr})`}
+            </h2>
             <p>
               3 datasets: Ivy-Framework (real) · {againstLabel} (real) · {againstLabel} +
               Ivy-Tendril (prediction from Mar 2)
@@ -541,6 +599,36 @@ export function ComparisonChart() {
                 onChange={(e) => setDetailTokensStr(e.target.value)}
               />
             </div>
+            <div className="form-group">
+              <label>
+                <input
+                  type="checkbox"
+                  checked={dateRangeEnabled}
+                  onChange={(e) => setDateRangeEnabled(e.target.checked)}
+                />
+                {" "}Filter by Date Range
+              </label>
+            </div>
+            {dateRangeEnabled && (
+              <>
+                <div className="form-group">
+                  <label>Start Date</label>
+                  <input
+                    type="date"
+                    value={startDateStr}
+                    onChange={(e) => setStartDateStr(e.target.value)}
+                  />
+                </div>
+                <div className="form-group">
+                  <label>End Date</label>
+                  <input
+                    type="date"
+                    value={endDateStr}
+                    onChange={(e) => setEndDateStr(e.target.value)}
+                  />
+                </div>
+              </>
+            )}
           </div>
 
           <section className="table-section">
