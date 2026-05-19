@@ -392,7 +392,7 @@ header p {
 }
 
 .comparison-chart-container {
-  height: 450px;
+  height: 550px;
 }
 
 /* ─── Summary Cards ───────────────────────────────────── */
@@ -499,7 +499,7 @@ header p {
   border: 1px solid var(--border);
   border-radius: 12px;
   padding: 1.25rem;
-  height: 420px;
+  height: 520px;
 }
 
 .table-section {
