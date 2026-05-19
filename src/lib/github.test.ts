@@ -55,9 +55,10 @@ describe("fetchPrefetchedPRs", () => {
   });
 
   it("returns parsed PRs when JSON file exists", async () => {
+    const withinCutoff = "2026-04-10T12:00:00.000Z";
     const mockPRs = [
-      makePR({ number: 1, title: "First PR" }),
-      makePR({ number: 2, title: "Second PR" }),
+      makePR({ number: 1, title: "First PR", created_at: withinCutoff }),
+      makePR({ number: 2, title: "Second PR", created_at: withinCutoff }),
     ];
     vi.spyOn(globalThis, "fetch").mockResolvedValueOnce(
       new Response(JSON.stringify(mockPRs), { status: 200 }),

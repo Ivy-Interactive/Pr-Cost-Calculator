@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo } from "react";
+import { subMonths } from "date-fns";
 import { CostChart } from "./CostChart";
 import { StatsTable } from "./StatsTable";
 import {
@@ -13,7 +14,14 @@ import {
 } from "chart.js";
 import { Line } from "react-chartjs-2";
 import annotationPlugin from "chartjs-plugin-annotation";
-import { PREFETCHED_REPOS, loadPrefetchedPRs, fetchAllPRs, categorizePR } from "../lib/github";
+import {
+  PREFETCHED_REPOS,
+  loadPrefetchedPRs,
+  fetchAllPRs,
+  categorizePR,
+  PR_DATA_THROUGH,
+  PR_DATA_THROUGH_LABEL,
+} from "../lib/github";
 import {
   getRollingAverages,
   getMonthlyStats,
@@ -49,8 +57,7 @@ function computeSummary(prs: PullRequest[], label: string): RepoSummary {
   const total = merged + denied;
   const denialRate = total > 0 ? (denied / total) * 100 : 0;
 
-  // Compute day span from last 5 months only
-  const fiveMonthsAgo = Date.now() - 150 * 24 * 60 * 60 * 1000;
+  const fiveMonthsAgo = subMonths(PR_DATA_THROUGH, 5).getTime();
   const recentPRs = prs.filter((pr) => new Date(pr.created_at).getTime() >= fiveMonthsAgo);
   const recentMerged = recentPRs.filter((pr) => categorizePR(pr) === "merged").length;
 
@@ -330,9 +337,10 @@ export function ComparisonChart() {
       },
       title: {
         display: true,
-        text: "14-Day Rolling Averages",
-        font: { size: 16, weight: "bold" as const },
+        text: `14-Day Rolling Averages\nLast day: ${PR_DATA_THROUGH_LABEL}`,
+        font: { size: 14, weight: "bold" as const },
         color: "#e0e0e0",
+        padding: { bottom: 8 },
       },
       tooltip: {
         callbacks: {
@@ -449,6 +457,10 @@ export function ComparisonChart() {
             </div>
           </div>
         </div>
+
+        <p className="data-through">
+          PR activity through <strong>{PR_DATA_THROUGH_LABEL}</strong> (last day on charts).
+        </p>
 
         {againstError && <div className="error">{againstError}</div>}
 

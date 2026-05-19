@@ -1,4 +1,10 @@
 import type { PullRequest } from "./types";
+import { endOfDay, format, isAfter, parseISO } from "date-fns";
+import { getAuthHeaders } from "./auth";
+
+export const PR_DATA_THROUGH = endOfDay(parseISO("2026-04-23"));
+
+export const PR_DATA_THROUGH_LABEL = format(PR_DATA_THROUGH, "MMMM d, yyyy");
 
 export const PREFETCHED_REPOS = [
   { key: "Ivy-Interactive-Ivy-Framework", label: "Ivy-Interactive/Ivy-Framework" },
@@ -8,13 +14,15 @@ export const PREFETCHED_REPOS = [
   { key: "tailwindlabs-tailwindcss", label: "tailwindlabs/tailwindcss" },
 ];
 
+function trimPRsAfterCutoff(prs: PullRequest[]): PullRequest[] {
+  return prs.filter((pr) => !isAfter(parseISO(pr.created_at), PR_DATA_THROUGH));
+}
+
 export async function loadPrefetchedPRs(repoKey: string): Promise<PullRequest[]> {
   const res = await fetch(`${import.meta.env.BASE_URL}data/${repoKey}.json`);
   if (!res.ok) throw new Error(`Failed to load prefetched data for ${repoKey}`);
-  return res.json();
+  return trimPRsAfterCutoff(await res.json());
 }
-
-import { getAuthHeaders } from "./auth";
 
 export async function fetchPrefetchedPRs(
   owner: string,
@@ -24,7 +32,7 @@ export async function fetchPrefetchedPRs(
     const response = await fetch(`${import.meta.env.BASE_URL}data/${owner}-${repo}.json`);
     if (!response.ok) return null;
     const prs: PullRequest[] = await response.json();
-    return prs;
+    return trimPRsAfterCutoff(prs);
   } catch {
     return null;
   }
@@ -63,7 +71,7 @@ async function fetchLivePRs(owner: string, repo: string): Promise<PullRequest[]>
 export async function fetchAllPRs(owner: string, repo: string): Promise<PullRequest[]> {
   const prefetched = await fetchPrefetchedPRs(owner, repo);
   if (prefetched) return prefetched;
-  return fetchLivePRs(owner, repo);
+  return trimPRsAfterCutoff(await fetchLivePRs(owner, repo));
 }
 
 export function getUniqueContributors(prs: PullRequest[]): string[] {

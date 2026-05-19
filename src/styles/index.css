@@ -52,6 +52,18 @@ header p {
   color: var(--text-secondary);
 }
 
+.data-through {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin: 0.75rem 0 0.5rem;
+  line-height: 1.45;
+}
+
+.data-through strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
 /* ─── GitHub Auth ─────────────────────────────────────── */
 
 .gh-sign-in {

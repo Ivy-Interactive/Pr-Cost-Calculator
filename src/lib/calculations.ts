@@ -9,7 +9,7 @@ import {
   subDays,
 } from "date-fns";
 import type { PullRequest, MonthlyStats, RollingDataPoint } from "./types";
-import { categorizePR } from "./github";
+import { categorizePR, PR_DATA_THROUGH } from "./github";
 
 const WORKING_HOURS_PER_MONTH = 168;
 const WORKING_DAYS_PER_MONTH = 21;
@@ -24,14 +24,15 @@ export function getMonthlyStats(
   dailyTokenSpend: number,
   months: number = 5,
 ): MonthlyStats[] {
-  const now = new Date();
+  const now = PR_DATA_THROUGH;
   const stats: MonthlyStats[] = [];
 
   for (let i = months - 1; i >= 0; i--) {
     const monthDate = subMonths(now, i);
+    const monthEnd = endOfMonth(monthDate);
     const interval = {
       start: startOfMonth(monthDate),
-      end: endOfMonth(monthDate),
+      end: monthEnd > now ? now : monthEnd,
     };
     const monthLabel = format(monthDate, "yyyy-MM");
 
@@ -71,17 +72,15 @@ export function getRollingAverages(
   dailyTokenSpend: number,
   months: number = 5,
 ): RollingDataPoint[] {
-  const now = new Date();
+  const now = PR_DATA_THROUGH;
   const startDate = startOfMonth(subMonths(now, months - 1));
-  const endDate = new Date();
+  const endDate = now;
   const windowDays = 14;
 
   const days = eachDayOfInterval({ start: startDate, end: endDate });
   const dataPoints: RollingDataPoint[] = [];
 
-  // Sample every 7 days to reduce data points
-  for (let i = 0; i < days.length; i += 7) {
-    const day = days[i];
+  const addPoint = (day: Date) => {
     const windowStart = subDays(day, windowDays);
     const windowEnd = day;
 
@@ -105,6 +104,15 @@ export function getRollingAverages(
       denialRate,
       costPerPR: totalCostPerPR,
     });
+  };
+
+  for (let i = 0; i < days.length; i += 7) {
+    addPoint(days[i]!);
+  }
+  const lastCalendarDay = days[days.length - 1]!;
+  const lastLabel = format(lastCalendarDay, "MMM dd");
+  if (dataPoints.length === 0 || dataPoints[dataPoints.length - 1]!.date !== lastLabel) {
+    addPoint(lastCalendarDay);
   }
 
   return dataPoints;
